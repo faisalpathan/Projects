@@ -1,0 +1,878 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2015-11-01 22:06-0800\n"
+"PO-Revision-Date: 2015-11-01 22:06-0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _e;_x;__;_n;_ex;_nx;_n_noop\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: inc/js/jquery-ui.min.js:10
+msgid "'"
+msgstr ""
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:19
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: 404.php:27
+msgid "Most Used Categories"
+msgstr ""
+
+#: 404.php:44
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: archive.php:27
+#, php-format
+msgid "Author: %s"
+msgstr ""
+
+#: archive.php:30
+#, php-format
+msgid "Day: %s"
+msgstr ""
+
+#: archive.php:33
+#, php-format
+msgid "Month: %s"
+msgstr ""
+
+#: archive.php:33
+msgid "F Y"
+msgstr ""
+
+#: archive.php:36
+#, php-format
+msgid "Year: %s"
+msgstr ""
+
+#: archive.php:36
+msgid "Y"
+msgstr ""
+
+#: archive.php:39
+msgid "Asides"
+msgstr ""
+
+#: archive.php:42
+msgid "Galleries"
+msgstr ""
+
+#: archive.php:45
+msgid "Images"
+msgstr ""
+
+#: archive.php:48
+msgid "Videos"
+msgstr ""
+
+#: archive.php:51
+msgid "Quotes"
+msgstr ""
+
+#: archive.php:54
+msgid "Links"
+msgstr ""
+
+#: archive.php:57
+msgid "Statuses"
+msgstr ""
+
+#: archive.php:60
+msgid "Audios"
+msgstr ""
+
+#: archive.php:63
+msgid "Chats"
+msgstr ""
+
+#: archive.php:66 sidebar.php:17
+msgid "Archives"
+msgstr ""
+
+#: comments.php:28
+#, php-format
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgstr ""
+
+#: comments.php:35 comments.php:59
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:36 comments.php:60
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:37 comments.php:61
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:71
+msgid "Comments are closed."
+msgstr ""
+
+#: content-none.php:13
+msgid "Nothing Found"
+msgstr ""
+
+#: content-none.php:19
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: content-none.php:23
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: content-none.php:28
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: content-page.php:18 content-single.php:23 content.php:61 image.php:81
+msgid "Pages:"
+msgstr ""
+
+#: content-page.php:23 content-single.php:67 content.php:30
+#: inc/template-tags.php:86 inc/template-tags.php:107
+msgid "Edit"
+msgstr ""
+
+#: content-single.php:36 content-single.php:39 content.php:21
+msgid ", "
+msgstr ""
+
+#: content.php:15
+msgid "Leave a comment"
+msgstr ""
+
+#: content.php:15
+msgid "1 Comment"
+msgstr ""
+
+#: content.php:15
+msgid "% Comments"
+msgstr ""
+
+#: content.php:25
+#, php-format
+msgid " %1$s"
+msgstr ""
+
+#: content.php:39 content.php:54
+msgid "Continue reading"
+msgstr ""
+
+#: footer.php:24 inc/customizer.php:366 inc/customizer.php:1106
+msgid "ThemesWare"
+msgstr ""
+
+#: footer.php:25 inc/customizer.php:376
+msgid "Gujarat(India)"
+msgstr ""
+
+#: footer.php:26
+msgid "info@themesware.com"
+msgstr ""
+
+#: footer.php:27
+msgid "+ 12 123 459 88"
+msgstr ""
+
+#: footer.php:29 footer.php:30 footer.php:31 footer.php:32 footer.php:33
+#: front-page.php:27 front-page.php:33 front-page.php:39 front-page.php:45
+#: front-page.php:51 page-templates/template-home-page.php:27
+#: page-templates/template-home-page.php:33
+#: page-templates/template-home-page.php:39
+#: page-templates/template-home-page.php:45
+#: page-templates/template-home-page.php:51
+msgid "#"
+msgstr ""
+
+#: footer.php:45 inc/customizer.php:303 inc/customizer.php:1006
+msgid "Copyright &copy; 2015 ThemesWare - All rights reserved."
+msgstr ""
+
+#: front-page.php:10 page-templates/template-home-page.php:10
+msgid "/images/welcome.jpg"
+msgstr ""
+
+#: front-page.php:13 page-templates/template-home-page.php:13
+msgid "Welcome to Our Restaurant"
+msgstr ""
+
+#: front-page.php:15 page-templates/template-home-page.php:15
+msgid ""
+"Welcome to <span>prestro</span> Lorem ipsum dolor sit amet, consectetur "
+"adipiscing elit. Morbi tempus pretium magna, eget ultrices neque commodo "
+"sed. Sed eget velit odio. Etiam imperdiet nec tellus tempor dapibus. Proin "
+"quis odio pharetra, tincidunt metus quis, porta dui. Curabitur in sapien "
+"fermentum, feugiat diam ut, hendrerit ante. Praesent et est lacus. Sed eget "
+"velit odio. Etiam imperdiet nec tellus tempor dapibus. Proin quis odio "
+"pharetra, tincidunt metus quis, porta dui. Curabitur in sapien fermentum.."
+msgstr ""
+
+#: front-page.php:21 page-templates/template-home-page.php:21
+msgid "Our Menu"
+msgstr ""
+
+#: front-page.php:24 page-templates/template-home-page.php:24
+msgid "/images/service-1.jpg"
+msgstr ""
+
+#: front-page.php:24 front-page.php:25 front-page.php:30 front-page.php:36
+#: front-page.php:42 page-templates/template-home-page.php:24
+#: page-templates/template-home-page.php:25
+#: page-templates/template-home-page.php:30
+#: page-templates/template-home-page.php:36
+#: page-templates/template-home-page.php:42
+msgid "English Service"
+msgstr ""
+
+#: front-page.php:26 front-page.php:32 page-templates/template-home-page.php:26
+#: page-templates/template-home-page.php:32
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis "
+"feugiat lacinia."
+msgstr ""
+
+#: front-page.php:30 page-templates/template-home-page.php:30
+msgid "/images/service-2.jpg"
+msgstr ""
+
+#: front-page.php:31 page-templates/template-home-page.php:31
+msgid "American Service"
+msgstr ""
+
+#: front-page.php:36 page-templates/template-home-page.php:36
+msgid "/images/service-3.jpg"
+msgstr ""
+
+#: front-page.php:37 page-templates/template-home-page.php:37
+msgid "Spenis Service"
+msgstr ""
+
+#: front-page.php:38 front-page.php:44 page-templates/template-home-page.php:38
+#: page-templates/template-home-page.php:44
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis "
+"feugiat lacinia. Donec vel."
+msgstr ""
+
+#: front-page.php:42 page-templates/template-home-page.php:42
+msgid "/images/service-4.jpg"
+msgstr ""
+
+#: front-page.php:43 page-templates/template-home-page.php:43
+msgid "Italian Service"
+msgstr ""
+
+#: front-page.php:57 page-templates/template-home-page.php:57
+msgid "Opening hours"
+msgstr ""
+
+#: front-page.php:67 front-page.php:77 page-templates/template-home-page.php:67
+#: page-templates/template-home-page.php:77
+msgid "10:00 am"
+msgstr ""
+
+#: front-page.php:67 page-templates/template-home-page.php:67
+msgid "08:00 pm"
+msgstr ""
+
+#: front-page.php:77 page-templates/template-home-page.php:77
+msgid "09:30 pm"
+msgstr ""
+
+#: front-page.php:86 page-templates/template-home-page.php:86
+msgid "Call For Reservations"
+msgstr ""
+
+#: front-page.php:86 page-templates/template-home-page.php:86
+msgid "188-331-21-22"
+msgstr ""
+
+#: functions.php:38
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:39 inc/prestro_extra.php:87
+msgid "Footer Links"
+msgstr ""
+
+#: functions.php:86
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:95
+msgid "Contact Widget"
+msgstr ""
+
+#: functions.php:96
+msgid "Displays on the Home Page"
+msgstr ""
+
+#: functions.php:105
+msgid "Footer Widget 1"
+msgstr ""
+
+#: functions.php:106 functions.php:116 functions.php:126 functions.php:136
+msgid "Used for footer widget area"
+msgstr ""
+
+#: functions.php:115
+msgid "Footer Widget 2"
+msgstr ""
+
+#: functions.php:125
+msgid "Footer Widget 3"
+msgstr ""
+
+#: functions.php:135
+msgid "Footer Widget 4"
+msgstr ""
+
+#: header.php:88
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pulvinar "
+"nibh purus, eget convallis erat efficitur eget."
+msgstr ""
+
+#: header.php:90
+msgid "Read More"
+msgstr ""
+
+#: image.php:24
+msgid "<i class=\"fa fa-chevron-left\"></i> Previous"
+msgstr ""
+
+#: image.php:25
+msgid "Next <i class=\"fa fa-chevron-right\"></i>"
+msgstr ""
+
+#: inc/customizer.php:48
+msgid "Home slider settings "
+msgstr ""
+
+#: inc/customizer.php:49
+msgid "Add slider images here,content and links here."
+msgstr ""
+
+#: inc/customizer.php:58
+msgid "Check this to hide slide captions"
+msgstr ""
+
+#: inc/customizer.php:72
+msgid "Slide Image 1 "
+msgstr ""
+
+#: inc/customizer.php:85
+msgid "Slide title 1"
+msgstr ""
+
+#: inc/customizer.php:98
+msgid "Slide Description 1"
+msgstr ""
+
+#: inc/customizer.php:111
+msgid "Slide Link 1"
+msgstr ""
+
+#: inc/customizer.php:125
+msgid "Slide Image 2 "
+msgstr ""
+
+#: inc/customizer.php:138
+msgid "Slide Title 2"
+msgstr ""
+
+#: inc/customizer.php:151
+msgid "Slide Description 2"
+msgstr ""
+
+#: inc/customizer.php:164
+msgid "Slide Link 2"
+msgstr ""
+
+#: inc/customizer.php:178
+msgid "Slide Image 3 "
+msgstr ""
+
+#: inc/customizer.php:191
+msgid "Slide Title 3"
+msgstr ""
+
+#: inc/customizer.php:204
+msgid "Slide Description 3"
+msgstr ""
+
+#: inc/customizer.php:217
+msgid "Slide Link 3"
+msgstr ""
+
+#: inc/customizer.php:228 inc/customizer.php:982
+msgid "General options"
+msgstr ""
+
+#: inc/customizer.php:232 inc/customizer.php:1055
+msgid "Welcome section"
+msgstr ""
+
+#: inc/customizer.php:244 inc/customizer.php:1067
+msgid "Welcome title"
+msgstr ""
+
+#: inc/customizer.php:258 inc/customizer.php:1081
+msgid "Welcome Image"
+msgstr ""
+
+#: inc/customizer.php:274 inc/customizer.php:1097
+msgid "Business description (Welcome note)"
+msgstr ""
+
+#: inc/customizer.php:284
+msgid "Logo & Favicon (PRO Version)"
+msgstr ""
+
+#: inc/customizer.php:287 inc/customizer.php:991
+msgid "<strong>Logo and favicon Settings and more.. available in</strong>"
+msgstr ""
+
+#: inc/customizer.php:305 inc/customizer.php:1008
+msgid "Copyright"
+msgstr ""
+
+#: inc/customizer.php:312
+msgid "Social Link"
+msgstr ""
+
+#: inc/customizer.php:320 inc/customizer.php:1017
+msgid "Facebook link"
+msgstr ""
+
+#: inc/customizer.php:328 inc/customizer.php:1025
+msgid "Twitter link"
+msgstr ""
+
+#: inc/customizer.php:336 inc/customizer.php:1033
+msgid "Linkedin link"
+msgstr ""
+
+#: inc/customizer.php:344 inc/customizer.php:1041
+msgid "Google Plus link"
+msgstr ""
+
+#: inc/customizer.php:352 inc/customizer.php:1049
+msgid "Skype id"
+msgstr ""
+
+#: inc/customizer.php:359
+msgid "Footer"
+msgstr ""
+
+#: inc/customizer.php:368 inc/customizer.php:1108
+msgid "Business Name"
+msgstr ""
+
+#: inc/customizer.php:378 inc/customizer.php:1118
+msgid "Address"
+msgstr ""
+
+#: inc/customizer.php:388 inc/customizer.php:1128
+msgid "Email"
+msgstr ""
+
+#: inc/customizer.php:398 inc/customizer.php:1138
+msgid "Phone number"
+msgstr ""
+
+#: inc/customizer.php:404 inc/customizer.php:1146
+msgid "Our Services"
+msgstr ""
+
+#: inc/customizer.php:414 inc/customizer.php:626 inc/customizer.php:687
+#: inc/customizer.php:821 inc/customizer.php:1156 inc/customizer.php:1363
+#: inc/customizer.php:1421 inc/customizer.php:1555
+msgid "Section title"
+msgstr ""
+
+#: inc/customizer.php:429 inc/customizer.php:1171
+msgid "First Service Image (Size: 180x180)"
+msgstr ""
+
+#: inc/customizer.php:442 inc/customizer.php:1184
+msgid "First service title"
+msgstr ""
+
+#: inc/customizer.php:454 inc/customizer.php:1196
+msgid "First service content"
+msgstr ""
+
+#: inc/customizer.php:463 inc/customizer.php:1205
+msgid "First Service Link"
+msgstr ""
+
+#: inc/customizer.php:477 inc/customizer.php:1219
+msgid "Second Service Image (Size: 180x180)"
+msgstr ""
+
+#: inc/customizer.php:490 inc/customizer.php:1232
+msgid "Second service title"
+msgstr ""
+
+#: inc/customizer.php:502 inc/customizer.php:1244
+msgid "Second service content"
+msgstr ""
+
+#: inc/customizer.php:511 inc/customizer.php:1253
+msgid "Second Service Link"
+msgstr ""
+
+#: inc/customizer.php:525 inc/customizer.php:1267
+msgid "Third Service Image (Size: 180x180)"
+msgstr ""
+
+#: inc/customizer.php:538 inc/customizer.php:1280
+msgid "Third service title"
+msgstr ""
+
+#: inc/customizer.php:550 inc/customizer.php:1292
+msgid "Third service content"
+msgstr ""
+
+#: inc/customizer.php:559 inc/customizer.php:1301
+msgid "Third Service Link"
+msgstr ""
+
+#: inc/customizer.php:572 inc/customizer.php:1315
+msgid "Fourth Service Image (Size: 180x180)"
+msgstr ""
+
+#: inc/customizer.php:584 inc/customizer.php:1328
+msgid "Fourth service title"
+msgstr ""
+
+#: inc/customizer.php:596 inc/customizer.php:1340
+msgid "Fourth service content"
+msgstr ""
+
+#: inc/customizer.php:605 inc/customizer.php:1349
+msgid "Fourth Service Link"
+msgstr ""
+
+#: inc/customizer.php:615
+msgid "Opening Timing"
+msgstr ""
+
+#: inc/customizer.php:619 inc/customizer.php:1356
+msgid "Opening days"
+msgstr ""
+
+#: inc/customizer.php:633 inc/customizer.php:1370
+msgid "Call for reservation text"
+msgstr ""
+
+#: inc/customizer.php:640 inc/customizer.php:1377
+msgid "Monday to Friday From"
+msgstr ""
+
+#: inc/customizer.php:647 inc/customizer.php:1384
+msgid "Monday to Friday To"
+msgstr ""
+
+#: inc/customizer.php:654 inc/customizer.php:1391
+msgid "Saturday and Sunday From"
+msgstr ""
+
+#: inc/customizer.php:661 inc/customizer.php:1398
+msgid "Saturday and Sunday To"
+msgstr ""
+
+#: inc/customizer.php:668 inc/customizer.php:1405
+msgid "Booking number"
+msgstr ""
+
+#: inc/customizer.php:676 inc/customizer.php:1411 inc/shortcodes.php:68
+msgid "Meet Our Chef"
+msgstr ""
+
+#: inc/customizer.php:700 inc/customizer.php:1434
+msgid "First chef title"
+msgstr ""
+
+#: inc/customizer.php:715 inc/customizer.php:1449
+msgid "First Chef Image (Size: 270X340)"
+msgstr ""
+
+#: inc/customizer.php:728 inc/customizer.php:1462
+msgid "Second chef title"
+msgstr ""
+
+#: inc/customizer.php:743 inc/customizer.php:1477
+msgid "Second Chef Image (Size: 270X340)"
+msgstr ""
+
+#: inc/customizer.php:756 inc/customizer.php:1490
+msgid "Third chef title"
+msgstr ""
+
+#: inc/customizer.php:771
+msgid "Third Chef Image"
+msgstr ""
+
+#: inc/customizer.php:784 inc/customizer.php:1518
+msgid "Fourth chef title"
+msgstr ""
+
+#: inc/customizer.php:799
+msgid "Fourth Chef Image"
+msgstr ""
+
+#: inc/customizer.php:809 inc/customizer.php:1543 inc/shortcodes.php:25
+msgid "Testimonials"
+msgstr ""
+
+#: inc/customizer.php:810 inc/customizer.php:1544
+msgid ""
+"Set testimonials here. <br><strong>More testimonials with designation "
+"settings available in</strong>"
+msgstr ""
+
+#: inc/customizer.php:835 inc/customizer.php:1569
+msgid "First Testimonial Title"
+msgstr ""
+
+#: inc/customizer.php:850 inc/customizer.php:1584
+msgid "First Testimonial Image (Size: 150X150)"
+msgstr ""
+
+#: inc/customizer.php:865 inc/customizer.php:1599
+msgid "First testimonial description"
+msgstr ""
+
+#: inc/customizer.php:878 inc/customizer.php:1612
+msgid "Second Testimonial Title"
+msgstr ""
+
+#: inc/customizer.php:893 inc/customizer.php:1627
+msgid "Second Testimonial Image (Size: 150X150)"
+msgstr ""
+
+#: inc/customizer.php:908 inc/customizer.php:1642
+msgid "Second testimonial description"
+msgstr ""
+
+#: inc/customizer.php:921 inc/customizer.php:1655
+msgid "Third Testimonial Title"
+msgstr ""
+
+#: inc/customizer.php:936 inc/customizer.php:1670
+msgid "Third Testimonial Image (Size: 150X150)"
+msgstr ""
+
+#: inc/customizer.php:951 inc/customizer.php:1685
+msgid "Third testimonial description"
+msgstr ""
+
+#: inc/customizer.php:960 inc/customizer.php:1694
+msgid "Documentation &amp; Support"
+msgstr ""
+
+#: inc/customizer.php:962 inc/customizer.php:1696
+msgid "For documentation and support follow this link :"
+msgstr ""
+
+#: inc/customizer.php:984
+msgid "prestro theme general options"
+msgstr ""
+
+#: inc/customizer.php:989
+msgid "Logo (PRO Version)"
+msgstr ""
+
+#: inc/customizer.php:1116
+msgid "Company address"
+msgstr ""
+
+#: inc/customizer.php:1505
+msgid "Third Chef Image (Size: 270X340)"
+msgstr ""
+
+#: inc/customizer.php:1533
+msgid "Fourth Chef Image (Size: 270X340)"
+msgstr ""
+
+#: inc/side-posts-widget.php:10
+msgid "Displays tabbed list of popular posts and recent posts"
+msgstr ""
+
+#: inc/side-posts-widget.php:16
+msgid "prestro Popular Posts Widget"
+msgstr ""
+
+#: inc/side-posts-widget.php:100
+msgid "Anonymous"
+msgstr ""
+
+#: inc/side-posts-widget.php:101
+msgid "on"
+msgstr ""
+
+#: inc/side-posts-widget.php:142
+msgid "Number of posts to show"
+msgstr ""
+
+#: inc/side-recent-widget.php:10
+msgid "Your site&#8217;s most recent Posts."
+msgstr ""
+
+#: inc/side-recent-widget.php:11 inc/side-recent-widget.php:44
+msgid "Recent Posts"
+msgstr ""
+
+#: inc/side-recent-widget.php:136
+msgid "Title:"
+msgstr ""
+
+#: inc/side-recent-widget.php:139
+msgid "Number of posts to show:"
+msgstr ""
+
+#: inc/side-recent-widget.php:143
+msgid "Display post date?"
+msgstr ""
+
+#: inc/prestro_extra.php:37
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: inc/shortcodes.php:37
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tempus "
+"pretium magna, eget ultrices neque commodo sed. Sed eget velit odio. Etiam "
+"imperdiet nec tellus tempor dapibus."
+msgstr ""
+
+#: inc/template-tags.php:23
+msgid "Posts navigation"
+msgstr ""
+
+#: inc/template-tags.php:27
+msgid "<i class=\"fa fa-chevron-left\"></i> Older posts"
+msgstr ""
+
+#: inc/template-tags.php:31
+msgid "Newer posts <i class=\"fa fa-chevron-right\"></i>"
+msgstr ""
+
+#: inc/template-tags.php:58
+msgid "Post navigation"
+msgstr ""
+
+#: inc/template-tags.php:61
+msgid "<i class=\"fa fa-chevron-left\"></i> %title"
+msgstr ""
+
+#: inc/template-tags.php:62
+msgid "%title <i class=\"fa fa-chevron-right\"></i>"
+msgstr ""
+
+#: inc/template-tags.php:86
+msgid "Pingback:"
+msgstr ""
+
+#: inc/template-tags.php:98
+#, php-format
+msgid "%s <span class=\"says\">says:</span>"
+msgstr ""
+
+#: inc/template-tags.php:104
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: inc/template-tags.php:111
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: options.php:23
+msgid "One"
+msgstr ""
+
+#: options.php:24
+msgid "Two"
+msgstr ""
+
+#: options.php:25
+msgid "Three"
+msgstr ""
+
+#: options.php:26
+msgid "Four"
+msgstr ""
+
+#: options.php:27
+msgid "Five"
+msgstr ""
+
+#: options.php:32
+msgid "French Toast"
+msgstr ""
+
+#: options.php:33
+msgid "Pancake"
+msgstr ""
+
+#: options.php:34
+msgid "Omelette"
+msgstr ""
+
+#: options.php:35
+msgid "Crepe"
+msgstr ""
+
+#: options.php:36
+msgid "Waffle"
+msgstr ""
+
+#: options.php:98
+msgid "Home Page"
+msgstr ""
+
+#: search.php:16
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: searchform.php:11
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php:12
+msgid "Search..."
+msgstr ""
+
+#: sidebar.php:24
+msgid "Meta"
+msgstr ""

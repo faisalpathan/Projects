@@ -1,0 +1,356 @@
+/*
+HOVERNAV
+A simple addition to the dropdown menu (Bootstrap itself is unchanged). Navbar dropdowns appear on hover.
+This works only for screen sizes larger than phones.
+If you don't want this, delete this segment of the CSS and delete the corresponding segment of bst.js
+*/
+@media (min-width: 768px) {
+  .navbar-nav .caret {
+   /* display: none*/
+  }
+  /* Delete the above if you wish to display the caret */
+  .navbar-nav .open ul {
+    display: none
+  }
+  .navbar-default .navbar-nav > .open > a,
+  .navbar-default .navbar-nav > .open > a:hover,
+  .navbar-default .navbar-nav > .open > a:focus {
+    color: #555;
+    background: none
+  }
+  .navbar-inverse .navbar-nav > .open > a,
+  .navbar-inverse .navbar-nav > .open > a:hover,
+  .navbar-inverse .navbar-nav > .open > a:focus {
+    color: #969696;
+    background: none
+  }
+  .navbar-nav .hovernav:hover > .dropdown-menu {
+    display: block
+  }
+  .navbar-brand {padding: 5px 0; height: 100px;}
+
+  .navbar-static-top .navbar-nav>li>a {padding: 20px 30px; line-height: 60px;}
+}
+
+/*
+MEGANAV
+A simple addition to the dropdown menu (Bootstrap itself is unchanged). When you add GRAND-CHILD links in the navbar,
+On screens larger than phones, Meganav will transform the dropdown into a mega-menu, with child-links displayed as menu-column heads (in bold).
+If you don't want this, delete this segment of the CSS and delete the corresponding segment of bst.js
+*/
+.mega-menu ul a {
+	color: #666;
+}
+.has-children > a {
+	font-size: 15px;
+	font-weight: bold !important
+}
+@media (max-width: 767px) {
+	.has-children ul {
+		display: block !important;
+		margin-left: 15px
+	}
+}
+@media (min-width: 768px) {
+	.dropdown.mega-menu {
+		position: static;
+	}
+	.mega-menu > .dropdown-menu {
+		left: 0;
+		right: 0;
+		overflow-x: auto
+	}
+	.mega-menu > ul > li {
+	  display:table-cell;
+	}
+	.mega-menu > ul ul {
+		position: relative;
+		display: block !important;
+		border: 0;
+		border-radius: 0;
+		box-shadow: none;
+		padding: 0
+	}
+	.has-children {
+		border-right: 1px solid #e7e7e7
+	}
+	.has-children:last-of-type {
+		border-right: 0
+	}
+}
+
+
+/*
+Max content widths
+*/
+.size-auto,
+.size-full,
+.size-large,
+.size-medium,
+.size-thumbnail {
+	max-width: 100%;
+	height: auto
+}
+
+/*
+Header logo
+An example of how to use CSS to display an image as a background of an HTML element.
+*/
+
+#site-title a {
+  display: inline-block;
+  padding: 30px 0 30px 100px;
+  background: url(../img/bst.png) 0 0 no-repeat;
+  background-size: 95px 95px
+}
+#site-title a:hover {
+  background: url(../img/bst-hover.png) 0 0 no-repeat;
+  background-size: 95px 95px;
+  text-decoration: none
+}
+.main-nav {
+  margin-top: 20px
+}
+
+/*
+Sidebar
+*/
+
+.sidebar ul,
+.sidebar ol {
+  list-style-type: none;
+  padding: 0
+}
+.sidebar li {
+  margin: 10px 0
+}
+
+/*
+Hide form placeholders on focus
+*/
+
+input:focus::-webkit-input-placeholder { color:transparent; }
+input:focus:-moz-placeholder { color:transparent; } /* FF 4-18 */
+input:focus::-moz-placeholder { color:transparent; } /* FF 19+ */
+
+/*
+Footer
+*/
+
+.footer ul,
+.footer ol {
+  list-style-type: none;
+  padding: 0
+}
+.footer li {
+  margin: 10px 0
+}
+.sub-footer p {
+  text-align: center
+}
+
+/*
+Commentlist
+*/
+
+ol.commentlist {
+	counter-reset: li; /* Initiate a counter */
+	padding: 0
+}
+ol.commentlist ul {
+  padding: 0
+}
+ol.commentlist > li {
+	position: relative;
+	margin: 0 0 20px 0;
+	list-style: none /* Disable the normal item numbering */
+}
+ol.commentlist > li:before {
+  content: "Thread " counter(li); /* Use the counter as content */
+  counter-increment: li; /* Increment the counter by 1 */
+  position:absolute;
+  top: 0;
+  right: 0;
+  border-bottom: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  border-bottom-left-radius: 4px;
+  padding: 5px 20px 5px 10px;
+  color: #999
+}
+ol.commentlist li ol,
+ol.commentlist li ul {
+  list-style-type: none;
+  margin: 0
+}
+
+.commentlist li li {
+  background: #f8f8f8;
+}
+.commentlist li li li {
+  background: #fff
+}
+.commentlist li li li li {
+  background: #f8f8f8
+}
+.commentlist li li li li li li {
+  background: #fff
+}
+.commentlist li {
+  padding: 20px
+}
+.commentlist ul li {
+  margin-top: 20px;
+  margin-bottom: 0
+}
+.reply p {
+  margin: 0
+}
+
+/*
+Woocommerce re-styling
+*/
+
+.woocommerce a:focus {
+  outline: none
+}
+.woocommerce .count {
+  background: inherit
+}
+.woocommerce .added_to_cart {
+  display: block !important
+}
+.woocommerce .woocommerce-error:before,
+.woocommerce .woocommerce-info:before,
+.woocommerce .woocommerce-message:before,
+.woocommerce-page .woocommerce-error:before,
+.woocommerce-page .woocommerce-info:before,
+.woocommerce-page .woocommerce-message:before {
+  padding-top: 0
+}
+
+/* Hogash Edits */
+body #pado-sidebar li a {padding: 10px 0;line-height: 1.6;}
+body #pado-sidebar li a > i {margin-bottom: 10px;float: left;margin-right: 5px;}
+body #pado-sidebar .sidebar_doc_title {padding: 0 0 0 10px;}
+
+.sidebar_cat_title a {font-size: 18px;}
+.sidebar_cat_title i {margin-right: 10px;}
+
+
+.open_arrow > li.sidebar_cat_title {background-color: #222;}
+.open_arrow > li.sidebar_cat_title > a,
+.open_arrow > li.sidebar_cat_title > i {color: #FFF;}
+
+.thicker {border-top-width: 3px;}
+
+.bull-list {list-style: none; margin-left: 0; padding-left: 0; }
+.bull-list li {margin-bottom:10px;}
+.bull-list li::before {content: "\e080"; font-size:12px; margin-right:10px; opacity:.4; display: inline-block; font-family: 'Glyphicons Halflings'; font-style: normal; font-weight: 400; line-height: 1; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;}
+.bull-list li a {font-size:18px;}
+
+/* =WordPress Core
+-------------------------------------------------------------- */
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+
+.screen-reader-text:focus {
+  background-color: #f1f1f1;
+  border-radius: 3px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  clip: auto !important;
+  color: #21759b;
+  display: block;
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-weight: bold;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000; /* Above WP toolbar. */
+}

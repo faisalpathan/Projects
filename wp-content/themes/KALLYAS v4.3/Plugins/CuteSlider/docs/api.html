@@ -1,0 +1,90 @@
+<h3>About application programming interfaces (APIs)</h3>
+<p>
+	An API is a way to control an application, or get some info about the data which the
+	application is working with. This is a way to two separate application can work together.
+	Cute Slider has an API too, you can control the slider from outside of the application.
+</p>
+
+<h3>API methods</h3>
+<ul>
+	<li>
+		<strong><i>next():</i></strong>
+		The slider will switch to the next slide.
+	</li>
+	<li>
+		<strong>previous():</strong>
+		The slider will go back to the previous slide.
+	</li>
+	<li>
+		<strong>pause():</strong>
+		Pauses slideshow.
+	</li>
+	<li>
+		<strong>play():</strong>
+		Starts slideshow.
+	</li>
+	<li>
+		<strong>getCurrentSlideIndex():</strong>
+		Returns the index of the current slide, starts with zero.
+	</li>
+	<li>
+		<strong>getCurrentSlide():</strong>
+		Returns the DOM element of the current slide.
+	</li>
+
+	<li>
+		<strong>getNextIndex():</strong>
+		Returns the index of the next slide, starts with zero.
+	</li>
+	<li>
+		<strong>getNextSlide():</strong>
+		Returns the DOM element of the next slide.
+	</li>
+
+	<li>
+		<strong>getPreviousIndex():</strong>
+		Returns the index of the previous slide, starts with zero.
+	</li>
+
+	<li>
+		<strong>gotoSlide(index , skipDelay):</strong>
+		Switch to the specified slide.<br><br>
+		Paramaters: <br>
+		<i>(integer) index:</i> The index of the desired slide, starts with zero.<br>
+		<i>(boolean) skipDelay:</i> If skipDelay is true, slider skips the slide showing delay and shows next slide immediately.
+	</li>
+	<li>
+		<strong>getSlideList():</strong>
+		Returns an array of all slides.
+	</li>
+	<li>
+		<strong>delayProgress():</strong>
+		Returns a value that indicates how long is past from showing delay.
+	</li>
+</ul>
+
+<h3>Using the API</h3>
+<p>
+	To run one of the above API command, you have to own a valid reference of the Cute Slider object.
+	You can access the API with "slider.api" or "event.target" if you are using it in a callback
+	function.
+	<br><br>
+	Example: slider.api.pause();<br><br>
+
+	This will pause the slideshow.
+</p>
+
+
+<h3>Callback functions and Cute Slider API</h3>
+<p>
+	Most of the cases you need to use both the callback functions and the Cute Slider API.
+	Fortunately, there is an easy way to combine them. If you specify an "event" named parameter
+	in the function header of a callback, it will be filled with all the enviroumental data
+	you need, including a reference of the Cute Slider object. You can use the API methods via
+	the "target" object variable. Below there is an easy example which will alert the user
+	with the number of the next slide when the slider finished a slide change. To do that, we
+	used the "Cute.SliderEvent.CHANGE_END" event and the following callback function:
+
+<pre>function(event) {
+	alert('The next slide is: '+(event.target.getNextIndex()+1)+'');
+}</pre>

@@ -1,0 +1,515 @@
+/*
+   Slider options
+\*------------------------------------*/
+$primary-nav-color: #111;
+
+/*
+   Sliders
+\*------------------------------------*/
+.ux-slider-wrapper{
+  position: relative;
+}
+
+/* Dragging */
+.is-dragging .flickity-viewport > *{
+  pointer-events:none;
+}
+
+.ux-slider,
+.ux-row-slider{
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+}
+
+.js-flickity:not(.flickity-enabled){
+  white-space: nowrap;
+  width: auto;
+}
+
+.js-flickity:not(.flickity-enabled) > *{
+  display: inline-block!important;
+  white-space: normal!important;
+  vertical-align: top;
+}
+
+.js-flickity:not(.flickity-enabled) > a{
+  width: 100%;
+}
+
+/* Before slider is loaded */
+.ux-slider > .slide,
+.ux-slider > a,
+.ux-slider > p,
+.ux-slider > a > img,
+.ux-slider > img,
+.ux-slider > .ux-img-container{
+  width:100%;
+}
+
+/* Add Fading effect */
+.flickity-slider > *{
+  transition: transform .6s, opacity .6s, box-shadow 0.6s;
+}
+
+/* When slider is loaded */
+.flickity-slider > .ux_banner,
+.flickity-slider > .row,
+.flickity-slider > a,
+.flickity-slider > p,
+.flickity-slider > a > img,
+.flickity-slider > .slide,
+.flickity-slider > img,
+.flickity-slider > figure,
+.flickity-slider .ux-img-container{
+  width: 100%;
+  padding:0;
+  margin:0;
+}
+
+.flickity-enabled {
+  position: relative;
+}
+
+.flickity-enabled:focus { outline: none; }
+
+.flickity-viewport {
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.flickity-slider {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+}
+
+/* draggable */
+
+.flickity-enabled.is-draggable {
+  -webkit-tap-highlight-color: transparent;
+          tap-highlight-color: transparent;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.flickity-enabled.is-draggable .flickity-viewport {
+  cursor: move;
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
+.flickity-enabled.is-draggable .flickity-viewport.is-pointer-down {
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
+}
+
+/* ---- previous/next buttons ---- */
+
+.flickity-prev-next-button.previous { 
+  left: 0;
+  .row.js-flickity &{
+    transform: translateX(-30px);
+  }
+}
+.flickity-prev-next-button.next {
+  right: 0;
+  .row.js-flickity &{
+    transform: translateX(30px);
+  }
+}
+/* right to left */
+.flickity-rtl .flickity-prev-next-button.previous {
+  left: auto;
+  right: 0;
+}
+.flickity-rtl .flickity-prev-next-button.next {
+  right: auto;
+  left: 0;
+}
+
+.flickity-prev-next-button {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+  width: 15%;
+  max-width: 80px;
+  color: $primary-nav-color;
+  border: none;
+  cursor: pointer;
+  opacity: 0;
+  transition: transform 0.3s, opacity 0.3s, background 0.3s;
+
+  .js-flickity:hover &{
+    opacity: 0.7;
+    transform: translateX(0);
+  }
+
+  .js-flickity &:hover{
+    box-shadow: none;
+    opacity: 1;
+
+    & svg, & .arrow{
+      fill: $primary-color;
+    }
+  }  
+}
+
+
+
+
+.flickity-prev-next-button:disabled, 
+button.flickity-prev-next-button[disabled]{
+  opacity: 0!important;
+  background: none!important;
+  cursor: auto;
+  box-shadow: none!important;
+  pointer-events:none;
+}
+
+
+.flickity-prev-next-button svg {
+  position: absolute;
+  padding: 10%;
+  left: 50%;
+  top: 50%;
+  width: 100%;
+  max-width: 36px;
+  max-height: 36px;
+  height: auto;
+  transition: all 0.3s;
+  transform: translate(-50%, -50%);
+
+  .slider-nav-push &{
+    margin-top: -40px;
+  }
+}
+
+.flickity-prev-next-button svg,
+.flickity-prev-next-button .arrow {
+  border-color:currentColor;
+  fill: $primary-nav-color;
+  transition: all 0.3s;
+
+  
+}
+
+
+
+/* color & size if no SVG - IE8 and Android 2.3 */
+.flickity-prev-next-button.no-svg {
+  color: $primary-nav-color;
+  font-size: 26px;
+}
+
+
+/* ---- Navigation styles ----- */
+
+.ux-slider,
+.ux-row-slider{
+  & .flickity-prev-next-button.next{
+        transform: translate(15%);
+  }
+  & .flickity-prev-next-button.previous{
+        transform: translateX(-15%);
+  }
+  &:hover .flickity-prev-next-button.next{
+       transform: translate(0);
+  }
+  &:hover .flickity-prev-next-button.previous{
+       transform: translate(0);
+  }
+}
+
+.ux-row-slider{
+
+  & .flickity-prev-next-button{
+      width: 35px;
+  }
+
+}
+
+.slider-nav-outside{
+   overflow-x:visible;
+
+   & .flickity-prev-next-button{
+        width: 40px;
+    }
+     & .flickity-prev-next-button.next{
+      right:auto;
+        left: 100%
+  }
+   & .flickity-prev-next-button.previous{
+        left:auto;
+         right: 100%;
+  }
+
+}
+
+.slider-nav-reveal{
+    overflow-x:hidden;
+
+    & .flickity-prev-next-button{
+      width: 30px;
+      background-color: #FFF;
+      box-shadow: 0 -150px 30px 0 rgba(0,0,0,0.2);
+
+      &:hover{
+        box-shadow: 0 -150px 30px 0 rgba(0,0,0,0.2);
+      }
+    }
+
+    & .flickity-prev-next-button svg{
+      max-width: 25px;
+      max-height: 25px;
+    }
+}
+
+.slider-nav-circle{
+    & .flickity-prev-next-button svg,
+    & .flickity-prev-next-button .arrow{
+      border-radius: 100%;
+      border:3px solid currentColor;
+    }
+
+    & .flickity-prev-next-button:hover svg,
+    & .flickity-prev-next-button:hover .arrow {
+      background-color: $primary-color;
+      border-color:$primary-color;
+      fill: #fff!important;
+    }
+}
+
+.slider-nav-small{
+    & svg{
+      max-width: 32px;
+      max-height: 32px;
+      border-width: 2px!important;
+    }
+}
+
+
+/* Fix slider for Mobile Screens */
+@media screen and (max-width: $small-screen){
+  .ux-slider .flickity-prev-next-button{
+      display: none;
+  }
+  .ux-row-slider .flickity-prev-next-button{
+      width:15px!important;
+      opacity: 0.8;
+      box-shadow: none!important;
+    }
+  .flickity-prev-next-button{
+      & svg{
+        padding:0;
+        border:0!important;
+      }
+    }
+  .flickity-page-dots{
+    pointer-events:none;
+  }
+  
+}
+
+
+/* ---- page dots ---- */
+.flickity-page-dots {
+  position: absolute;
+  width: 100%;
+  bottom:20px;
+  left:0;
+  right:0;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+  line-height: 1;
+
+  .row.js-flickity &{
+    position: relative;
+    bottom: 0;
+    margin-bottom: 30px;
+  }
+}
+
+.flickity-rtl .flickity-page-dots { direction: rtl; }
+
+.flickity-page-dots .dot {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  margin: 0 3px;
+  border: 3px solid #111;
+  border-radius: 50%;
+  opacity: 0.4;
+  cursor: pointer;
+  transition: opacity .3s;
+
+  /* Small dots */
+  .nav-dots-small &,
+  .row.js-flickity & {
+    opacity: 0.2;
+    width:10px;
+    height: 10px;
+    border:0;
+    background-color: $primary-nav-color;
+  }
+
+  &:hover{
+    opacity: 0.7;
+  }
+}
+
+.flickity-page-dots .dot.is-selected {
+  background-color: $primary-nav-color;
+  opacity: 1!important;
+}
+
+
+/* Slider colors */
+
+.slider-nav-light{
+
+  & .flickity-prev-next-button{
+    color:#FFF;
+  }
+
+  /* Arrows */
+  & .flickity-prev-next-button svg,
+  & .flickity-prev-next-button .arrow{
+    fill: #FFF;
+  }
+
+  /* Dots */
+  & .flickity-page-dots .dot{
+    border-color: #FFF;
+  }
+
+  & .flickity-page-dots .dot.is-selected{
+    background-color: #FFF;
+  }
+
+}
+
+
+/* No arrows */
+.slider-no-arrows .flickity-prev-next-button{
+  display: none!important;
+}
+
+
+/* Slider Style - Conatiner */
+.slider-style-container, .slider-style-focus{
+  background-color: #333;
+
+  & .flickity-slider > *{
+    max-width: 1080px;
+    margin:0 auto;
+  }
+
+  &:not(.flickity-enabled) .ux_banner{
+    opacity: 0!important;
+  }
+  & .ux_banner{
+    opacity: 1;
+  }
+
+  .flickity-slider > *:not(.is-selected){
+    opacity: 0.5;
+  }
+}
+
+/* Slider Style - Focus */
+.slider-style-focus{
+  background-color: transparent;
+  padding: 30px 0;
+
+  .flickity-page-dots{bottom:0;}
+
+  .flickity-slider > *{
+        max-width: 1050px;
+  }
+
+  .flickity-slider > *:not(.is-selected){
+    transform: scale(0.93);
+  }
+}
+
+
+/* -- product gallery slider -thumbnails  -- */
+.product-gallery-slider{
+  margin-bottom: 20px;
+}
+
+.product-gallery-slider img,
+.product-thumbnails img{
+  min-width: 100%;
+  backface-visibility:hidden;
+}
+
+.product-thumbnails{
+  margin-left: -7.5px;
+  margin-right: -7.5px;
+}
+.product-thumbnails li{
+  list-style: none;
+  float:left;
+  width:25%;
+  padding: 0 7.5px;
+}
+
+.product-thumbnails .flickity-prev-next-button{
+      max-width: 25px;
+}
+
+.product-thumbnails:not(.flickity-enabled) li:nth-child(n+5) {
+    display: none!important;
+}
+
+.product-thumbnails a{
+  overflow: hidden;
+  display: block;
+  border: 1px solid transparent;
+}
+
+.product-thumbnails .is-nav-selected a{
+  border-color: #ccc;
+}
+
+.product-thumbnails img{
+  margin-bottom: -10px;
+  opacity: 0.5;
+  transition: transform 0.6s, opacity 0.6s;
+}
+
+.product-thumbnails a:hover img,
+.product-thumbnails .is-nav-selected a img{
+  transform: translateY(-10px);
+  opacity: 1;
+}
+
+
+/* Row Slider fixes */
+.ux-row-slider.large-block-grid-6:not(.flickity-enabled) li:nth-child(n+7) {
+    display: none!important;
+}
+.ux-row-slider.large-block-grid-5:not(.flickity-enabled) li:nth-child(n+6) {
+    display: none!important;
+}
+.ux-row-slider.large-block-grid-4:not(.flickity-enabled) li:nth-child(n+5) {
+    display: none!important;
+}
+.ux-row-slider.large-block-grid-3:not(.flickity-enabled) li:nth-child(n+4) {
+    display: none!important;
+}
+.ux-row-slider.large-block-grid-2:not(.flickity-enabled) li:nth-child(n+3) {
+    display: none!important;
+}

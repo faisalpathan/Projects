@@ -1,0 +1,56 @@
+/*
+	Theme Name: Spina
+	Description: Spina is Responsive Multi-Purpose CSS3 Theme. Spina is Created with Twitter Bootstrap 3.3 Framework. Spina is a great design idea for website of Creative Corporate, Corporation, Company Profile, Personal Portfolio, and more … Create Outstanding Website or Blog in Minutes!. Awesome Design, Unique Concepts, Scalable Responsive, Amazing flexibility, 3 colorscheme & Many More Features…
+	Version: 1.4
+	Author: WebHunt Infotech
+	Template: Kyma
+	Author URI:
+	Tags: one-column, left-sidebar, right-sidebar, flexible-header, custom-background, custom-header, custom-menu, editor-style, featured-images, front-page-post-form, orange, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready, grid-layout, footer-widgets, blog, e-commerce, education, entertainment, food-and-drink, holiday, news, photography, portfolio
+	Text Domain: spina
+*/
+/*------------------------------------------
+    01 - General & Basic Styles
+------------------------------------------*/
+@import url('../kyma/style.css');
+
+.welcome_banner.full_gray h3:not(.centered) {
+    float: none;
+}
+.welcome_banner .intro_text {
+	display: block;
+	margin: 20px 0px;
+}
+div#callout-two {
+    text-align: center;
+}
+.hm_go_top.hm_go_is-visible {
+    border-radius: 124px;
+}
+.welcome_banner.full_colored .btn_a {
+    margin-left: 0px;
+}
+/* Slider */
+.owl_text_a > span {
+    margin-bottom: 20px;
+}
+.owl_text_a a {
+	color: #fff !important;
+}
+#kyma_owl_slider .btn_a {
+    margin: 20px 0 0;
+    border: none;
+}
+#logo h3{
+	margin-top: 15px;
+}
+.color4{
+	background: #324545 !important;
+}
+#kyma_owl_slider .owl_slider_con {
+    left: 55%;
+}
+#kyma_owl_slider .owl-page {
+    border: 2px solid #000;
+    height: 20px;
+    width: 20px;
+}

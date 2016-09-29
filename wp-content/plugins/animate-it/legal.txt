@@ -1,0 +1,12 @@
+This free (GPL) Scripts and CSS.
+Thanks to the developers.
+
+Scripts
+http://www.bootstrap-switch.org/
+https://github.com/dirkgroenen/jQuery-viewport-checker
+http://mobiledetect.net/
+http://labs.bigroomstudios.com/libraries/animo-js
+http://benalman.com/code/projects/jquery-throttle-debounce/docs/files/jquery-ba-throttle-debounce-js.html
+
+CSS
+http://daneden.github.io/animate.css/

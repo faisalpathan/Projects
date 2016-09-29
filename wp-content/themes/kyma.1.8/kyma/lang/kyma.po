@@ -1,0 +1,698 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Kyma\n"
+"POT-Creation-Date: 2015-08-16 18:53+0530\n"
+"PO-Revision-Date: 2015-08-16 18:59+0530\n"
+"Last-Translator: \n"
+"Language-Team: WebHunt\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: 404.php\n"
+"X-Poedit-SearchPath-1: archive.php\n"
+"X-Poedit-SearchPath-2: author.php\n"
+"X-Poedit-SearchPath-3: blog.php\n"
+"X-Poedit-SearchPath-4: blog-content.php\n"
+"X-Poedit-SearchPath-5: breadcrumbs.php\n"
+"X-Poedit-SearchPath-6: call-out.php\n"
+"X-Poedit-SearchPath-7: category.php\n"
+"X-Poedit-SearchPath-8: comments.php\n"
+"X-Poedit-SearchPath-9: customizer.php\n"
+"X-Poedit-SearchPath-10: default_options.php\n"
+"X-Poedit-SearchPath-11: footer.php\n"
+"X-Poedit-SearchPath-12: front-page.php\n"
+"X-Poedit-SearchPath-13: functions.php\n"
+"X-Poedit-SearchPath-14: header.php\n"
+"X-Poedit-SearchPath-15: home-blog.php\n"
+"X-Poedit-SearchPath-16: home-portfolio.php\n"
+"X-Poedit-SearchPath-17: home-service.php\n"
+"X-Poedit-SearchPath-18: home-slider.php\n"
+"X-Poedit-SearchPath-19: index.php\n"
+"X-Poedit-SearchPath-20: page.php\n"
+"X-Poedit-SearchPath-21: page-fullwidth.php\n"
+"X-Poedit-SearchPath-22: page-left.php\n"
+"X-Poedit-SearchPath-23: search.php\n"
+"X-Poedit-SearchPath-24: searchform.php\n"
+"X-Poedit-SearchPath-25: sidebar.php\n"
+"X-Poedit-SearchPath-26: single.php\n"
+"X-Poedit-SearchPath-27: style.css\n"
+"X-Poedit-SearchPath-28: tag.php\n"
+"X-Poedit-SearchPath-29: wpml-config.xml\n"
+
+#: 404.php:8
+msgid "Ooopps.!"
+msgstr ""
+
+#: 404.php:8
+msgid "The Page you were looking for doesnt exist"
+msgstr ""
+
+#: 404.php:13
+msgid "Search..."
+msgstr ""
+
+#: 404.php:22
+msgid "404"
+msgstr ""
+
+#: 404.php:26
+msgid "Back To Home Page"
+msgstr ""
+
+#: archive.php:8
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: archive.php:10
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: archive.php:12
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: archive.php:14
+msgid "Archives"
+msgstr ""
+
+#: author.php:5
+#, php-format
+msgid "Author Archives: %s"
+msgstr ""
+
+#: category.php:5
+#, php-format
+msgid "Category Archives: %s"
+msgstr ""
+
+#: category.php:15
+#, php-format
+msgid "Category: %s"
+msgstr ""
+
+#: comments.php:4
+msgid "Please enter password to view or post a comments"
+msgstr ""
+
+#: comments.php:10
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:12
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:15
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:23
+msgid "Leave Comment"
+msgstr ""
+
+#: comments.php:39
+msgid "Name (required)"
+msgstr ""
+
+#: comments.php:40
+msgid "Email (required)"
+msgstr ""
+
+#: comments.php:41
+msgid "Website"
+msgstr ""
+
+#: comments.php:49
+msgid "Submit Message"
+msgstr ""
+
+#: comments.php:53
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: comments.php:57
+msgid "Leave a reply"
+msgstr ""
+
+#: comments.php:60
+msgid "Comment..."
+msgstr ""
+
+#: customizer.php:15
+msgid "Kyma Options"
+msgstr ""
+
+#: customizer.php:16
+msgid "Here you can customize all your site contents"
+msgstr ""
+
+#: customizer.php:19
+msgid "General Options"
+msgstr ""
+
+#: customizer.php:20
+msgid "Here you can change basic settings of your site"
+msgstr ""
+
+#: customizer.php:27
+msgid "Show default home page"
+msgstr ""
+
+#: customizer.php:36
+msgid "Upload logo image"
+msgstr ""
+
+#: customizer.php:45
+msgid "Image Logo Width"
+msgstr ""
+
+#: customizer.php:66
+msgid "Logo Font Size"
+msgstr ""
+
+#: customizer.php:88
+msgid "Logo Spacing"
+msgstr ""
+
+#: customizer.php:115
+msgid "Logo Align"
+msgstr ""
+
+#: customizer.php:129
+msgid "Upload Favicon"
+msgstr ""
+
+#: customizer.php:137
+msgid "Custom Css Editor"
+msgstr ""
+
+#: customizer.php:145
+msgid "Header Options"
+msgstr ""
+
+#: customizer.php:153
+msgid "Header Top Bar"
+msgstr ""
+
+#: customizer.php:154
+msgid "Seelect colored or default top bar"
+msgstr ""
+
+#: customizer.php:168
+msgid "Fixed Header"
+msgstr ""
+
+#: customizer.php:169
+msgid "Switch between fixed and static header"
+msgstr ""
+
+#: customizer.php:177
+msgid "Header Style"
+msgstr ""
+
+#: customizer.php:191
+msgid "Layout Options"
+msgstr ""
+
+#: customizer.php:192
+msgid "Here you can change Layout and basic design of your site"
+msgstr ""
+
+#: customizer.php:200
+msgid "Site Layout"
+msgstr ""
+
+#: customizer.php:201
+msgid "Change your site layout to full width or boxed size."
+msgstr ""
+
+#: customizer.php:215
+msgid "Footer Layout"
+msgstr ""
+
+#: customizer.php:216
+msgid "Change footer into 2, 3 or 4 column"
+msgstr ""
+
+#: customizer.php:231
+msgid "Slider Options"
+msgstr ""
+
+#: customizer.php:232
+msgid "Change slider text(s) and images"
+msgstr ""
+
+#: customizer.php:241 customizer.php:251 customizer.php:261 customizer.php:271
+#: customizer.php:281
+msgid "Slider"
+msgstr ""
+
+#: customizer.php:241
+msgid "Image"
+msgstr ""
+
+#: customizer.php:251
+msgid "Title"
+msgstr ""
+
+#: customizer.php:261
+msgid "Subtitle"
+msgstr ""
+
+#: customizer.php:271
+msgid "Description"
+msgstr ""
+
+#: customizer.php:281
+msgid "Link"
+msgstr ""
+
+#: customizer.php:293
+msgid "Service Options"
+msgstr ""
+
+#: customizer.php:300
+msgid "Home Service Heading"
+msgstr ""
+
+#: customizer.php:310
+msgid "Slider Two Effect"
+msgstr ""
+
+#: customizer.php:317
+msgid "Two Column"
+msgstr ""
+
+#: customizer.php:318
+msgid "Three Column"
+msgstr ""
+
+#: customizer.php:319
+msgid "Four Column"
+msgstr ""
+
+#: customizer.php:325
+msgid "Service One Icon"
+msgstr ""
+
+#: customizer.php:335
+msgid "Service One Title"
+msgstr ""
+
+#: customizer.php:345
+msgid "Service One Description"
+msgstr ""
+
+#: customizer.php:355
+msgid "Service One URL"
+msgstr ""
+
+#: customizer.php:366
+msgid "Service Two Icon"
+msgstr ""
+
+#: customizer.php:376
+msgid "Service Two Title"
+msgstr ""
+
+#: customizer.php:386
+msgid "Service Two Description"
+msgstr ""
+
+#: customizer.php:396
+msgid "Service Two URL"
+msgstr ""
+
+#: customizer.php:407
+msgid "Service Three Icon"
+msgstr ""
+
+#: customizer.php:417
+msgid "Service Three Title"
+msgstr ""
+
+#: customizer.php:427
+msgid "Service Three Description"
+msgstr ""
+
+#: customizer.php:437
+msgid "Service Three URL"
+msgstr ""
+
+#: customizer.php:448
+msgid "Service Four Icon"
+msgstr ""
+
+#: customizer.php:458
+msgid "Service Four Title"
+msgstr ""
+
+#: customizer.php:468
+msgid "Service Four Description"
+msgstr ""
+
+#: customizer.php:478
+msgid "Service Four URL"
+msgstr ""
+
+#: customizer.php:488
+msgid "Portfolio Options"
+msgstr ""
+
+#: customizer.php:495
+msgid "Show Portfolio"
+msgstr ""
+
+#: customizer.php:496
+msgid "Enable/Disable Portfolio on Home"
+msgstr ""
+
+#: customizer.php:507
+msgid "Number of portfolio"
+msgstr ""
+
+#: customizer.php:508
+msgid "Number of portfolio to be shown"
+msgstr ""
+
+#: customizer.php:522
+msgid "Home Portfolio Title"
+msgstr ""
+
+#: customizer.php:534
+msgid "Portfolio Image-"
+msgstr ""
+
+#: customizer.php:544
+msgid "Portfolio Title-"
+msgstr ""
+
+#: customizer.php:554
+msgid "Portfolio Date-"
+msgstr ""
+
+#: customizer.php:555
+msgid "Portfolio date (e.g. date of project completion) "
+msgstr ""
+
+#: customizer.php:565
+msgid "Portfolio URL-"
+msgstr ""
+
+#: customizer.php:575
+msgid "Blog Options"
+msgstr ""
+
+#: customizer.php:582
+msgid "Show Latest Posts on Home"
+msgstr ""
+
+#: customizer.php:583
+msgid "Enable/Disable home blog posts"
+msgstr ""
+
+#: customizer.php:592
+msgid "Home Blog Title"
+msgstr ""
+
+#: customizer.php:602
+msgid "Blog List Layout"
+msgstr ""
+
+#: customizer.php:603
+msgid "Select Blog Layout"
+msgstr ""
+
+#: customizer.php:604
+msgid ""
+"With this option you can select blog left sidebar,right sidebar and full "
+"width"
+msgstr ""
+
+#: customizer.php:618
+msgid "Single Post Layout"
+msgstr ""
+
+#: customizer.php:619
+msgid "Select Post Layout"
+msgstr ""
+
+#: customizer.php:620
+msgid ""
+"With this option you can select single post with left sidebar,right sidebar "
+"and full width"
+msgstr ""
+
+#: customizer.php:634
+msgid "About Author Title"
+msgstr ""
+
+#: customizer.php:643
+msgid "Related Post Text"
+msgstr ""
+
+#: customizer.php:652
+msgid "Callout Options"
+msgstr ""
+
+#: customizer.php:659 customizer.php:682
+msgid "Show Footer Callout"
+msgstr ""
+
+#: customizer.php:660
+msgid "Enable/Disable Callout section on Home"
+msgstr ""
+
+#: customizer.php:671
+msgid "Callout Title"
+msgstr ""
+
+#: customizer.php:692
+msgid "Callout Button Icon"
+msgstr ""
+
+#: customizer.php:701
+msgid "Callout Button Text"
+msgstr ""
+
+#: customizer.php:712
+msgid "Callout Button URL"
+msgstr ""
+
+#: customizer.php:722
+msgid "Social Options"
+msgstr ""
+
+#: customizer.php:729
+msgid "Header Contact Info"
+msgstr ""
+
+#: customizer.php:730
+msgid "Show/Hide contact info bar in header"
+msgstr ""
+
+#: customizer.php:739
+msgid "Enable Social Icon"
+msgstr ""
+
+#: customizer.php:740
+msgid "Show/Hide social icons in header"
+msgstr ""
+
+#: customizer.php:749
+msgid "Facebook Profile URL"
+msgstr ""
+
+#: customizer.php:759
+msgid "Twitter Profile URL"
+msgstr ""
+
+#: customizer.php:769
+msgid "Google+ Profile URL"
+msgstr ""
+
+#: customizer.php:779
+msgid "Skype URL"
+msgstr ""
+
+#: customizer.php:789
+msgid "Picasa Profile URL"
+msgstr ""
+
+#: customizer.php:799
+msgid "Vimeo URL"
+msgstr ""
+
+#: customizer.php:808
+msgid "Footer Options"
+msgstr ""
+
+#: customizer.php:815
+msgid "Copyright Text"
+msgstr ""
+
+#: customizer.php:824
+msgid "Developed by Text"
+msgstr ""
+
+#: customizer.php:833
+msgid "Link Text"
+msgstr ""
+
+#: customizer.php:842
+msgid "Developed by Link"
+msgstr ""
+
+#: functions.php:35
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:36
+msgid "Secondary Menu"
+msgstr ""
+
+#: functions.php:55 home-service.php:22
+msgid "Read More"
+msgstr ""
+
+#: functions.php:60
+msgid "Details"
+msgstr ""
+
+#: functions.php:73
+msgid "Sidebar Widget Area"
+msgstr ""
+
+#: functions.php:75
+msgid "Sidebar widget area"
+msgstr ""
+
+#: functions.php:83
+msgid "Footer Widget Area"
+msgstr ""
+
+#: functions.php:85
+msgid "Footer widget area"
+msgstr ""
+
+#: functions.php:96
+msgid "Home"
+msgstr ""
+
+#: functions.php:97
+msgid "You are Now on: "
+msgstr ""
+
+#: functions.php:112
+msgid "Archive by category"
+msgstr ""
+
+#: functions.php:159
+msgid "Search results for"
+msgstr ""
+
+#: functions.php:161
+msgid "Tag"
+msgstr ""
+
+#: functions.php:165
+msgid "Articles posted by"
+msgstr ""
+
+#: functions.php:167
+msgid "Error 404"
+msgstr ""
+
+#: functions.php:200
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: functions.php:204
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: header.php:46
+msgid "Call Us :"
+msgstr ""
+
+#: header.php:48
+msgid "Email :"
+msgstr ""
+
+#: header.php:55
+msgid "Facebook"
+msgstr ""
+
+#: header.php:61
+msgid "Twitter"
+msgstr ""
+
+#: header.php:67
+msgid "Google+"
+msgstr ""
+
+#: header.php:73
+msgid "Skype"
+msgstr ""
+
+#: header.php:79
+msgid "Vimeo"
+msgstr ""
+
+#: header.php:85
+msgid "Picassa"
+msgstr ""
+
+#: home-portfolio.php:25
+msgid "View Larger"
+msgstr ""
+
+#: home-portfolio.php:26
+msgid "More Details"
+msgstr ""
+
+#: search.php:7
+#, php-format
+msgid "Search Results For: \"%s\""
+msgstr ""
+
+#: search.php:109
+msgid "Nothing Found"
+msgstr ""
+
+#: search.php:111
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: searchform.php:3
+msgid "Start Searching..."
+msgstr ""
+
+#: single.php:108
+msgid "Previous Post"
+msgstr ""
+
+#: single.php:109
+msgid "Next"
+msgstr ""
+
+#: single.php:133
+msgid "Tags"
+msgstr ""
+
+#: tag.php:7
+#, php-format
+msgid "Posts Under Tag: %s"
+msgstr ""

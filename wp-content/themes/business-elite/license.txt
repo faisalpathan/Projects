@@ -1,0 +1,50 @@
+=== Business Elite===
+Theme URI: https://web-dorado.com/wordpress-themes/business-elite.html
+Author: web-dorado.com
+Author URI: https://web-dorado.com/
+
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.en.html
+
+== Attributions ==
+All images used in Business Elite theme are GPL Compatible, including demo images, images in the slider and Screenshots.
+Some of them are taken from free public domain image source http://pixabay.com/ and is Licensed under CC0 licenses.
+slide_1.jpg - https://pixabay.com/en/iphone-iphone-6-iphone-6-plus-apple-791450/
+slide_2.jpg - https://pixabay.com/en/wind-turbines-fan-wind-turbine-site-947086/
+Featured_post.jpg - https://pixabay.com/en/desktop-desk-iphone-workplace-1155613/
+Contact_us.jpg - https://pixabay.com/en/hand-man-watch-glasses-work-1076597/
+
+All the other images are created by web-dorado and are licensed under CC0 license.
+
+Font Open Sans
+Copyright 2010-2011, Google Corporation
+License: Apache License Version 2.0
+
+Font Awesome by Dave Gandy
+License: http://fortawesome.github.io/Font-Awesome/license/
+
+jQuery-animateNumber
+Copyright (c) 2013 Alexandr Borisov
+License: MIT
+https://github.com/aishek/jquery-animateNumber
+
+jQuery.fullscreen library
+Copyright (c) 2013 Vladimir Zhuravlev
+License: MIT
+https://github.com/private-face/jquery.fullscreen
+
+malihu custom scrollbar plugin
+Copyright (c) 2015 Manos Malihutsakis
+License: MIT
+https://github.com/malihu/malihu-custom-scrollbar-plugin
+
+Masonry
+Copyright (c) 2015 David DeSandro
+License: MIT
+https://github.com/desandro/masonry
+
+== Spider_Random_Post.php License & Copyright ==
+Plugin URI: https://web-dorado.com/products/spider-random-post.html
+Author: https://web-dorado.com/
+Author License: GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
+

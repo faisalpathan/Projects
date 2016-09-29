@@ -1,0 +1,17 @@
+@-moz-document url-prefix(){
+  .select-wrapper:after{
+    display: none;
+  }
+  .product-lightbox .quantity{
+    display: none;
+  }
+  .quantity input[type=number]{
+    -moz-appearance: textfield;
+  }
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none){
+  .select-wrapper:after{
+    display: none;
+  }
+}

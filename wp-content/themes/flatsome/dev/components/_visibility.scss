@@ -1,0 +1,129 @@
+//
+// Foundation Visibility Classes
+//
+$include-html-visibility-classes: $include-html-classes !default;
+
+@if $include-html-visibility-classes != false {
+
+  /* Foundation Visibility HTML Classes */
+  .show-for-small,
+  .show-for-medium-down,
+  .show-for-large-down { display: inherit !important; }
+
+  .show-for-medium,
+  .show-for-medium-up,
+  .show-for-large,
+  .show-for-large-up,
+  .show-for-xlarge,
+  li.show-for-medium,
+  li.show-for-medium-up,
+  li.show-for-large,
+  li.show-for-large-up,
+  li.show-for-xlarge { display: none !important; }
+
+  .hide-for-medium,
+  .hide-for-medium-up,
+  .hide-for-large,
+  .hide-for-large-up,
+  .hide-for-xlarge { display: inherit !important; }
+
+  .hide-for-small,
+  .hide-for-medium-down,
+  .hide-for-large-down,
+  li.hide-for-small,
+  li.hide-for-medium-down,
+  li.hide-for-large-down  { display: none !important; }
+
+  /* Specific visilbity for tables */
+  
+
+  /* Medium Displays: 768px - 1279px */
+ @media only screen and (min-width:$small-screen){
+    .show-for-medium,
+    .show-for-medium-up { display: inherit !important; }
+
+    .show-for-small { display: none !important; }
+
+    .hide-for-small { display: inherit !important; }
+
+    .hide-for-medium,
+    .hide-for-medium-up { display: none !important; }
+
+    /* Specific visilbity for tables */
+  
+  }
+
+  /* Large Displays: 1280px - 1440px */
+  @media only screen and (min-width:$medium-screen){
+    .show-for-large,
+    .show-for-large-up { display: inherit !important; }
+
+    .show-for-medium,
+    .show-for-medium-down { display: none !important; }
+
+    .hide-for-medium,
+    .hide-for-medium-down { display: inherit !important; }
+
+    .hide-for-large,
+    .hide-for-large-up { display: none !important; }
+
+    /* Specific visilbity for tables */
+    
+  }
+
+  /* X-Large Displays: 1400px and up */
+ @media only screen and (min-width:$large-screen){
+    .show-for-xlarge { display: inherit !important; }
+
+    .show-for-large,
+    .show-for-large-down { display: none !important; }
+
+    .hide-for-large,
+    .hide-for-large-down { display: inherit !important; }
+
+    .hide-for-xlarge { display: none !important; }
+
+    /* Specific visilbity for tables */
+    
+  }
+
+
+  /* Orientation targeting */
+  .show-for-landscape,
+  .hide-for-portrait { display: inherit !important; }
+  .hide-for-landscape,
+  .show-for-portrait { display: none !important; }
+
+  /* Specific visilbity for tables */
+  
+
+ @media only screen and (orientation: landscape){
+    .show-for-landscape,
+    .hide-for-portrait { display: inherit !important; }
+    .hide-for-landscape,
+    .show-for-portrait { display: none !important; }
+
+    /* Specific visilbity for tables */
+    
+  }
+
+  @media only screen and (orientation: portrait){
+    .show-for-portrait,
+    .hide-for-landscape { display: inherit !important; }
+    .hide-for-portrait,
+    .show-for-landscape { display: none !important; }
+
+    /* Specific visilbity for tables */
+
+  }
+
+  /* Touch-enabled device targeting */
+  .show-for-touch { display: none !important; }
+  .hide-for-touch { display: inherit !important; }
+  .touch .show-for-touch { display: inherit !important; }
+  .touch .hide-for-touch { display: none !important; }
+
+  /* Specific visilbity for tables */
+  
+
+}

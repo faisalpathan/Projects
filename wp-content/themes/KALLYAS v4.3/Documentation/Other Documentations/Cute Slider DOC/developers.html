@@ -1,0 +1,294 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Cute Slider WP - 3D &amp; 2D HTML5 Image Slider</title>
+		<link rel="stylesheet" href="../assets/SyntaxHighlighter/styles/shCoreEclipse.css" type="text/css">
+		<link rel="stylesheet" href="../assets/SyntaxHighlighter/styles/shThemeEclipse.css" type="text/css">
+		<link rel="stylesheet" href="../assets/css/style.css" type="text/css">
+		<!--[if lt IE 9]>
+			<script src="../assets/js/html5.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div id="dim">
+
+			<div class="page">
+				<div class="bg"></div>
+				<div class="inner">
+					<div class="doc">
+						<h1>Cute Slider WP 1.1.1</h1>
+						<h2>3D &amp; 2D HTML5 Image Slider</h2>
+						<h3>Documentation for Developers</h3>
+						<ul>
+							<li>
+								<a href="#overview">Overview</a>
+								<ul>
+									<li><a href="#thankyou">Thank you</a></li>
+									<li><a href="#changelog">Changelog</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#terms">About licensing terms</a>
+								<ul>
+									<li><a href="#terms">Restrictions in licensing terms</a></li>
+									<li><a href="#prefered">The prefered way</a></li>
+									<li><a href="#benefits">Benefits</a></li>
+									<li><a href="#disadvantages">Disadvantages</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#steps">Step-by-step guide</a>
+								<ul>
+									<li><a href="#copy">Copy the plugin into your theme folder</a></li>
+									<li><a href="#include">Including and activating Cute Slider WP</a></li>
+									<li><a href="#plugin_path">Setting the plugin's path</a></li>
+									<li><a href="#next">So what's next?</a></li>
+									<li><a href="#last">One final example</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="page">
+				<div class="bg"></div>
+				<div class="inner">
+					<a name="overview"></a>
+					<h3>Overview</h3>
+					<p >
+						This documentation covers all the things you need to know to integrate
+						Cute Slider WP into your WordPress theme. Please note that this documentation
+						is made for developers, and it doesn't deal with the plugin itself.
+						For information about installing and using the plugin, please read the
+						<a href="documentation.html">other documentation</a>.
+					</p>
+					<a name="thankyou"</a>
+					<h3>Thank you</h3>
+					<p>
+						Thank you for purchasing Cute Slider WP. If you have any questions beyond the
+						scope of this documentation, please do not hesitate to contact us.
+						<br><br>
+						We are excited that you chose Cute Slider WP for your theme, if you want to share
+						your work with us, we would love to see it.
+					</p>
+					<a name="changelog">
+					<h3>Changelog</h3>
+					<p>
+						Important: Please note that this changelog doesn't deal with the plugin itself,
+						it is made for developers and it only lists the changes that affects them, and
+						may requires modifications in their work.
+					</p>
+					<p>
+						1.0.0
+					</p>
+					<ul>
+						<li>First release, the changes will be listed here.</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="page">
+				<div class="bg"></div>
+				<div class="inner">
+					<a name="terms"></a>
+					<h1>About licensing terms</h1>
+					<h3>Restrictions in licensing terms</h3>
+					<p>
+						The Envato licensing terms and conditions prohibits you to include the plugin as
+						a standalone item. This means that you cannot ask your users to treat it as a separate
+						item for installation, you have to integrate it into your theme.
+					</p>
+
+					<a name="prefered"></a>
+					<h3>The prefered way</h3>
+					<p>
+						The prefered way it that you must hide the plugin within your theme and
+						load it manually in your functions.php file. This requires some modifications,
+						but it can be done fast and easily. Below there is a step-by-step guide to do
+						this.
+					</p>
+
+					<a name="benefits"></a>
+					<h3>Benefits</h3>
+					<ul>
+						<li>It complies for the Envato licensing terms,</li>
+						<li>It is automatic, your users don't have to bother with plugin installation,</li>
+						<li>The plugin will be activated automatically,</li>
+						<li>There won't be any dependency, every feature will work by default,</li>
+						<li>And you can achieve deeper integration with many features built upon the plugin</li>
+					</ul>
+
+					<a name="disadvantages"></a>
+					<h3>Disadvantages</h3>
+					<ul>
+						<li>You need to do some extra work to achieve these benefits, but it only takes a few minutes</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="page">
+				<div class="bg"></div>
+				<div class="inner">
+					<a name="steps"></a>
+					<h1>Step-by-step guide</h1>
+
+					<a name="copy"></a>
+					<h3>Copy the plugin into your theme folder</h3>
+					<p>
+						First, you have to copy the plugin into your theme folder. This is located in your
+						"/wp-content/themes/&lt;your_theme&gt;/" folder. In our sample we created a "plugins"
+						folder in the theme root directory, this is the place where we copied Cute Slider WP.
+						Later, you will need to edit some of the plugin files, so always keep in mind that
+						we are refering to this location, but it can be different with your own file-structure.
+					</p>
+
+					<a name="include"></a>
+					<h3>Including and activating Cute Slider WP</h3>
+					<p>
+						You can include and activate Cute Slider WP in your <strong>functions.php</strong>
+						file. This file is located under your "/wp-content/themes/&lt;your_theme&gt;/"
+						folder.
+						<br><br>
+						Please note that this code assumes there is a "plugins" folder in your theme
+						root directory and Cute Slider WP is located in this folder. If you are using
+						a different file-structure, you need to change the file path on line 8.
+						<br><br>
+						Also, in this code, please replace the "&lt;your_theme&gt;" part with the name
+						of your theme.
+					</p>
+<pre name="code" class="brush: php">&lt;?php
+
+/**************************/
+/* Include Cute Slider WP */
+/**************************/
+
+// Path for Cute Slider WP main PHP file
+$cuteslider = get_stylesheet_directory() . '/plugins/CuteSlider/cuteslider.php';
+
+// Check if the file is available to prevent warnings
+if(file_exists($cuteslider)) {
+
+	// Include the file
+	include $cuteslider;
+
+	// Activate the plugin if necessary
+	if(get_option('&lt;your_theme&gt;_cuteslider_activated', '0') == '0') {
+
+		// Run activation script
+		cuteslider_activation_scripts();
+
+		// Save a flag that it is activated, so this won't run again
+		update_option('&lt;your_theme&gt;_cuteslider_activated', '1');
+	}
+}
+
+?&gt;</pre>
+					<p>
+						If you did it right, you can see that the Cute Slider WP menu item appeared
+						in your WP admin area. It won't work just yet, we need some further changes,
+						so don't scare if you run into some issues.
+					</p>
+
+
+					<a name="plugin_path"></a>
+					<h3>Setting the plugin's path</h3>
+					<p>
+						Cute Slider WP needs to load some plugin resources such as CSS and
+						Javascript files, so you have to specify the path of the plugin relative
+						to the root of your theme in the <strong>cuteslider.php</strong> file.
+						Remember, we created a "plugins" folder with the contents
+						of Cute Slider in our sample, but you may use a different file-structure, so you
+						may have to rewrite this path. The higlighted line indicates the changes.
+					</p>
+<pre name="code" class="brush: php; first-line: 17; highlight: [22]">
+/********************************************************/
+/*                        Actions                       */
+/********************************************************/
+
+	$GLOBALS['csPluginVersion'] = '1.1.1';
+	$GLOBALS['csPluginPath'] = get_stylesheet_directory_uri() . '/plugins/CuteSlider';
+
+	// Activation hook for creating the initial DB table
+	register_activation_hook(__FILE__, 'cuteslider_activation_scripts');</pre>
+
+
+					<a name="next"></a>
+					<h3>So what's next?</h3>
+					<p>
+						Cute Slider WP is now integrated into your theme and it is fully functional.
+						However, if you want to make your users happy, there are some other things
+						you should consider. For example, it is always a good idea to offer
+						an option in the WP page editor where your users can choose a slider to
+						display. It is also can be wise that you offer an option to disable the plugin,
+						since WordPress won't recognise it as a normal plugin and your users won't be
+						able to deactivate it by default.
+						<br><br>
+
+						Unfortunately, this documentation doesn't include these techniques. We are assume
+						that you are a developer who understands how WordPress works, so you should
+						be able to achive these kind of features by yourself. We made this documentation
+						to make your life easier without the need to analyze our codebase.
+						<br><br>
+					</p>
+
+					<a name="last"></a>
+					<h3>One final example</h3>
+					<p>
+						Here is a final example to show how you can fetch the Cute Slider WP sliders. You can use
+						it for the above mentioned feature. The rest is up to you.
+
+<pre name="code" class="brush: php">&lt;?php
+
+	// Get WPDB Object
+	global $wpdb;
+
+	// Table name
+	$table_name = $wpdb->prefix . "cuteslider";
+
+	// Get sliders
+	$sliders = $wpdb->get_results( "SELECT * FROM $table_name
+										WHERE flag_hidden = '0' AND flag_deleted = '0'
+										ORDER BY date_c ASC LIMIT 100" );
+
+	// Iterate over the sliders
+	foreach($sliders as $key => $item) {
+
+		echo &#039;&lt;option value=&quot;&#039;.$item-&gt;id.&#039;&quot;&gt;&#039;.$item-&gt;name.&#039;&lt;/option&gt;&#039;;
+	}
+}
+
+?&gt;</pre>
+				</div>
+			</div>
+
+
+			<div class="page">
+				<div class="bg"></div>
+				<div class="inner">
+					<a name="rest_doc"></a>
+					<h3>Contact us!</h3>
+					<h2 class="description">
+						If you like our works.<br>
+						If you need a help in using one of our CodeCanyon items.<br>
+						If you have a great idea which we can work together.
+					</h2>
+					<nav>
+						<a id="kmlogo" href="http://kreaturamedia.com/"></a><span>Visit our website!</span>
+						<a id="fblogo" href="http://facebook.com/kreaturamedia/"></a><span>Find us on Facebook!</span>
+						<a id="cclogo" href="http://codecanyon.net/user/kreatura?ref=kreatura"></a><span>Our Apps &amp; Codecanyon</span>
+						<div class="clear"></div>
+					</nav>
+				</div>
+			</div>
+
+		</div>
+		<script src="../assets/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+		<script src="../assets/js/documentation.js" type="text/javascript"></script>
+		<script src="../assets/SyntaxHighlighter/scripts/shCore.js" type="text/javascript"></script>
+		<script src="../assets/SyntaxHighlighter/scripts/shBrushJScript.js" type="text/javascript"></script>
+		<script src="../assets/SyntaxHighlighter/scripts/shBrushXml.js" type="text/javascript"></script>
+		<script src="../assets/SyntaxHighlighter/scripts/shBrushCss.js" type="text/javascript"></script>
+		<script src="../assets/SyntaxHighlighter/scripts/shBrushPhp.js" type="text/javascript"></script>
+	</body>
+</html>

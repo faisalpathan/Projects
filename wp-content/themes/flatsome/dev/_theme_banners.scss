@@ -1,0 +1,684 @@
+/* --  banner grid */
+.ux_banner-grid{
+  margin-left: -7.5px!important;
+  margin-right: -7.5px!important;
+}
+.ux_banner-grid .columns{
+  margin-bottom: 15px;
+  margin-left: -.1px;
+}
+.ux_banner-grid .columns > .column-inner{
+  padding-left: 7.5px;
+  padding-right: 7.5px;
+}
+.ux_banner-grid .columns > img{
+  margin-bottom: 10px;
+}
+.ux_banner-grid .iosSlider{
+  margin-bottom: 0!important;
+  top: 0!important;
+}
+.ux-grid-column .column-inner,
+.ux-grid-column .ux_banner,
+.ux-grid-column .ux-slider-wrapper,
+.ux-grid-column .ux-slider-wrapper .ux-slider,
+.ux-grid-column .ux-slider-wrapper .flickity-viewport{
+  height: 100%!important;
+}
+.ux-grid-column.columns{
+  margin-bottom: 15px;
+}
+
+/* -- ux banner -- */
+.ux_banner .inner-wrap.animated{
+  opacity: 0;
+}
+#content > .ux_banner,
+#content > .ux_block  > .ux_banner{
+  margin-bottom: 30px;
+}
+
+.ux_banner{
+  word-wrap: normal;
+  width: 100%;
+  background: $primary-color;
+  line-height: 140%;
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+.ux_banner,
+.ux_slider_wrapper{
+      -ms-user-select:      none;
+     -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select:      none;
+          user-select:      none;
+}
+.ux_banner.light{
+  background: #f9f9f9;
+}
+.ux_banner .banner-bg,
+.ux-section .banner-bg,
+.ux-section .bg-overlay,
+.ux_banner .bg-overlay,
+.ux-section-img{
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.ux_banner .bg-overlay{
+  z-index: 2;
+}
+.ux_banner .banner-effect{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  overflow: hidden;
+  background-color: transparent;
+}
+.ux_banner.full-height{
+  min-height: 100vh;
+}
+
+.ux_banner .row{
+  position: relative;
+  height: 100%;
+  z-index: 2;
+  max-width: $row-width!important;
+  margin-left: auto!important;
+  margin-right: auto!important;
+}
+
+/* UX Sections */
+.ux-section{
+  position: relative;
+  overflow: hidden;
+}
+.ux-section.dark{
+  background-color: #000000;
+}
+.ux-section .banner-bg.ux_parallax,
+.ux_banner .banner-bg.ux_parallax{
+  background-attachment: scroll!important;
+  opacity: 0;
+}
+.ux-section .ux-section-content{
+  z-index: 10;
+  position: relative;
+}
+#content .slider .ux-section{
+  padding-left: 0!important;
+  padding-right: 0!important;
+}
+.ux-section-img{
+  left: auto;
+  right: 0;
+  width: 50%;
+  background-position: bottom left;
+  background-size: auto 100%;
+}
+.ux-section-img img{
+  display: none;
+}
+.ux-section-img.left{
+  right: auto;
+  left: 0;
+  background-position: bottom right;
+}
+.ux-section-img.top,
+.ux-section-img.bottom{
+  position: relative;
+  width: 100%!important;
+}
+.ux-section-img.top{
+  margin-bottom: 30px;
+  background-position: top center;
+}
+.ux-section-img.bottom{
+  margin-top: 30px;
+  background-position: bottom center;
+}
+.ux-section-img.bottom img,
+.ux-section-img.top img{
+  display: block;
+  margin: 0 auto;
+  visibility: hidden;
+  width: 100%;
+  max-width: $row-width;
+}
+.ux-section.has-img-top{
+  padding-top: 0!important;
+}
+.ux-section.has-img-bottom{
+  padding-bottom: 0!important;
+}
+
+.ux_parallax.parallax-active{
+  opacity: 1;
+}
+.parallax_img_inner{
+  opacity: 0;;
+}
+
+/* section title */
+.ux-bg-title{
+  text-align: center;
+  position: relative;
+  bottom: -26px;
+  z-index: 99;
+}
+.ux-bg-title span{
+  color: $primary-color;
+  font-size: 80%;
+  display: inline-block;
+  background: #ffffff;
+  text-transform: uppercase;
+  padding: 5px 15px;
+  border: 2px solid $primary-color;
+}
+
+.text-center .button{
+  margin: 10px 5px 10px;
+}
+.text-right .button{
+  margin: 10px 0 10px 10px;
+}
+.text-left .button{
+  margin: 10px 10px 10px 0;
+}
+
+
+.ux_banner .center,
+.ux-text-overlay .text-vertical-center{
+  bottom: 50%!important;
+  top: auto!important;
+  text-align: center;
+  transform: translateY(50%)!important;
+}
+.ux_banner .center.bottom,
+.ux_banner .center.top{
+  transform: translateY(0)!important;
+}
+
+/* ux banner inner */
+.ux_banner .inner{
+  white-space: normal;
+  z-index: 3;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: 0 auto;
+}
+
+.ux_banner .inner.left{
+  left: 10%;
+  right: auto;
+  text-align: left;
+}
+.ux_banner .inner.far-left{
+  left: 20px;
+  right: auto;
+  text-align: left;
+}
+
+.ux_banner .inner.right{
+  left: auto;
+  right: 10%;
+  text-align: right;
+}
+.ux_banner .inner.far-right{
+  left: auto;
+  right: 20px;
+  text-align: right;
+}
+
+.ux_banner .inner.top{
+  top: 12%!important;
+  margin: 0 auto!important;
+  bottom: auto!important;
+}
+.ux_banner .inner.bottom{
+  bottom: 12%!important;
+  margin: 0 auto!important;
+  top: auto!important;
+}
+.ux_banner .inner.far-bottom{
+  bottom: 0!important;
+  top: auto!important;
+}
+.ux_banner .inner.far-top{
+  top: 0!important;
+  bottom: auto!important;
+}
+.ux_banner .inner.full-width{
+  left: 0!important;
+  right: 0!important;
+  width: 100%!important;
+}
+
+.ux_banner .center .tx-div,
+.ux_banner .center p{
+  margin: 0 auto;
+  max-width: 90%;
+}
+.ux_banner .left .tx-div,
+.ux_banner .left p,
+.ux_banner .far-left .tx-div,
+.ux_banner .far-left p{
+  margin: 0 auto 0 0;
+  max-width: 90%;
+}
+.ux_banner .right .tx-div,
+.ux_banner .far-right .tx-div,
+.ux_banner .right p,
+.ux_banner .far-right p{
+  margin: 0 0 0 auto;
+  max-width: 90%;
+}
+.ux_banner .text-center .tx-div,
+.ux_banner .text-center p{
+  margin: 0 auto;
+  max-width: 90%;
+}
+.ux_banner .text-left .tx-div,
+.ux_banner .text-left p{
+  margin: 0 auto 0 0;
+  max-width: 90%;
+}
+.ux_banner .text-right .tx-div,
+.ux_banner .text-right p{
+  margin: 0 0 0 auto;
+  max-width: 90%;
+}
+.ux_banner .tx-div{
+  margin-top: 20px!important;
+  margin-bottom: 20px!important;
+}
+
+.ux_banner .social-icons{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.text-box-dark,
+.text-box-light,
+.text-box-primary{
+  display: inline;
+  line-height: 140%!important;
+  padding: 5px 15px 6px;
+}
+.text-box-dark{
+  background-color: rgba(0,0,0,.8);
+  color: #ffffff;
+}
+.text-box-light{
+  background-color: #ffffff;
+  color: #111111;
+}
+.text-box-primary{
+  background: $primary-color;
+  color: #ffffff;
+}
+.dark .text-box-light{
+  color: #000000;
+}
+
+.ux_banner .inner.text-boxed > .inner-wrap{
+  -webkit-box-shadow: 0 1px 10px 0 rgba(0, 0, 0, .1);
+          box-shadow: 0 1px 10px 0 rgba(0, 0, 0, .1);
+}
+
+/* -- text styles -- */
+.text-bordered-white,
+.text-bordered-primary,
+.text-bordered-dark{
+  border: 2px solid #ffffff;
+  padding: 5px;
+  display: inline-block;
+}
+.text-bordered-dark{
+  border-color: #000000;
+}
+h1.text-bordered-white,
+h1.text-bordered-primary,
+h1.text-bordered-dark{
+  padding: 15px;
+}
+
+.text-boarder-top-bottom-white,
+.text-boarder-top-bottom-dark{
+  border-top: 3px solid #ffffff;
+  padding-top: 15px;
+  border-bottom: 3px solid #ffffff;
+  padding-bottom: 15px;
+  display: inline-block;
+}
+.text-boarder-top-bottom-dark{
+  border-color: #000000;
+}
+
+/* -- category banners -- */
+.ux_banner .cat-count,
+.ux_banner .cat-title{
+  position: relative;
+}
+.ux_banner .cat-title{
+  bottom: -10px;
+}
+.ux_banner .cat-count{
+  opacity: 0;
+  bottom: -15px;
+  font-size: 13px;
+}
+.ux_banner:hover .cat-count{
+  opacity: 1;
+  bottom: 0;
+}
+.ux_banner:hover .cat-title{
+  opacity: 1;
+  bottom: 0;
+}
+
+
+
+
+/* -- hover styles -- */
+.ux_banner.hover_fade .banner-bg,
+.ux_banner.hover_zoom .banner-bg,
+.ux_banner.hover_blur .banner-bg{
+  -webkit-transition: all .3s ease-out;
+     -moz-transition: all .3s ease-out;
+          transition: all .3s ease-out;
+}
+
+/* -- hover style : fade effect --*/
+.ux_banner.hover_fade:hover .banner-bg{
+  opacity: .5;
+};
+
+/* -- hover style : hover zoom --*/
+.ux_banner.hover_zoom:hover .banner-bg{
+  opacity: .5;
+  -webkit-transform: scale(1.15);
+     -moz-transform: scale(1.15);
+       -o-transform: scale(1.15);
+          transform: scale(1.15);
+};
+/* -- hover style : blur -- */
+.ux_banner.hover_blur{
+  background-color: #666666!important;
+};
+.ux_banner.hover_blur:hover .banner-bg{
+  opacity: .7;
+          filter: blur(4px);
+       -o-filter: blur(4px);
+      -ms-filter: blur(4px);
+     -moz-filter: blur(4px);
+  -webkit-filter: blur(4px);
+}
+
+
+/* -- Slide Effects -- */
+.ux-slider .slide-zoom-in{
+  transition: transform 15s linear!important;
+  transform: translateY(0) scale(1)!important;
+}
+.ux-slider .is-selected .slide-zoom-in{
+  transform: translateY(15%) scale(1.3)!important;
+}
+.ux-slider .flickity-slider .slide-zoom-out{
+  transition: transform 15s linear!important;
+  transform: translateY(15%) scale(1.3)!important;
+}
+.ux-slider .is-selected .slide-zoom-out{
+  transform: translateY(0) scale(1)!important;
+}
+
+
+/* -- video overlay -- */
+.ux-banner-video{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: 1;
+}
+
+.ux-youtube{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
+}
+
+/* -- font sizes -- */
+.ux_banner h1{
+  font-weight: bolder;
+  font-size: 350%;
+  line-height: 95%;
+  margin: 15px 0;
+}
+.ux_banner h2{
+  font-size: 300%;
+  line-height: 100%;
+  margin: 15px 0;
+}
+.ux_banner h3{
+  font-size: 200%;
+  line-height: 100%;
+  margin: 15px 0;
+}
+.ux_banner h4{
+  font-size: 150%;
+  line-height: 100%;
+  margin: 10px 0;
+}
+.ux_banner h5{
+  font-size: 100%;
+  line-height: 100%;
+  margin: 10px 0;
+}
+.ux_banner h6{
+  font-size: 60%;
+  line-height: 100%;
+  margin: 10px 0;
+}
+.ux_banner p,{
+  font-size: 60%;
+  line-height: 120%;
+  margin-bottom: 15px!important;
+}
+.ux_banner strong{
+  font-weight: 800;
+}
+
+/* large headers */
+.h-large{
+  font-size: 200%;
+  line-height: 100%;
+}
+.h-xlarge{
+  font-size: 300%;
+  line-height: 100%;
+}
+.h-xxlarge{
+  font-size: 400%;
+  line-height: 100%;
+}
+.ux_banner .h-large{
+  font-size: 650%;
+  line-height: 85%;
+  padding: 0!important;
+}
+.ux_banner .h-xlarge{
+  font-size: 1200%;
+  line-height: 85%;
+  padding: 0!important;
+}
+.ux_banner .h-xxlarge{
+  font-size: 1500%;
+  line-height: 85%;
+  padding: 0!important;
+}
+
+.large-1 .ux_banner,
+.large-2 .ux_banner{
+  font-size: 7px;
+}
+.grid-small-height.large-6 .ux_banner,
+.large-3 .ux_banner,
+.large-4 .ux_banner{
+  font-size: 8px;
+}
+.large-6 .ux_banner{
+  font-size: 14px;
+}
+.large-7 .ux_banner{
+  font-size: 14px;
+}
+.large-8 .ux_banner{
+  font-size: 14px;
+}
+.large-9 .ux_banner{
+  font-size: 14px;
+}
+
+.large-1 .ux_banner .button,
+.large-2 .ux_banner .button,
+.large-3 .ux_banner .button,
+.large-4 .ux_banner .button{
+  font-size: 140%;
+}
+
+.large-6 .ux_banner .text-boxed,
+.large-5 .ux_banner .text-boxed,
+.large-4 .ux_banner .text-boxed{
+  min-width: 50%;
+}
+.large-3 .ux_banner .text-boxed{
+  min-width: 80%;
+}
+
+/* input styles */
+.ux_banner .text-center input.ninja-forms-field{
+  text-align: center;
+}
+.ux_banner input.ninja-forms-field.button{
+  margin-top: 0!important;
+}
+.ux_banner input[type='text'].ninja-forms-field{
+  padding: .6em;
+  font-size: 100%;
+}
+.ux_banner .ninja-forms-success-msg p{
+  color: #000000;
+  padding: 10px;
+  border: 1px solid #000000;
+  margin: 0;
+}
+.ux_banner.dark .ninja-forms-success-msg p{
+  color: #ffffff;
+  padding: 10px;
+  border: 1px solid #ffffff;
+  margin: 0;
+}
+
+
+/* rotate styles */
+.ux_banner .tilt-right{
+      -ms-transform: rotate(3deg); /* IE 9 */
+  -webkit-transform: rotate(3deg); /* Chrome, Safari, Opera */
+          transform: rotate(3deg);
+}
+
+.ux_banner .tilt-left{
+      -ms-transform: rotate(-3deg); /* IE 9 */
+  -webkit-transform: rotate(-3deg); /* Chrome, Safari, Opera */
+          transform: rotate(-3deg);
+}
+
+/* smaller font sizes on small columns */
+@media only screen and (max-width:500px){
+  .ux_banner .inner{
+    min-width: 60%!important;
+  }
+  .ux_banner{
+    font-size: 9px;
+  }
+  .ux_banner p{
+    font-size: 120%;
+  }
+}
+
+@media only screen and (min-width:500px){
+  .ux_banner{
+    font-size: 10px;
+  }
+  .ux_banner p{
+    font-size: 115%;
+  }
+}
+
+@media only screen and (min-width:600px){
+  .ux_banner{
+    font-size: 12px;
+  }
+  .ux_banner p{
+    font-size: 110%;
+  }
+}
+
+@media only screen and (min-width:$small-screen){
+  .ux_banner{
+    font-size: 16px;
+  }
+  .ux_banner p{
+    font-size: 100%;
+  }
+}
+
+/* mobile fixes */
+@media only screen and (max-width:$mobile-screen){
+  .ux-section .banner-bg,
+  .ux_banner .banner-bg{
+    margin-top: 0!important;
+    -webkit-transform: none!important;
+       -moz-transform: none!important;
+         -o-transform: none!important;
+            transform: none!important;
+    opacity: 1!important;
+  }
+}
+
+/* Touch fix */
+html[data-useragent*='iPad'] .ux-banner-video{
+  display: none!important;
+}
+
+html[data-useragent*='Android'] .ux-section .banner-bg.ux_parallax,
+html[data-useragent*='Android'] .ux_banner .banner-bg.ux_parallax,
+html[data-useragent*='iPad'] .ux-section .banner-bg.ux_parallax,
+html[data-useragent*='iPad'] .ux_banner .banner-bg.ux_parallax,
+html[data-useragent*='iPhone'] .ux-section .banner-bg.ux_parallax,
+html[data-useragent*='iPhone'] .ux_banner .banner-bg.ux_parallax{
+  background-position: 50% 20%!important;
+  background-size: cover!important;
+  background-attachment: scroll!important;
+  opacity: 1!important;
+}

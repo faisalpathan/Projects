@@ -1,0 +1,44 @@
+.plhg-love-wrapper {font-size: 11px; color:#333;}
+.plhg-love-action {color:currentColor;}
+.plhg-love-action:hover,
+.plhg-love-action:focus {color:#000;}
+.plhg-love-icon {display: inline-block; margin-right: 5px; vertical-align: middle; fill:currentColor;}
+.plhg-loved .plhg-love-icon {-webkit-animation-duration: .3s; animation-duration: .3s; -webkit-animation-fill-mode: both; animation-fill-mode: both; -webkit-animation-name: plhg-pulse; animation-name: plhg-pulse; fill:#cd2122; }
+.plhg-love-action.plhg-loved{ cursor: default; }
+.plhg-is-loved .plhg-love-icon {fill:#cd2122;}
+.plhg-love-count {display: inline-block; vertical-align: middle;}
+
+@-webkit-keyframes plhg-pulse {
+	0% {
+		-webkit-transform: scale3d(1,1,1);
+		transform: scale3d(1,1,1);
+		fill:currentColor;
+	}
+
+	50% {
+		-webkit-transform: scale3d(1.5,1.5,1.5);
+		transform: scale3d(1.5,1.5,1.5)
+	}
+
+	100% {
+		-webkit-transform: scale3d(1,1,1);
+		transform: scale3d(1,1,1);
+	}
+}
+@keyframes plhg-pulse {
+	0% {
+		-webkit-transform: scale3d(1,1,1);
+		transform: scale3d(1,1,1);
+		fill:currentColor;
+	}
+
+	50% {
+		-webkit-transform: scale3d(1.5,1.5,1.5);
+		transform: scale3d(1.5,1.5,1.5)
+	}
+
+	100% {
+		-webkit-transform: scale3d(1,1,1);
+		transform: scale3d(1,1,1);
+	}
+}

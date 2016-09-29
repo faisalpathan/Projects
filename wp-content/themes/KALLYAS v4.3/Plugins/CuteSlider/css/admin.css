@@ -1,0 +1,1094 @@
+/**************************************************/
+/*                  G E N E R A L                 */
+/**************************************************/
+
+.clear {
+	clear: both;
+	float: none !important;
+}
+
+.cuteslider-icon {
+	width: 32px;
+	height: 32px;
+	float: left;
+	margin: 9px 8px 0px 0px;
+	background: transparent url(../img/icon_32x32.png) 0px 0px no-repeat;
+}
+
+.cs-box {
+	border: 1px solid #dfdfdf;
+	border-radius: 3px;
+	margin-bottom: 15px;
+}
+
+.cs-box .header, .cs-box thead {
+	height: 29px;
+	margin: 0px;
+	padding: 0px 10px;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #dfdfdf;
+	font: normal normal bold 12px/29px Arial, serif;
+	color: #333;
+	text-shadow: 0px 1px 0px #fff;
+
+	background: #f9f9f9; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f9f9f9 0%, #ededed 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f9f9f9), color-stop(100%,#ededed)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f9f9f9 0%,#ededed 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f9f9f9 0%,#ededed 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f9f9f9 0%,#ededed 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #f9f9f9 0%,#ededed 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
+}
+
+.cs-box .header {
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+
+.cs-box .inner {
+	padding: 10px;
+}
+
+.cs-box table {
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0px;
+}
+
+.cs-box thead td {
+	border-bottom: 1px solid #dfdfdf;
+	background: #f9f9f9; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f9f9f9 0%, #ededed 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f9f9f9), color-stop(100%,#ededed)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f9f9f9 0%,#ededed 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f9f9f9 0%,#ededed 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f9f9f9 0%,#ededed 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #f9f9f9 0%,#ededed 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
+}
+
+.cs-box tbody td {
+	height: 30px;
+	padding: 4px;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #e3e3e3;
+	font: normal normal normal 13px/16px Arial, serif;
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ffffff 0%, #fbfbfb 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#fbfbfb)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#fbfbfb 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ffffff 0%,#fbfbfb 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ffffff 0%,#fbfbfb 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ffffff 0%,#fbfbfb 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#fbfbfb',GradientType=0 ); /* IE6-9 */
+}
+
+.cs-box tbody tr.noborder td {
+	border-bottom: 0px;
+}
+
+.cs-box tfoot td {
+	padding: 10px;
+}
+
+.cs-box a {
+	text-decoration: none;
+}
+
+/**************************************************/
+/*                    LIST VIEW                   */
+/**************************************************/
+.wp-list-table {
+	margin: 15px 0px;
+}
+
+.cs-import-box  textarea {
+	width: 100%;
+	max-width: 100%;
+	height: 100px;
+}
+
+.cs-box.cs-slider-list table {
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0px;
+}
+
+.cs-box.cs-slider-list thead td {
+	padding-left: 10px;
+}
+
+.cs-box.cs-slider-list tbody td {
+	height: 20px;
+}
+
+.cs-box.cs-slider-list td:first-child {
+	text-align: center;
+}
+
+.cs-box.css-slider-list a {
+	text-decoration: none !important;
+}
+
+.cs-help-pointer .inner {
+	padding: 10px;
+	text-align: justify;
+}
+
+.cs-help-pointer .wp-pointer-arrow {
+	left: auto;
+	right: 10px;
+}
+
+/**************************************************/
+/*             EDIT SLIDER MAIN MENU              */
+/**************************************************/
+
+#cs-main-nav-bar {
+	height: 38px;
+	border: 1px solid #dfdfdf;
+	border-radius: 3px;
+	margin: 10px 0px;
+
+	background: #f9f9f9; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f9f9f9 0%, #ececec 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f9f9f9), color-stop(100%,#ececec)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f9f9f9 0%,#ececec 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f9f9f9 0%,#ececec 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f9f9f9 0%,#ececec 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #f9f9f9 0%,#ececec 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#ececec',GradientType=0 ); /* IE6-9 */
+
+}
+
+#cs-main-nav-bar a {
+	display: block;
+	height: 38px;
+	margin: 0px;
+	padding: 0px 10px 0px 34px;
+	float: left;
+
+	font: normal normal normal 13px/38px Arial, serif;
+	color: #2175a7;
+	text-decoration: none;
+	text-shadow: 0px 1px 0px #fff;
+}
+
+#cs-main-nav-bar a:last-child {
+	display: none;
+}
+
+#cs-main-nav-bar a.support {
+	float: right;
+}
+
+
+#cs-main-nav-bar a.active {
+	font: normal normal bold 12px/38px Arial, serif;
+	color: #464646;
+}
+
+#cs-main-nav-bar a.settings {
+	border-right: 1px solid #dfdfdf;
+	background: transparent url(../img/sprite.png) 10px 10px no-repeat;
+}
+
+#cs-main-nav-bar a.layers {
+	border-left: 1px solid #fff;
+	border-right: 1px solid #dfdfdf;
+	background: transparent url(../img/sprite.png) 10px -18px no-repeat;
+}
+
+#cs-main-nav-bar a.transitions {
+	border-left: 1px solid #fff;
+	border-right: 1px solid #dfdfdf;
+	background: transparent url(../img/sprite.png) 10px -409px no-repeat;
+}
+
+#cs-main-nav-bar a.callbacks {
+	border-left: 1px solid #fff;
+	background: transparent url(../img/sprite.png) 10px -46px no-repeat;
+}
+
+#cs-main-nav-bar a.support {
+	background: transparent url(../img/sprite.png) 10px -74px no-repeat;
+}
+
+.cs-page {
+	display: none;
+}
+
+.cs-page.active{
+	display: block;
+}
+
+/**************************************************/
+/*              EDIT SLIDER SETTINGS              */
+/**************************************************/
+
+.cs-settings tbody td:first-child {
+	width: 200px;
+	text-align: right;
+	font-size: 11px;
+}
+
+#post-body-content {
+	float: none;
+	margin: 0px;
+}
+
+#titlediv {
+	margin-bottom: 10px;
+}
+
+.cs-checkbox {
+	display: inline-block;
+	width: 35px;
+	height: 16px;
+	margin: 5px 0px 0px 2px;
+	position: relative;
+	background: transparent url(../img/sprite.png) 0px -224px no-repeat;
+}
+
+.cs-checkbox span {
+	display: inline-block;
+	width: 19px;
+	height: 19px;
+	position: absolute;
+	top: -2px;
+	left: 17px;
+	background: transparent url(../img/sprite.png) 0px -276px no-repeat;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+
+.cs-checkbox.on {
+	background: transparent url(../img/sprite.png) 0px -250px no-repeat;
+}
+
+.cs-checkbox.on span {
+	left: -2px;
+}
+
+.cs-box h4 {
+	margin: 0px;
+}
+
+.cs-box td.desc {
+	margin: 0px;
+	color: #9d9daa;
+	font-size: 11px;
+}
+
+.cs-box td div.reset-parent {
+	position: relative;
+}
+
+.cs-box .input, .cs-box select {
+	width: 150px;
+}
+
+.cs-box .cs-reset {
+	position: absolute;
+	top: 7px;
+	left: 135px;
+	width: 10px;
+	height: 10px;
+	border-radius: 5px;
+	background-color: #666;
+	font-size: 8px;
+	line-height: 10px;
+	text-align: center;
+	color: #fff;
+	cursor: pointer;
+	box-shadow: 0px 0px 5px 5px #fff;
+}
+
+.cs-slide-options .cs-reset {
+	left: 85px;
+}
+
+.cs-slide-options .checkbox, .cs-sublayers .checkbox {
+	width: auto;
+	height: auto;
+}
+
+#cs-icon-basic {
+	width: 16px;
+	height: 16px;
+	display: block;
+	float: left;
+	margin: 6px 8px 0px 10px;
+	background: transparent url(../img/sprite.png) 0px -112px no-repeat;
+}
+
+#cs-icon-slideshow, #cs-icon-preview {
+	width: 16px;
+	height: 16px;
+	display: block;
+	float: left;
+	margin: 6px 8px 0px 10px;
+	background: transparent url(../img/sprite.png) 0px -140px no-repeat;
+}
+
+#cs-icon-appearance {
+	width: 16px;
+	height: 16px;
+	display: block;
+	float: left;
+	margin: 6px 8px 0px 10px;
+	background: transparent url(../img/sprite.png) 0px -168px no-repeat;
+}
+
+#cs-icon-navigation {
+	width: 16px;
+	height: 16px;
+	display: block;
+	float: left;
+	margin: 6px 8px 0px 10px;
+	background: transparent url(../img/sprite.png) 0px -335px no-repeat;
+}
+
+#cs-icon-misc {
+	width: 16px;
+	height: 16px;
+	display: block;
+	float: left;
+	margin: 6px 8px 0px 10px;
+	background: transparent url(../img/sprite.png) 0px -196px no-repeat;
+}
+
+/**************************************************/
+/*               EDIT SLIDER LAYERS               */
+/**************************************************/
+
+.cs-layer-box {
+	display: none;
+}
+
+.cs-layer-box.active {
+	display: block;
+}
+
+#cs-icon-layer-options {
+	width: 16px;
+	height: 16px;
+	display: block;
+	float: left;
+	margin: 6px 8px 0px 10px;
+	background: transparent url(../img/sprite.png) 0px -363px no-repeat;
+}
+
+
+#cs-sample-slide, #cs-sample-caption{
+	display: none;
+}
+
+#cs-layer-tabs {
+	position: relative;
+	top: 1px;
+	z-index: 1;
+}
+
+#cs-layer-tabs a {
+	display: block !important;
+	position: relative;
+	width: 78px;
+	height: 30px;
+	padding: 0px 10px;
+	border: 1px solid #dfdfdf;
+	color: #c7c7c7;
+	background-color: #f9f9f9;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	text-decoration: none;
+	font: normal normal bold 13px/30px Arial, serif;
+	float: left;
+	margin: 3px 3px 0px 0px;
+}
+
+#cs-layer-tabs .ui-sortable-helper {
+	position: absolute !important;
+}
+
+#cs-layer-tabs a span {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	top: 8px; right: 10px;
+	border: 1px solid #ad1714;
+	font: normal normal normal 10px/10px Arial, serif;
+	color: #FFF;
+	background-color: #db1b17;
+	border-radius: 6px;
+	text-align: center;
+	-webkit-box-shadow:inset 1px 1px 0px rgba(255,255,255,0.2),1px 1px 0px #fff;
+	-moz-box-shadow:inset 1px 1px 0px rgba(255,255,255,0.2),1px 1px 0px #fff;
+	box-shadow:inset 1px 1px 0px rgba(255,255,255,0.2),1px 1px 0px #fff;
+}
+
+#cs-layer-tabs a span {
+	display: none;
+}
+
+#cs-add-layer {
+	border: 0px !important;
+	margin: 4px 0px 0px 5px !important;
+	padding: 0px 0px 0px 20px !important;
+	color: #2175a7 !important;
+	font-weight: normal !important;
+	background: #fff url(../img/sprite.png) 0px -302px no-repeat !important;
+	width: auto !important;
+}
+
+#cs-layer-tabs a.active {
+	color: #333;
+	border-bottom: 1px solid #f9f9f9;
+	background: #f9f9f9; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f2f2f2 0%, #f9f9f9 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f2f2f2), color-stop(100%,#f9f9f9)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f2f2f2 0%,#f9f9f9 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f2f2f2 0%,#f9f9f9 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f2f2f2 0%,#f9f9f9 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #f2f2f2 0%,#f9f9f9 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#f9f9f9',GradientType=0 ); /* IE6-9 */
+}
+
+#cs-layer-tabs a.active span {
+	display: inline-block;
+}
+
+.cs-layer-options-thead {
+	border-top: 0px !important;
+}
+
+
+.cs-slide-options input, .cs-slide-options select {
+	width: 80%;
+	margin-right: 5px;
+}
+
+.cs-slide-options td {
+	color: #999;
+	white-space: nowrap;
+}
+
+.cs-slide-options td:first-child {
+	width: 150px;
+	padding-right: 10px;
+	text-align: right;
+	color: #333;
+}
+
+.cs-slide-options .right {
+	text-align: right;
+}
+
+.cs-layer-duplicate {
+	float: right;
+	margin-right: 8px;
+	font-weight: normal;
+}
+
+.cs-slide-options .cs-reset {
+	left: 80% !important;
+	margin-left: -15px;
+}
+
+
+/**************************************************/
+/*                  P R E V I E W                 */
+/**************************************************/
+
+.cs-preview {
+	background-position: center center;
+	overflow: hidden;
+}
+
+.cs-preview .cs-slide-image {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+}
+
+.cs-preview-td {
+	background-color: white !important;
+}
+
+.cs-preview-wrapper {
+	margin: 0px auto;
+	position: relative;
+}
+
+.cs-preview, .cs-preview .draggable {
+	width: 600px;
+	height: 300px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	margin: 10px auto;
+	position: relative;
+}
+
+.cs-preview .draggable {
+	border: 0px;
+	margin: 0px;
+	overflow: hidden;
+	background-color: transparent;
+	background-position: center center !important;
+}
+
+.cs-preview .draggable > * {
+	position: absolute;
+	margin: 0px;
+	padding: 0px;
+	line-height: normal;
+}
+
+.cs-preview .draggable img {
+	min-width: none;
+	max-width: none;
+}
+
+.cs-preview-button {
+	margin: 0px 0px 10px 10px
+}
+
+.cs-real-time-preview {
+	display: none;
+}
+
+.cuteslider {
+	margin: 10px auto;
+	background-position: center center;
+}
+
+
+
+
+/**************************************************/
+/*                 S U B L A Y E R S               */
+/**************************************************/
+
+.cs-add-sublayer {
+	display: inline-block;
+	height: 20px;
+	border: 0px !important;
+	margin: 10px 0px 10px 10px !important;
+	padding: 0px 0px 0px 20px !important;
+	color: #2175A7 !important;
+	font-weight: normal !important;
+	background: white url(../img/sprite.png) 0px -306px no-repeat !important;
+	text-decoration: none;
+	font: normal normal normal 13px/20px Arial, serif;
+}
+
+#cs-icon-captions {
+	width: 16px;
+	height: 16px;
+	display: block;
+	float: left;
+	margin: 6px 8px 0px 10px;
+	background: transparent url(../img/sprite.png) 0px -391px no-repeat;
+}
+
+.cs-captions td {
+	height: 38px;
+	padding: 0px !important;
+}
+
+.cs-captions tr {
+	cursor: pointer;
+}
+
+.cs-caption-wrapper {
+	position: relative;
+}
+
+.cs-caption-number {
+	display: block;
+	width: 30px;
+	height: 20px;
+	float: left;
+	margin: 7px;
+	border-radius: 10px;
+	border: 1px solid #cdcdcd;
+	background-color: #dfdfdf;
+	text-align: center;
+	color: #818181;
+	font: normal normal normal 13px/20px Arial, serif;
+	box-shadow: inset 0px 0px 2px #CCC;
+}
+
+.ls-highlight {
+	display: block;
+	margin: 12px 7px 0px 0px;
+	float: left;
+	text-align: center;
+}
+
+.cs-caption-title {
+	float: left;
+	margin: 0px;
+	margin-top: 7px;
+	font: normal normal normal 12px/14px Arial, serif;
+	color: #333;
+	background-color: transparent !important;
+	border: 1px solid transparent !important;
+}
+
+.cs-caption-title:hover, .cs-caption-title:focus {
+	border: 1px solid #7F9AB7 !important;
+	background-color: transparent !important;
+}
+
+.cs-captions tr.active .cs-caption-wrapper {
+	border-top: 1px solid #ecf3fc;
+	border-bottom: 0px;
+	background: #d8eafa; /* Old browsers */
+	background: -moz-linear-gradient(top,  #d8eafa 0%, #c4daf6 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d8eafa), color-stop(100%,#c4daf6)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #d8eafa 0%,#c4daf6 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #d8eafa 0%,#c4daf6 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #d8eafa 0%,#c4daf6 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #d8eafa 0%,#c4daf6 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d8eafa', endColorstr='#c4daf6',GradientType=0 ); /* IE6-9 */
+}
+
+/* SUBLAYER OPTIONS */
+
+.cs-caption-options td {
+	color: #999;
+}
+
+.cs-caption-options td.right {
+	padding-right: 10px !important;
+	text-align: right;
+}
+
+.cs-caption-options input, .cs-caption-options select {
+	width: 80px;
+}
+
+.cs-caption-options td:first-child {
+	width: 150px;
+	padding-right: 10px !important;
+	text-align: right;
+	color: #333;
+}
+
+/* SUBLAYER LINK */
+
+.cs-caption-link td {
+	color: #999;
+}
+
+.cs-caption-link .url {
+	width: 400px;
+}
+
+.cs-caption-link input {
+	width: 400px;
+}
+
+.cs-caption-link td:first-child {
+	width: 150px;
+	padding-right: 10px !important;
+	text-align: right;
+	color: #333;
+}
+
+/* SUBLAYER STYLE */
+
+.cs-caption-style td {
+	color: #999;
+}
+
+.cs-caption-style td.right {
+	padding-right: 10px !important;
+	text-align: right;
+}
+
+.cs-caption-style input, .cs-caption-style select {
+	width: 95px;
+}
+
+.cs-caption-style td:first-child {
+	width: 150px;
+	padding-right: 10px !important;
+	text-align: right;
+	color: #333;
+}
+
+.cs-caption-style textarea {
+	width: 100%;
+	height: 100px;
+	margin: 10px 0px;
+}
+
+.cs-caption-style .style {
+	width: 300px;
+}
+
+/* SUBLAYER ATTRIBUTES */
+
+.cs-caption-attributes td {
+	color: #999;
+}
+
+.cs-caption-attributes td.right {
+	padding-right: 10px !important;
+	text-align: right;
+}
+
+.cs-caption-attributes input {
+	width: 120px;
+}
+
+.cs-caption-attributes td:first-child {
+	width: 150px;
+	padding-right: 10px !important;
+	text-align: right;
+	color: #333;
+}
+
+/* SUBLAYER HTML */
+
+.cs-caption-html {
+	padding: 10px;
+}
+
+.cs-caption-html h5 {
+	margin: 0px 10px 10px 0px;
+	cursor: default !important;
+}
+
+.cs-caption-html textarea {
+	width: 100%;
+	height: 100px;
+}
+
+/**************************************************/
+/*               S K I N  E D I T O R             */
+/**************************************************/
+
+.cs-caption-pages {
+	display: none;
+}
+
+.cs-caption-pages tr {
+	cursor: default;
+}
+
+.cs-caption-page td {
+	padding: 5px 0px !important;
+}
+
+.cs-captions tr.active .cs-caption-pages {
+	display: block;
+}
+
+.cs-captions .active .cs-caption-number {
+	border: 1px solid #7f9ab7;
+	background-color: #b8cfe9;
+	box-shadow: inset 0px 0px 2px #b2c8e1;
+}
+
+.cs-captions .active .cs-caption-title {
+	color: #475e77;
+}
+
+.cs-captions .ui-sortable-helper {
+	box-shadow: 0px 8px 5px -4px rgba(0,0,0,0.1), 0px -8px 5px -4px rgba(0,0,0,0.1);
+}
+
+.cs-caption-nav {
+	width: 400px;
+	display: none;
+	position: absolute !important;
+	top: 6px;
+	right: 5px;
+	text-align: right;
+}
+
+.cs-caption-nav a {
+	display: inline-block;
+	height: 30px;
+	padding: 0px 10px;
+	border: 1px solid transparent;
+	border-bottom: 0px;
+	text-decoration: none;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	font: normal normal normal 13px/30px Arial, serif;
+}
+
+.cs-caption-nav a.active {
+	border: 1px solid #b8cfe9;
+	border-bottom: 0px;
+	background-color: #fff;
+}
+
+.cs-caption-nav a.remove {
+	width: 10px;
+	height: 10px;
+	padding: 0px;
+	margin: 0px 10px;
+	position: relative;
+	top: -2px;
+	border: 1px solid #ad1714;
+	font: normal normal normal 10px/10px Arial, serif;
+	color: #FFF;
+	background-color: #db1b17;
+	border-radius: 6px;
+	text-align: center;
+	-webkit-box-shadow:inset 1px 1px 0px rgba(255,255,255,0.2),1px 1px 0px #fff;
+	-moz-box-shadow:inset 1px 1px 0px rgba(255,255,255,0.2),1px 1px 0px #fff;
+	box-shadow:inset 1px 1px 0px rgba(255,255,255,0.2),1px 1px 0px #fff;
+}
+
+.cs-captions .active .cs-caption-nav {
+	display: block;
+}
+
+.cs-caption-pages {
+	background-color: #fff;
+	cursor: default;
+}
+
+.cs-caption-pages .cs-caption-page {
+	display: none;
+}
+
+.cs-caption-pages .cs-caption-page.active {
+	display: block;
+}
+
+.cs-caption-wrapper {
+	width: 100%;
+}
+
+/**************************************************/
+/*                 TRANSITION BOXES               */
+/**************************************************/
+
+.cs-transition-page {
+	margin: 0px -10px 0px 0px;
+}
+
+.cs-transition-box {
+	margin-bottom: 15px;
+}
+
+.cs-transition-box ul {
+	margin: 0px;
+}
+
+.cs-transition-box ul li {
+	height: 16px;
+	padding: 0px 0px 5px 5px;
+	margin-bottom: 5px;
+	border-bottom: 1px solid #E3E3E3;
+	font: normal normal normal 14px/16px Arial, sans-serif;
+	color: #999;
+}
+
+.cs-transition-box ul li:first-child {
+	padding-top: 5px;
+}
+
+.cs-transition-box ul li:last-child {
+	margin: 0px;
+	border: 0px;
+}
+
+
+.cs-transition-box a.add,
+.cs-transition-box a.remove {
+	float: right;
+	margin-right: 5px;
+	font: normal normal normal 14px/16px Arial, sans-serif;
+	color: #999;
+}
+
+.cs-transition-box a.remove {
+	color: red !important;
+}
+
+.cs-transition-preview {
+	position: absolute;
+	left: 50%;
+	top: 50px;
+	width: 290px;
+	height: 150px;
+	padding: 10px;
+	background-color: #fff;
+	z-index: 100000;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px #000;
+}
+
+.cs-transition-preview iframe {
+	width: 290px;
+	height: 150px;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+#cs-hidden {
+	display: none !important;
+}
+
+#cs-transition-text {
+	font: normal normal normal 13px/16px Arial, serif;
+	color: #999;
+	text-align: justify;
+	padding: 0px 0px 15px 0px !important;
+	margin: 0px !important;
+}
+
+#cs-transitions-cols {
+	width: 630px;
+	margin: 13px auto -15px auto;
+}
+
+.cs-transitions-col1,
+.cs-transitions-col2,
+.cs-transitions-col3 {
+	width: 200px;
+	float: left;
+}
+
+.cs-transitions-col1,
+.cs-transitions-col2 {
+	margin-right: 15px;
+}
+
+.cs-transitions-overlay {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 1000;
+	top: 0px;
+	left: 0px;
+	background-color: #000;
+	opacity: 0.6;
+}
+
+.cs-transitions-close {
+	width: 30px;
+	height: 30px;
+	border-radius: 15px;
+	background-color: #000;
+	position: absolute;
+	top: -15px;
+	right: -15px;
+	color: #fff;
+	line-height: 30px;
+	text-align: center;
+	cursor: pointer;
+}
+
+/**************************************************/
+/*                  CALLBACK BOXES                */
+/**************************************************/
+
+.cs-callback-page {
+	margin: 0px -10px 0px 0px;
+}
+
+.cs-box.cs-callback-box {
+	width: 33.33%;
+	float: left;
+	margin: 0px 10px 10px 0px;
+}
+
+
+.cs-box.cs-callback-box.side {
+	margin-right: 0px;
+}
+
+.cs-box.cs-callback-box textarea{
+	width: 100%;
+	height: 150px;
+}
+
+/**************************************************/
+/*                     PUBLISH                    */
+/**************************************************/
+
+.cs-publish button {
+	float: left;
+}
+
+
+.cs-saving-warning {
+	float: left;
+	margin: 5px 0px 0px 10px;
+}
+
+
+.wp-core-ui button.saving, .wp-core-ui button.saving:disabled, .wp-core-ui button.saving[disabled] {
+	text-shadow: none !important;
+	cursor: default !important;
+	color: white !important;
+	background: #ff3232 !important;
+	background: -moz-linear-gradient(top, #ff3232 0%, #b50000 100%) !important;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff3232), color-stop(100%,#b50000)) !important;
+	background: -webkit-linear-gradient(top, #ff3232 0%,#b50000 100%) !important;
+	background: -o-linear-gradient(top, #ff3232 0%,#b50000 100%) !important;
+	background: -ms-linear-gradient(top, #ff3232 0%,#b50000 100%) !important;
+	background: linear-gradient(to bottom, #ff3232 0%,#b50000 100%) !important;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3232', endColorstr='#b50000',GradientType=0 ) !important;
+	border: 1px solid #ff3232 !important;
+}
+
+.wp-core-ui button.saved, .wp-core-ui button.saved:disabled, .wp-core-ui button.saved[disabled], button.playing {
+	text-shadow: none !important;
+	color: white !important;
+	background: #76c928 !important;
+	background: -moz-linear-gradient(top, #76c928 0%, #3e7f19 100%) !important;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#76c928), color-stop(100%,#3e7f19)) !important;
+	background: -webkit-linear-gradient(top, #76c928 0%,#3e7f19 100%) !important;
+	background: -o-linear-gradient(top, #76c928 0%,#3e7f19 100%) !important;
+	background: -ms-linear-gradient(top, #76c928 0%,#3e7f19 100%) !important;
+	background: linear-gradient(to bottom, #76c928 0%,#3e7f19 100%) !important;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#76c928', endColorstr='#3e7f19',GradientType=0 ) !important;
+	border: 1px solid #76c928 !important;
+}
+
+/**************************************************/
+/*               S K I N  E D I T O R             */
+/**************************************************/
+
+.cs-skin-editor-box {
+	margin-top: 10px;
+}
+
+.cs-skin-editor-box h3 {
+	height: 35px !important;
+	line-height: 35px !important;
+}
+
+.cs-skin-editor-box h3 p {
+	margin: 0px;
+	margin-right: -5px;
+	font-weight: normal;
+	float: right;
+}
+
+.cs-skin-editor-box textarea {
+	min-width: 100%;
+	width: 100%;
+	max-width: 100%;
+	height: 500px;
+}
+
+.cs-skin-editor-box .inner p {
+	margin: 5px 0px;
+}

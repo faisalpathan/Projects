@@ -1,0 +1,154 @@
+@keyframes rain {
+  0% {
+    background-position: 0px 0px; }
+
+  100% {
+    background-position: 500px 1000px; } }
+@-moz-keyframes rain {
+  0% {
+    background-position: 0px 0px; }
+
+  100% {
+    background-position: 500px 1000px; } }
+@-webkit-keyframes rain {
+  0% {
+    background-position: 0px 0px; }
+
+  100% {
+    background-position: 500px 1000px; } }
+@-ms-keyframes rain {
+  0% {
+    background-position: 0px 0px; }
+
+  100% {
+    background-position: 500px 1000px; } }
+.effect-rain.banner-effect {
+  background-image: url("effects/rain.png");
+  -webkit-animation: rain 2s linear infinite;
+  -moz-animation: rain 2s linear infinite;
+  -ms-animation: rain 2s linear infinite;
+  animation: rain 2s linear infinite; }
+
+@keyframes sparkle {
+  0% {
+    background-position: 0px 0px, 0px 0px, 0px 0px; }
+
+  100% {
+    background-position: -500px -1000px, -400px -400px, 300px 300px; } }
+@-moz-keyframes sparkle {
+  0% {
+    background-position: 0px 0px, 0px 0px, 0px 0px; }
+
+  100% {
+    background-position: -500px -1000px, -400px -400px, 300px 300px; } }
+@-webkit-keyframes sparkle {
+  0% {
+    background-position: 0px 0px, 0px 0px, 0px 0px; }
+
+  100% {
+    background-position: -500px -1000px, -200px -400px, 300px 300px; } }
+@-ms-keyframes sparkle {
+  0% {
+    background-position: 0px 0px, 0px 0px, 0px 0px; }
+
+  100% {
+    background-position: -500px -1000px, -400px -400px, 300px 300px; } }
+.effect-sparkle.banner-effect {
+  background-image: url("effects/sparkle1.png"), url("effects/sparkle2.png");
+  -webkit-animation: sparkle 60s linear infinite;
+  -moz-animation: sparkle 60s linear infinite;
+  -ms-animation: sparkle 60s linear infinite;
+  animation: sparkle 60s linear infinite; }
+
+@keyframes glass {
+  0% {
+    background-position: 0px 0px, 0px 0px, 0px 0px; }
+
+  100% {
+    background-position: 500px 1000px, 400px 400px; } }
+@-moz-keyframes glass {
+  0% {
+    background-position: 0px 0px, 0px 0px, 0px 0px; }
+
+  100% {
+    background-position: 500px 1000px, 400px 400px; } }
+@-webkit-keyframes glass {
+  0% {
+    background-position: 0px 0px, 0px 0px, 0px 0px; }
+
+  100% {
+    background-position: 500px 1000px, -400px -400px; } }
+@-ms-keyframes glass {
+  0% {
+    background-position: 0px 0px, 0px 0px, 0px 0px; }
+
+  100% {
+    background-position: 500px 1000px, 400px 400px; } }
+.effect-sliding-glass.banner-effect {
+  background-image: url("effects/glass1.png"), url("effects/glass2.png");
+  -webkit-animation: glass 30s linear infinite;
+  -moz-animation: glass 30s linear infinite;
+  -ms-animation: glass 30s linear infinite;
+  animation: glass 30s linear infinite; }
+
+@keyframes confetti {
+  0% {
+    background-position: 0px 0px, 0px 0px, 0px 0px; }
+
+  100% {
+    background-position: 500px 1000px, 400px 400px, 300px 300px; } }
+@-moz-keyframes confetti {
+  0% {
+    background-position: 0px 0px, 0px 0px, 0px 0px; }
+
+  100% {
+    background-position: 500px 1000px, 400px 400px, 300px 300px; } }
+@-webkit-keyframes confetti {
+  0% {
+    background-position: 0px 0px, 0px 0px, 0px 0px; }
+
+  100% {
+    background-position: 500px 1000px, 400px 400px, 300px 300px; } }
+@-ms-keyframes confetti {
+  0% {
+    background-position: 0px 0px, 0px 0px, 0px 0px; }
+
+  100% {
+    background-position: 500px 1000px, 400px 400px, 300px 300px; } }
+.effect-confetti.banner-effect {
+  background-image: url("effects/confetti1.png"), url("effects/confetti2.png");
+  -webkit-animation: confetti 10s linear infinite;
+  -moz-animation: confetti 10s linear infinite;
+  -ms-animation: confetti 10s linear infinite;
+  animation: confetti 10s linear infinite; }
+
+@keyframes snow {
+  0% {
+    background-position: 0px 0px, 0px 0px, 0px 0px; }
+
+  100% {
+    background-position: 500px 1000px, 400px 400px, 300px 300px; } }
+@-moz-keyframes snow {
+  0% {
+    background-position: 0px 0px, 0px 0px, 0px 0px; }
+
+  100% {
+    background-position: 500px 1000px, 400px 400px, 300px 300px; } }
+@-webkit-keyframes snow {
+  0% {
+    background-position: 0px 0px, 0px 0px, 0px 0px; }
+
+  100% {
+    background-position: 500px 1000px, 400px 400px, 300px 300px; } }
+@-ms-keyframes snow {
+  0% {
+    background-position: 0px 0px, 0px 0px, 0px 0px; }
+
+  100% {
+    background-position: 500px 1000px, 400px 400px, 300px 300px; } }
+.effect-snow.banner-effect {
+  background-image: url("effects/snow1.png"), url("effects/snow2.png");
+  -webkit-animation: snow 20s linear infinite;
+  -moz-animation: snow 20s linear infinite;
+  -ms-animation: snow 20s linear infinite;
+  animation: snow 20s linear infinite; }

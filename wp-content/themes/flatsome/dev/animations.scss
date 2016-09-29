@@ -1,0 +1,108 @@
+/* Animations
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.animated,
+.ux-slider .start-anim.animated{
+  -webkit-backface-visibility: hidden;
+  animation-fill-mode: both;
+  opacity: 0!important;
+  transition: transform 1.3s, opacity 0.5s ease-in;
+  pointer-events:none;
+}
+
+.bounceInLeft,
+.bounceInUp,
+.bounceInDown,
+.bounceIn,
+.bounceInRight,
+.ux-slider .start-anim.bounceIn.animated,
+.ux-slider .start-anim.bounceInUp.animated,
+.ux-slider .start-anim.bounceInDown.animated,
+.ux-slider .start-anim.bounceInLeft.animated,
+.ux-slider .start-anim.bounceInUp.animated{
+  transition: transform .8s cubic-bezier(0.000, 0.195, 0.000, 1.465), opacity 0.5s ease-in;
+}
+
+.bounceInLeft,
+.ux-slider .start-anim.bounceInLeft{
+    transform: translate3d(-300px, 0, 0);
+}
+
+.fadeInLeft,
+.ux-slider .start-anim.fadeInLeft{
+   transform: translate3d(-30px, 0, 0);
+}
+
+.bounceInRight,
+.ux-slider .start-anim.bounceInRight{
+ transform: translate3d(300px, 0 , 0);
+}
+
+.fadeInRight,
+.ux-slider .start-anim.fadeInRight{
+ transform: translate3d(30px, 0 , 0);
+}
+
+.bounceIn,
+.ux-slider .start-anim.bounceIn{
+ transform: scale(1.3);
+}
+
+.bounceInUp,
+.fadeInUp,
+.ux-slider .start-anim.fadeInUp,
+.ux-slider .start-anim.bounceInUp{
+  transform: translate3d(0,30px,0);
+}
+
+.bounceInDown,
+.fadeInDown,
+.ux-slider .start-anim.fadeInDown,
+.ux-slider .start-anim.bounceInDown{
+ transform: translate3d(0,-30px,0);
+}
+
+.flipInY,
+.ux-slider .start-anim.flipInY{
+ transform: perspective(400px) rotate3d(0, 1, 0, -90deg) translate3d(15px,0,0);
+ backface-visibility: visible !important;
+
+}
+
+.flipInX,
+.ux-slider .start-anim.flipInX{
+  transform: perspective(400px) rotate3d(1, 0, 0, 90deg) translate3d(0,-15px,0);
+  backface-visibility: visible !important;
+}
+
+html[data-useragent*='iPhone'] .animated,
+.no-js .animated,
+.start-anim.animated,
+.ux-slider .is-selected .animated,
+.no-js .ux-slider .is-selected .animated{
+  pointer-events: inherit;
+  transition-delay: .1s;
+  transform: translate3d(0, 0, 0) scale(1);
+  opacity: 1!important;
+}
+
+.ux-slider .is-selected .start-anim.animated{
+  transition-delay: .3s;
+}
+
+
+/* Animated delay */
+.animated + .animated{
+  transition-delay: 0.2s;
+}
+
+.animated + .animated + .animated{
+ transition-delay: 0.4s;
+}
+
+.animated + .animated + .animated + .animated{
+  transition-delay: 0.6s;
+}
+
+.animated + .animated + .animated + .animated + .animated{
+  transition-delay: 0.8s;
+}

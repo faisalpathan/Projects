@@ -1,0 +1,1481 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Flatsome v1.9\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-04-06 09:19:39+0000\n"
+"Last-Translator: Nicola Mustone <mustone.nicola@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Italian\n"
+"X-Poedit-Country: ITALY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:22
+#@ flatsome
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Oops! Questa pagina non pu&ograve; essere trovata."
+
+#: 404.php:27
+#@ flatsome
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Sembra che non ci sia niente qui. Perch&egrave; non provi uno dei collegamenti qui sotto o fai una ricerca?"
+
+#: admin/classes/class.options_machine.php:556
+#@ default
+msgid "Last Backup : "
+msgstr "Ultimo Backup: "
+
+#: admin/front-end/options.php:43
+#: admin/front-end/options.php:67
+#@ default
+msgid "Save All Changes"
+msgstr "Salva tutte le modifiche"
+
+#: admin/front-end/options.php:68
+#@ default
+msgid "Load Preset"
+msgstr "Carica Preset"
+
+#: admin/front-end/options.php:69
+#@ default
+msgid "Options Reset"
+msgstr "Resetta Opzioni"
+
+#: archive.php:40
+#, php-format
+#@ flatsome
+msgid "Category Archives: %s"
+msgstr "Archivio Categoria: %s"
+
+#: archive.php:43
+#, php-format
+#@ flatsome
+msgid "Tag Archives: %s"
+msgstr "Archivio Tag: %s"
+
+#: archive.php:50
+#, php-format
+#@ flatsome
+msgid "Author Archives: %s"
+msgstr "Archivio Autore: %s"
+
+#: archive.php:58
+#, php-format
+#@ flatsome
+msgid "Daily Archives: %s"
+msgstr "Archivio GIornaliero: %s"
+
+#: archive.php:61
+#, php-format
+#@ flatsome
+msgid "Monthly Archives: %s"
+msgstr "Archivio Mensile: %s"
+
+#: archive.php:64
+#, php-format
+#@ flatsome
+msgid "Yearly Archives: %s"
+msgstr "Archivio Annuale: %s"
+
+#: archive.php:67
+#@ flatsome
+msgid "Asides"
+msgstr "Laterali"
+
+#: archive.php:70
+#@ flatsome
+msgid "Images"
+msgstr "Immagini"
+
+#: archive.php:73
+#@ flatsome
+msgid "Videos"
+msgstr "Video"
+
+#: archive.php:76
+#@ flatsome
+msgid "Quotes"
+msgstr "Citazioni"
+
+#: archive.php:79
+#@ flatsome
+msgid "Links"
+msgstr "Collegamenti"
+
+#: comments.php:29
+#, php-format
+#@ flatsome
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Un pensiero su &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s pensieri su &ldquo;%2$s&rdquo;"
+
+#: comments.php:36
+#: comments.php:56
+#@ flatsome
+msgid "&larr; Older Comments"
+msgstr "&larr; Commenti pi&ugrave; vecchi"
+
+#: comments.php:37
+#: comments.php:57
+#@ flatsome
+msgid "Newer Comments &rarr;"
+msgstr "Commenti pi&ugrave; recenti &rarr;"
+
+#: comments.php:55
+#@ flatsome
+msgid "Comment navigation"
+msgstr "Navigazione commenti"
+
+#: comments.php:67
+#@ flatsome
+msgid "Comments are closed."
+msgstr "Commenti chiusi"
+
+#: content-page.php:17
+#: content-single.php:32
+#: content.php:46
+#: image.php:92
+#: page-left-sidebar-notitle.php:22
+#: page-right-sidebar-notitle.php:22
+#@ flatsome
+msgid "Pages:"
+msgstr "Pagine:"
+
+#. translators: used between list items, there is a space after the comma
+#: content-single.php:50
+#: content-single.php:53
+#: content.php:57
+#: content.php:65
+#: content.php:108
+#: content.php:116
+#: content.php:166
+#: content.php:186
+#@ flatsome
+msgid ", "
+msgstr ", "
+
+#: content-single.php:58
+#, php-format
+#@ flatsome
+msgid "This entry was posted in %1$s and tagged %2$s."
+msgstr "Questo elemento &egrave; stato inserito in %1$s e taggato %2$s."
+
+#: content-single.php:60
+#, php-format
+#@ flatsome
+msgid "This entry was posted in %1$s. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Questo elemento &egrave; stato inserito in %1$s. Aggiungilo ai <a href=\"%3$s\" title=\"Collegamento a %4$s\" rel=\"bookmark\">segnalibri</a>."
+
+#: content-single.php:88
+#@ flatsome
+msgid "by"
+msgstr "di"
+
+#: content.php:43
+#@ flatsome
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Continua a leggere <span class=\"meta-nav\">&rarr;</span>"
+
+#: content.php:60
+#, php-format
+#@ flatsome
+msgid "Posted in %1$s"
+msgstr "Inserito in %1$s"
+
+#: content.php:70
+#: content.php:121
+#: content.php:191
+#, php-format
+#@ flatsome
+msgid "Tagged %1$s"
+msgstr "Taggato %1$s"
+
+#: content.php:76
+#: content.php:132
+#: content.php:180
+#: inc/widgets/recent-posts.php:59
+#@ flatsome
+msgid "Leave a comment"
+msgstr "Lascia un commento"
+
+#: content.php:76
+#: content.php:132
+#: content.php:180
+#: inc/widgets/recent-posts.php:59
+#@ flatsome
+msgid "<strong>1</strong> Comment"
+msgstr "<strong>1</strong> Commento"
+
+#: content.php:76
+#: content.php:132
+#: content.php:180
+#: inc/widgets/recent-posts.php:59
+#@ flatsome
+msgid "<strong>%</strong> Comments"
+msgstr "<strong>%</strong> Commenti"
+
+#: content.php:111
+#: content.php:169
+#, php-format
+#@ flatsome
+msgid "%1$s"
+msgstr "%1$s"
+
+#: functions.php:164
+#: inc/class-tgm-plugin-activation.php:164
+#@ flatsome
+msgid "Install Required Plugins"
+msgstr "Installa Plugin Obbligatori"
+
+#: functions.php:165
+#: inc/class-tgm-plugin-activation.php:165
+#@ flatsome
+msgid "Install Plugins"
+msgstr "Installa Plugin"
+
+#: functions.php:166
+#: inc/class-tgm-plugin-activation.php:166
+#, php-format
+#@ flatsome
+msgid "Installing Plugin: %s"
+msgstr "Installa Plugin: %s"
+
+#: functions.php:167
+#@ flatsome
+msgid "Something went wrong with the plugin API."
+msgstr "Qualcosa &egrave, andata storta con le API del plugin."
+
+#: functions.php:168
+#: inc/class-tgm-plugin-activation.php:168
+#, php-format
+#@ flatsome
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "Questo tema necessita del seguente plugin: %1$s."
+msgstr[1] "Questo tema necessita dei seguenti plugin: %1$s."
+
+#: functions.php:169
+#: inc/class-tgm-plugin-activation.php:169
+#, php-format
+#@ flatsome
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "Questo tema consiglia il seguente plugin: %1$s."
+msgstr[1] "Questo tema consiglia i seguenti plugin: %1$s."
+
+#: functions.php:170
+#: inc/class-tgm-plugin-activation.php:170
+#, php-format
+#@ flatsome
+msgid "Sorry, but you do not have the correct permissions to install the %s plugin. Contact the administrator of this site for help on getting the plugin installed."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %s plugins. Contact the administrator of this site for help on getting the plugins installed."
+msgstr[0] "Ci dispiace, ma non hai i permessi necessari per installare il plugin %s. Contatta l'amministratore del sito per installare questo plugin."
+msgstr[1] "Ci dispiace, ma non hai i permessi necessari per installare i plugin %s. Contatta l'amministratore del sito per installare questi plugin."
+
+#: functions.php:171
+#: inc/class-tgm-plugin-activation.php:171
+#, php-format
+#@ flatsome
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "Il seguente plugin obbligatorio &egrave; attualmente inattivo: %1$s."
+msgstr[1] "I seguenti plugin obbligatori sono attualmente inattivi: %1$s."
+
+#: functions.php:172
+#: inc/class-tgm-plugin-activation.php:172
+#, php-format
+#@ flatsome
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "Il seguente plugin consigliato &egrave; attualmente non attivo: %1$s."
+msgstr[1] "I seguenti plugin consigliati sono attualmente non attivi: %1$s."
+
+#: functions.php:173
+#: inc/class-tgm-plugin-activation.php:173
+#, php-format
+#@ flatsome
+msgid "Sorry, but you do not have the correct permissions to activate the %s plugin. Contact the administrator of this site for help on getting the plugin activated."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %s plugins. Contact the administrator of this site for help on getting the plugins activated."
+msgstr[0] "Ci dispiace, ma non hai i permessi necessari per attivare il plugin %s. Contatta l'amministratore del sito per attivare questo plugin."
+msgstr[1] "Ci dispiace, ma non hai i permessi necessari per attivare i plugin %s. Contatta l'amministratore del sito per attivare questi plugin."
+
+#: functions.php:174
+#: inc/class-tgm-plugin-activation.php:174
+#, php-format
+#@ flatsome
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] "Il seguente plugin deve essere aggiornato all'ultima versione per assicurarne la massima compatibilit&agrave; con questo tema: %1$s."
+msgstr[1] "I seguenti plugin devono essere aggiornati all'ultima versione per assicurarne la massima compatibilit&agrave; con questo tema: %1$s."
+
+#: functions.php:175
+#: inc/class-tgm-plugin-activation.php:175
+#, php-format
+#@ flatsome
+msgid "Sorry, but you do not have the correct permissions to update the %s plugin. Contact the administrator of this site for help on getting the plugin updated."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %s plugins. Contact the administrator of this site for help on getting the plugins updated."
+msgstr[0] "Ci dispiace, ma non hai i permessi necessari per aggiornare il plugin %s. Contatta l'amministratore del sito per aggiornare il plugin."
+msgstr[1] "Ci dispiace, ma non hai i permessi necessari per aggiornare i plugin %s. Contatta l'amministratore del sito per aggiornare i plugin."
+
+#: functions.php:176
+#: inc/class-tgm-plugin-activation.php:176
+#@ flatsome
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Inizia l'installazione del plugin"
+msgstr[1] "Inizia l'installazione dei plugin"
+
+#: functions.php:177
+#: inc/class-tgm-plugin-activation.php:177
+#@ flatsome
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] "Attiva il plugin installato"
+msgstr[1] "Attiva i plugin installati"
+
+#: functions.php:178
+#: inc/class-tgm-plugin-activation.php:178
+#: inc/class-tgm-plugin-activation.php:490
+#@ flatsome
+msgid "Return to Required Plugins Installer"
+msgstr "Torna a Installatore dei plugin Obbligatori"
+
+#: functions.php:179
+#: inc/class-tgm-plugin-activation.php:179
+#: inc/class-tgm-plugin-activation.php:1846
+#@ flatsome
+msgid "Plugin activated successfully."
+msgstr "Plugin attivato con successo."
+
+#: functions.php:180
+#, php-format
+#@ flatsome
+msgid "All plugins installed and activated successfully. %s"
+msgstr "Tutti i plugin sono installati e attivati con successo. %s"
+
+#: functions.php:213
+#@ flatsome
+msgid "Main Menu"
+msgstr "Men&ugrave; Principale"
+
+#: functions.php:214
+#@ flatsome
+msgid "Footer Menu"
+msgstr "Men&ugrave; Footer"
+
+#: functions.php:215
+#@ flatsome
+msgid "Top bar Menu"
+msgstr "Men&ugrave; Barra superiore"
+
+#: functions.php:216
+#@ flatsome
+msgid "My Account Menu"
+msgstr "Men&ugrave; Mio Account"
+
+#: functions.php:231
+#@ flatsome
+msgid "Sidebar"
+msgstr "Sidebar"
+
+#: functions.php:241
+#@ flatsome
+msgid "Shop Sidebar"
+msgstr "Sidebar Negozio"
+
+#: functions.php:250
+#@ flatsome
+msgid "Product Sidebar"
+msgstr "Sidebar Prodotto"
+
+#: functions.php:260
+#@ flatsome
+msgid "Footer 1 (4 column)"
+msgstr "Footer 1 (4 colonne)"
+
+#: functions.php:270
+#@ flatsome
+msgid "Footer 2 (4 column)"
+msgstr "Footer 2 (4 colonne)"
+
+#: functions.php:352
+#@ default
+msgid "Flatsome Theme Options"
+msgstr "Theme Options Flatsome"
+
+#: header.php:170
+#@ woocommerce
+msgid "My Account"
+msgstr ""
+
+#: header.php:190
+#: woocommerce/myaccount/form-login.php:27
+#: woocommerce/myaccount/form-login.php:46
+#@ woocommerce
+msgid "Login"
+msgstr ""
+
+#: header.php:205
+#: inc/template-tags.php:246
+#@ woocommerce
+msgid "Cart"
+msgstr ""
+
+#: header.php:224
+#: inc/template-tags.php:304
+#@ woocommerce
+msgid "No products in the cart."
+msgstr ""
+
+#: image.php:25
+#, php-format
+#@ flatsome
+msgid "Published <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>"
+msgstr "Pubblicato <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> alle <a href=\"%3$s\" title=\"Collegamento all'immagine a dimensione originale\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Ritorna a %7$s\" rel=\"gallery\">%8$s</a>"
+
+#: image.php:36
+#: image.php:109
+#: inc/template-tags.php:77
+#: inc/template-tags.php:106
+#@ flatsome
+msgid "Edit"
+msgstr "Modifica"
+
+#: image.php:101
+#, php-format
+#@ flatsome
+msgid "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "<a class=\"comment-link\" href=\"#respond\" title=\"Aggiungi un commento\">Aggiungi un commento</a> o lascia un trackback: <a class=\"trackback-link\" href=\"%s\" title=\"URL trackback per il tuo post\" rel=\"trackback\">URL Trackback</a>."
+
+#: image.php:103
+#, php-format
+#@ flatsome
+msgid "Comments are closed, but you can leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "I commenti sono chiusi, ma puoi lasciare un trackback: <a class=\"trackback-link\" href=\"%s\" title=\"URL Trackback per il tuo articolo\" rel=\"trackback\">URL Trackback</a>."
+
+#: image.php:105
+#@ flatsome
+msgid "Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">post a comment</a>."
+msgstr "I trackback sono chiusi, ma puoi <a class=\"comment-link\" href=\"#respond\" title=\"Lascia un commento\">lasciare un commento</a>."
+
+#: image.php:107
+#@ flatsome
+msgid "Both comments and trackbacks are currently closed."
+msgstr "Sia commenti che trackback sono attualmente chiusi."
+
+#: image.php:114
+#: woocommerce/single-product-reviews.php:59
+#@ flatsome
+#@ woocommerce
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr "<span class=\"meta-nav\">&larr;</span> Precedente"
+
+#: image.php:115
+#: woocommerce/single-product-reviews.php:60
+#@ flatsome
+#@ woocommerce
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Successivo <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/class-tgm-plugin-activation.php:167
+#@ flatsome
+msgid "Something went wrong."
+msgstr "Qualcosa &egrave; andato storto."
+
+#: inc/class-tgm-plugin-activation.php:180
+#, php-format
+#@ flatsome
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Tutti i plugin sono stati installati ed attivati con successo. %1$s."
+
+#: inc/class-tgm-plugin-activation.php:517
+#: inc/class-tgm-plugin-activation.php:2058
+#@ flatsome
+msgid "Return to the Dashboard"
+msgstr "Ritorna alla Bacheca"
+
+#: inc/class-tgm-plugin-activation.php:545
+#, php-format
+#@ flatsome
+msgid "The following plugin was activated successfully: %s."
+msgstr "Il seguente plugin &egrave; stato attivato con successo: %s."
+
+#: inc/class-tgm-plugin-activation.php:704
+#@ flatsome
+msgid "Dismiss this notice"
+msgstr "Nascondi questo avviso"
+
+#: inc/class-tgm-plugin-activation.php:1091
+#@ flatsome
+msgid "External Link"
+msgstr "Collegamento Esterno"
+
+#: inc/class-tgm-plugin-activation.php:1096
+#@ flatsome
+msgid "Private Repository"
+msgstr "Repository Privata"
+
+#: inc/class-tgm-plugin-activation.php:1099
+#@ flatsome
+msgid "Pre-Packaged"
+msgstr "Pacchetto Preesistente"
+
+#: inc/class-tgm-plugin-activation.php:1103
+#@ flatsome
+msgid "WordPress Repository"
+msgstr "Repository di WordPress"
+
+#: inc/class-tgm-plugin-activation.php:1106
+#@ flatsome
+msgid "Required"
+msgstr "Obbligatorio"
+
+#: inc/class-tgm-plugin-activation.php:1106
+#@ flatsome
+msgid "Recommended"
+msgstr "Consigliato"
+
+#: inc/class-tgm-plugin-activation.php:1109
+#@ flatsome
+msgid "Not Installed"
+msgstr "Non Installato"
+
+#: inc/class-tgm-plugin-activation.php:1111
+#@ flatsome
+msgid "Installed But Not Activated"
+msgstr "Installato Ma Non Attivo"
+
+#: inc/class-tgm-plugin-activation.php:1281
+#, php-format
+#@ flatsome
+msgid "No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the Dashboard\">Return to the Dashboard</a>"
+msgstr "Nessun plugin installato o attivo. <a href=\"%1$s\" title=\"Ritorna alla Bacheca\">Ritorna alla Bacheca</a>"
+
+#: inc/class-tgm-plugin-activation.php:1297
+#@ flatsome
+msgid "Plugin"
+msgstr "Plugin"
+
+#: inc/class-tgm-plugin-activation.php:1298
+#@ flatsome
+msgid "Source"
+msgstr "Sorgente"
+
+#: inc/class-tgm-plugin-activation.php:1299
+#@ flatsome
+msgid "Type"
+msgstr "Tipo"
+
+#: inc/class-tgm-plugin-activation.php:1300
+#@ flatsome
+msgid "Status"
+msgstr "Stato"
+
+#: inc/class-tgm-plugin-activation.php:1318
+#@ flatsome
+msgid "Install"
+msgstr "Installa"
+
+#: inc/class-tgm-plugin-activation.php:1319
+#@ flatsome
+msgid "Activate"
+msgstr "Attiva"
+
+#: inc/class-tgm-plugin-activation.php:1544
+#@ flatsome
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "Il seguente plugin &egrave; stato attivato con successo:"
+msgstr[1] "I seguenti plugin sono stati attivati con successo:"
+
+#: inc/class-tgm-plugin-activation.php:1829
+#@ flatsome
+msgid "Install package not available."
+msgstr "Pacchetto d'installazione non disponibile."
+
+#: inc/class-tgm-plugin-activation.php:1830
+#, php-format
+#@ flatsome
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr "Scarimento del pacchetto di installazione da <span class=\"code\">%s</span>&#8230;"
+
+#: inc/class-tgm-plugin-activation.php:1831
+#@ flatsome
+msgid "Unpacking the package&#8230;"
+msgstr "Decomprimendo il pacchetto&#8230;"
+
+#: inc/class-tgm-plugin-activation.php:1832
+#@ flatsome
+msgid "Installing the plugin&#8230;"
+msgstr "Installando il plugin&#8230;"
+
+#: inc/class-tgm-plugin-activation.php:1833
+#@ flatsome
+msgid "Plugin install failed."
+msgstr "Installazione del plugin fallita."
+
+#: inc/class-tgm-plugin-activation.php:1834
+#@ flatsome
+msgid "Plugin installed successfully."
+msgstr "Plugin installato con successo."
+
+#: inc/class-tgm-plugin-activation.php:1845
+#@ flatsome
+msgid "Plugin activation failed."
+msgstr "Attivazione del plugin fallita."
+
+#: inc/class-tgm-plugin-activation.php:1955
+#@ flatsome
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "Il proceso di installazione ed attivazione sta iniziando Questo processo potrebbe durare alcuni minuti su certi host, per favore sii paziente."
+
+#: inc/class-tgm-plugin-activation.php:1956
+#, php-format
+#@ flatsome
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s installato e attivato con successo."
+
+#: inc/class-tgm-plugin-activation.php:1956
+#: inc/class-tgm-plugin-activation.php:1965
+#@ flatsome
+msgid "Show Details"
+msgstr "Mostra Dettagli"
+
+#: inc/class-tgm-plugin-activation.php:1956
+#: inc/class-tgm-plugin-activation.php:1965
+#@ flatsome
+msgid "Hide Details"
+msgstr "Nascondi Dettagli"
+
+#: inc/class-tgm-plugin-activation.php:1957
+#@ flatsome
+msgid "All installations and activations have been completed."
+msgstr "Tutte le installazioni e le attivazioni sono state completate."
+
+#: inc/class-tgm-plugin-activation.php:1958
+#, php-format
+#@ flatsome
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Installando e attivato il Plugin %1$s (%2$d/%3$d)"
+
+#: inc/class-tgm-plugin-activation.php:1962
+#@ flatsome
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "Il processo d'installazione sta iniziando. Questo processo potrebbe richiedere alcuni minuti su certi host, per favore sii paziente."
+
+#: inc/class-tgm-plugin-activation.php:1963
+#, php-format
+#@ flatsome
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "Errore durante l'installazione di %1$s: <strong>%2$s</strong>."
+
+#: inc/class-tgm-plugin-activation.php:1964
+#, php-format
+#@ flatsome
+msgid "The installation of %1$s failed."
+msgstr "Installazione di %1$s fallita."
+
+#: inc/class-tgm-plugin-activation.php:1965
+#, php-format
+#@ flatsome
+msgid "%1$s installed successfully."
+msgstr "%1$s installato con successo."
+
+#: inc/class-tgm-plugin-activation.php:1966
+#@ flatsome
+msgid "All installations have been completed."
+msgstr "Tutte le installazioni sono state completate."
+
+#: inc/class-tgm-plugin-activation.php:1967
+#, php-format
+#@ flatsome
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Installando il Plugin %1$s (%2$d/%3$d)"
+
+#: inc/custom-css.php:160
+#@ flatsome
+msgid "New"
+msgstr "Nuovo"
+
+#: inc/custom-css.php:161
+#@ flatsome
+msgid "Hot"
+msgstr "Hot"
+
+#: inc/custom-css.php:162
+#@ flatsome
+msgid "Sale"
+msgstr "Offerta"
+
+#: inc/custom-css.php:163
+#@ flatsome
+msgid "Popular"
+msgstr "Popolare"
+
+#: inc/extras.php:99
+#, php-format
+#@ flatsome
+msgid "Page %s"
+msgstr "Pagina %s"
+
+#: inc/extras.php:118
+#@ pippin
+msgid "Top Content"
+msgstr "Contenuto Superiore"
+
+#: inc/extras.php:124
+#@ pippin
+msgid "Enter a value for this field. Shortcodes are allowed. This will be displayed at top of the category."
+msgstr "Inserisci un valore per questo campo. Shortcode permessi. Questo contenuto verr&agrave; mostrare sopra ogni categoria."
+
+#: inc/post-types/blocks.php:27
+#@ default
+msgid "Title"
+msgstr "Titolo"
+
+#: inc/post-types/blocks.php:28
+#@ default
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: inc/post-types/blocks.php:29
+#@ default
+msgid "Date"
+msgstr "Data"
+
+#: inc/shortcodes/share_follow.php:21
+#@ flatsome
+msgid "Share on Facebook"
+msgstr "Condividi su Facebook"
+
+#: inc/shortcodes/share_follow.php:24
+#@ flatsome
+msgid "Share on Twitter"
+msgstr "Condividi su Twitter"
+
+#: inc/shortcodes/share_follow.php:27
+#@ flatsome
+msgid "Email to a Friend"
+msgstr "Invia per email ad un Amico"
+
+#: inc/shortcodes/share_follow.php:30
+#@ flatsome
+msgid "Pin on Pinterest"
+msgstr "Pin su Pinterest"
+
+#: inc/shortcodes/share_follow.php:33
+#@ flatsome
+msgid "Share on Google+"
+msgstr "Condividi su Google+"
+
+#: inc/shortcodes/share_follow.php:73
+#@ flatsome
+msgid "Follow us on Facebook"
+msgstr "Seguici su Facebook"
+
+#: inc/shortcodes/share_follow.php:76
+#@ flatsome
+msgid "Follow us on Twitter"
+msgstr "Seguici su Twitter"
+
+#: inc/shortcodes/share_follow.php:79
+#@ flatsome
+msgid "Send us an email"
+msgstr "Inviaci un'email"
+
+#: inc/shortcodes/share_follow.php:82
+#@ flatsome
+msgid "Follow us on Pinterest"
+msgstr "Seguici su Pinterest"
+
+#: inc/shortcodes/share_follow.php:85
+#@ flatsome
+msgid "Follow us on Google+"
+msgstr "Seguici su Google+"
+
+#: inc/shortcodes/share_follow.php:88
+#@ flatsome
+msgid "Follow us on Instagram"
+msgstr "Seguici su Instagram"
+
+#: inc/shortcodes/share_follow.php:91
+#@ flatsome
+msgid "Subscribe to RSS"
+msgstr "Iscriviti all'RSS"
+
+#: inc/shortcodes/share_follow.php:94
+#@ flatsome
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: inc/shortcodes/share_follow.php:97
+#@ flatsome
+msgid "YouTube"
+msgstr "YouTube"
+
+#: inc/shortcodes/share_follow.php:100
+#@ flatsome
+msgid "Flickr"
+msgstr "Flickr"
+
+#: inc/template-tags.php:43
+#@ flatsome
+msgctxt "Previous post link"
+msgid ""
+msgstr ""
+
+#: inc/template-tags.php:44
+#@ flatsome
+msgctxt "Next post link"
+msgid ""
+msgstr ""
+
+#: inc/template-tags.php:49
+#@ flatsome
+msgid "<span class=\"icon-angle-left\"></span> Older posts"
+msgstr "<span class=\"icon-angle-left\"></span> Articoli pi&ugrave; vecchi"
+
+#: inc/template-tags.php:53
+#@ flatsome
+msgid "Newer posts <span class=\"icon-angle-right\"></span>"
+msgstr "Articoli pi&ugrave; recenti <span class=\"icon-angle-right\"></span>"
+
+#: inc/template-tags.php:77
+#@ flatsome
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: inc/template-tags.php:93
+#, php-format
+#@ flatsome
+msgid "%s <span class=\"says\">says:</span>"
+msgstr "%s <span class=\"says\">dice:</span>"
+
+#: inc/template-tags.php:95
+#@ flatsome
+msgid "Your comment is awaiting moderation."
+msgstr "Il tuo commento &egrave; in attesa di moderazione."
+
+#: inc/template-tags.php:104
+#, php-format
+#@ flatsome
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr "%1$s alle %2$s"
+
+#: inc/template-tags.php:141
+#, php-format
+#@ flatsome
+msgid "<span class=\"meta-author\">by <strong><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></strong>.</span> Posted on <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></a>"
+msgstr "<span class=\"meta-author\">di <strong><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></strong>.</span> Scritto alle <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></a>"
+
+#: inc/template-tags.php:147
+#, php-format
+#@ flatsome
+msgid "View all posts by %s"
+msgstr "Vedi tutti gli articoli di %s"
+
+#: inc/template-tags.php:274
+#: woocommerce/cart/cart.php:52
+#@ woocommerce
+msgid "Remove this item"
+msgstr ""
+
+#: inc/template-tags.php:280
+#: woocommerce/cart/cart.php:33
+#@ woocommerce
+msgid "Quantity"
+msgstr ""
+
+#: inc/template-tags.php:296
+#@ woocommerce
+msgid "Cart Subtotal"
+msgstr ""
+
+#: inc/template-tags.php:299
+#@ woocommerce
+msgid "View Cart"
+msgstr ""
+
+#: inc/template-tags.php:301
+#: woocommerce/cart/cart.php:139
+#@ woocommerce
+msgid "Proceed to Checkout"
+msgstr ""
+
+#: inc/template-tags.php:343
+#: woocommerce/single-product/review.php:23
+#@ woocommerce
+msgid "out of 5"
+msgstr ""
+
+#: inc/template-tags.php:376
+#@ default
+msgid "Previous Post"
+msgstr "Articolo Precedente"
+
+#: inc/template-tags.php:376
+#@ default
+msgid "Next Post"
+msgstr "Articolo Successivo"
+
+#: inc/template-tags.php:423
+#, php-format
+#@ default
+msgid "Use commas instead of %s to separate excluded categories."
+msgstr "Usa le virgole al posto di %s per separare le categorie da escludere."
+
+#: inc/widgets/recent-posts.php:17
+#@ flatsome
+msgid "A widget that displays recent posts "
+msgstr "Un widget che mostra gli articoli recenti"
+
+#: inc/widgets/recent-posts.php:21
+#@ flatsome
+msgid "Flatsome Recent Posts"
+msgstr "Flatsome Articoli Recenti"
+
+#: inc/widgets/recent-posts.php:41
+#@ flatsome
+msgid "Recent Posts"
+msgstr "Articoli Recenti"
+
+#: inc/widgets/recent-posts.php:95
+#: inc/widgets/upsell-widget.php:109
+#@ flatsome
+#@ default
+msgid "Title:"
+msgstr "Titolo:"
+
+#: inc/widgets/recent-posts.php:98
+#@ flatsome
+msgid "Number of posts to show:"
+msgstr "Numero di articoli da mostrare:"
+
+#: inc/widgets/upsell-widget.php:20
+#@ text_domain
+msgid "Add upsell products to product page"
+msgstr ""
+
+#: inc/widgets/upsell-widget.php:105
+#: woocommerce/single-product/up-sells.php:40
+#@ text_domain
+#@ flatsome
+msgid "Complete the look"
+msgstr "Completa il look"
+
+#: no-results.php:13
+#@ flatsome
+msgid "Nothing Found"
+msgstr "Nessun Risultato"
+
+#: no-results.php:19
+#, php-format
+#@ flatsome
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Sei pronto a pubblicare il tuo primo articolo? <a href=\"%1$s\">Inizia da qui</a>."
+
+#: no-results.php:23
+#@ flatsome
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Ci dispiace, ma non &egrave; stato trovato nessun risultato che rispetti i tuoi criteri di ricerca. Per favore prova ancora usando termini diversi."
+
+#: no-results.php:28
+#@ flatsome
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Sembra che non &egrave; possibile trovare ci&ograve; che stai cercando. Forse una ricerca potrebbe aiutarti."
+
+#: page-checkout.php:17
+#: page-checkout.php:28
+#@ flatsome
+msgid "Shopping Cart"
+msgstr "Carrello"
+
+#: page-checkout.php:19
+#: page-checkout.php:30
+#@ flatsome
+msgid "Checkout details"
+msgstr "Dettagli Checkout"
+
+#: page-checkout.php:21
+#: page-checkout.php:32
+#@ flatsome
+msgid "Order Complete"
+msgstr "Ordine Completato"
+
+#: page-my-account.php:30
+#: woocommerce/checkout/form-checkout.php:41
+#@ flatsome
+msgid "Login / Register with <strong>Facebook</strong>"
+msgstr "Login / Registrati con <strong>Facebook</strong>"
+
+#: product-searchform.php:17
+#: searchform.php:13
+#@ flatsome
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "Cerca &hellip;"
+
+#: search.php:35
+#, php-format
+#@ flatsome
+msgid "Search Results for: %s"
+msgstr "Risultati di Ricerca per: %s"
+
+#: wishlist.php:79
+#@ yit
+msgid "Product Name"
+msgstr ""
+
+#: wishlist.php:80
+#@ yit
+msgid "Unit Price"
+msgstr ""
+
+#: wishlist.php:81
+#@ yit
+msgid "Stock Status"
+msgstr ""
+
+#: wishlist.php:103
+#@ yit
+msgid "Remove this product"
+msgstr ""
+
+#: wishlist.php:121
+#@ yit
+msgid "Free!"
+msgstr ""
+
+#: wishlist.php:134
+#@ yit
+msgid "Out of Stock"
+msgstr ""
+
+#: wishlist.php:137
+#@ yit
+msgid "In Stock"
+msgstr ""
+
+#: wishlist.php:155
+#@ yit
+msgid "No products were added to the wishlist"
+msgstr ""
+
+#: woocommerce/cart/cart.php:31
+#@ woocommerce
+msgid "Product"
+msgstr ""
+
+#: woocommerce/cart/cart.php:32
+#@ woocommerce
+msgid "Price"
+msgstr ""
+
+#: woocommerce/cart/cart.php:34
+#@ woocommerce
+msgid "Total"
+msgstr ""
+
+#: woocommerce/cart/cart.php:79
+#@ woocommerce
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/cart/cart.php:138
+#@ woocommerce
+msgid "Update Cart"
+msgstr ""
+
+#: woocommerce/cart/cart.php:146
+#@ woocommerce
+msgid "Coupon"
+msgstr ""
+
+#: woocommerce/cart/cart.php:147
+#@ flatsome
+msgid "Enter Coupon"
+msgstr "Inserisci Codice Sconto"
+
+#: woocommerce/cart/cart.php:148
+#@ woocommerce
+msgid "Apply Coupon"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:22
+#@ woocommerce
+msgid "Calculate Shipping"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:29
+#@ woocommerce
+msgid "Select a country&hellip;"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:47
+#: woocommerce/cart/shipping-calculator.php:53
+#: woocommerce/cart/shipping-calculator.php:65
+#@ woocommerce
+msgid "State / county"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:54
+#@ woocommerce
+msgid "Select a state&hellip;"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:74
+#@ woocommerce
+msgid "City"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:82
+#@ woocommerce
+msgid "Postcode / Zip"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:87
+#@ woocommerce
+msgid "Update Totals"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:26
+#@ woocommerce
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:37
+#@ woocommerce
+msgid "Returning customer?"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:42
+#: woocommerce/checkout/form-checkout.php:44
+#@ woocommerce
+msgid "Click here to login"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:50
+#@ woocommerce
+msgid "If you have shopped with us before, please enter your details in the boxes below. If you are a new customer please proceed to the Billing &amp; Shipping section."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:89
+#@ woocommerce
+msgid "Your order"
+msgstr ""
+
+#: woocommerce/content-product-flipbook.php:40
+#: woocommerce/content-product.php:76
+#: woocommerce/content-product.php:85
+#@ woocommerce
+msgid "Read More"
+msgstr ""
+
+#: woocommerce/content-product-lookbook.php:25
+#: woocommerce/content-product-pinterest-style.php:32
+#: woocommerce/content-product.php:52
+#@ flatsome
+msgid "Quick View"
+msgstr "Visualizzazione Veloce"
+
+#: woocommerce/content-product.php:54
+#@ woocommerce
+msgid "Out of stock"
+msgstr ""
+
+#: woocommerce/content-product.php:68
+#@ woocommerce
+msgid "Select options"
+msgstr ""
+
+#: woocommerce/content-product.php:72
+#@ woocommerce
+msgid "View options"
+msgstr ""
+
+#: woocommerce/content-product.php:81
+#@ woocommerce
+msgid "Add to cart"
+msgstr ""
+
+#: woocommerce/content-product_cat.php:42
+#@ woocommerce
+msgid "Products"
+msgstr ""
+
+#: woocommerce/content-single-product-leftcol.php:7
+#: woocommerce/content-single-product-rightcol.php:7
+#: woocommerce/content-single-product.php:18
+#@ woocommerce
+msgctxt "slug"
+msgid "product-category"
+msgstr ""
+
+#: woocommerce/global/breadcrumb-single-product.php:34
+#: woocommerce/global/breadcrumb.php:34
+#@ flatsome
+msgid "Home"
+msgstr "Home"
+
+#: woocommerce/global/breadcrumb.php:74
+#@ woocommerce
+msgid "Products tagged &ldquo;"
+msgstr ""
+
+#: woocommerce/global/breadcrumb.php:102
+#: woocommerce/global/breadcrumb.php:199
+#@ woocommerce
+msgid "Search results for &ldquo;"
+msgstr ""
+
+#: woocommerce/global/breadcrumb.php:157
+#@ woocommerce
+msgid "Error 404"
+msgstr ""
+
+#: woocommerce/global/breadcrumb.php:203
+#@ woocommerce
+msgid "Posts tagged &ldquo;"
+msgstr ""
+
+#: woocommerce/global/breadcrumb.php:208
+#@ woocommerce
+msgid "Author:"
+msgstr ""
+
+#: woocommerce/global/breadcrumb.php:213
+#@ woocommerce
+msgid "Page"
+msgstr ""
+
+#: woocommerce/loop/orderby.php:21
+#@ woocommerce
+msgid "Default sorting"
+msgstr ""
+
+#: woocommerce/loop/orderby.php:22
+#@ woocommerce
+msgid "Sort by popularity"
+msgstr ""
+
+#: woocommerce/loop/orderby.php:23
+#@ woocommerce
+msgid "Sort by average rating"
+msgstr ""
+
+#: woocommerce/loop/orderby.php:24
+#@ woocommerce
+msgid "Sort by newness"
+msgstr ""
+
+#: woocommerce/loop/orderby.php:25
+#@ woocommerce
+msgid "Sort by price: low to high"
+msgstr ""
+
+#: woocommerce/loop/orderby.php:26
+#@ woocommerce
+msgid "Sort by price: high to low"
+msgstr ""
+
+#: woocommerce/loop/sale-flash.php:17
+#: woocommerce/single-product/sale-flash.php:17
+#@ woocommerce
+msgid "Sale!"
+msgstr ""
+
+#: woocommerce/loop/sale-flash.php:40
+#: woocommerce/loop/sale-flash.php:51
+#: woocommerce/single-product/sale-flash.php:40
+#: woocommerce/single-product/sale-flash.php:51
+#, php-format
+#@ woocommerce
+msgid "%s"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:34
+#@ woocommerce
+msgid "Username or email address"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:38
+#: woocommerce/myaccount/form-login.php:84
+#@ woocommerce
+msgid "Password"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:47
+#@ woocommerce
+msgid "Lost your password?"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:49
+#@ woocommerce
+msgid "Remember me"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:64
+#: woocommerce/myaccount/form-login.php:96
+#@ woocommerce
+msgid "Register"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:72
+#@ woocommerce
+msgid "Username"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:73
+#@ default
+msgid "username"
+msgstr "username"
+
+#: woocommerce/myaccount/form-login.php:79
+#@ woocommerce
+msgid "Email address"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:80
+#@ default
+msgid "email"
+msgstr "email"
+
+#: woocommerce/myaccount/form-login.php:85
+#@ default
+msgid "password"
+msgstr "password"
+
+#: woocommerce/myaccount/form-login.php:89
+#@ woocommerce
+msgid "Anti-spam"
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:25
+#@ woocommerce
+msgid "Choose an option"
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:73
+#@ woocommerce
+msgid "Clear selection"
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:104
+#@ woocommerce
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: woocommerce/single-product/related.php:34
+#@ woocommerce
+msgid "Related Products"
+msgstr ""
+
+#: woocommerce/single-product/review.php:22
+#, php-format
+#@ woocommerce
+msgid "Rated %d out of 5"
+msgstr ""
+
+#: woocommerce/single-product/review.php:28
+#@ woocommerce
+msgid "Your comment is awaiting approval"
+msgstr ""
+
+#: woocommerce/single-product/review.php:34
+#@ woocommerce
+msgid "verified owner"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:28
+#, php-format
+#@ woocommerce
+msgid "<strong>%s review</strong> for %s"
+msgid_plural "<strong>%s reviews</strong> for %s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product-reviews.php:34
+#: woocommerce/single-product-reviews.php:40
+#@ woocommerce
+msgid "Reviews"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:64
+#@ woocommerce
+msgid "Add a review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:68
+#@ woocommerce
+msgid "Be the first to review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:89
+#@ woocommerce
+msgid "Name"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:91
+#@ woocommerce
+msgid "Email"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:94
+#@ woocommerce
+msgid "Submit Review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:101
+#@ woocommerce
+msgid "Rating"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:102
+#@ woocommerce
+msgid "Rate&hellip;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:103
+#@ woocommerce
+msgid "Perfect"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:104
+#@ woocommerce
+msgid "Good"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:105
+#@ woocommerce
+msgid "Average"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:106
+#@ woocommerce
+msgid "Not that bad"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:107
+#@ woocommerce
+msgid "Very Poor"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:112
+#@ woocommerce
+msgid "Your Review"
+msgstr ""
+
+

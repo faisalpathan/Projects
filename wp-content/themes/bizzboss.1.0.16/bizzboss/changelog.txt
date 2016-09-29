@@ -1,0 +1,63 @@
+Version 1.0
+i)  Theme Submitted for approval
+
+Version 1.0.1
+i) Theme Enhancement
+
+Version 1.0.2
+i) Fixed Submenu Issues 
+
+Version 1.0.3
+i) Theme Enhancement
+
+Version 1.0.4
+i) Fixed Menu Issues
+ii) Fixed Css Issues
+
+Version 1.0.5
+
+i) Fixed Image Alignment issue
+ii) Fixed Enabled Page comments
+iii) Sticky post have diffrent styling in blog listing
+vi) css fixes
+
+Version 1.0.6
+i) Fixed More Tag issue
+ii) Fixed Tiled Gallery issues
+
+Version 1.0.7 (04-07-2016)
+i) TGM library update
+ii) Loader change
+iii) Theme Enhancement
+
+Version 1.0.8 (05-07-2016)
+i) Sanitizing and escaping correction
+ii) Theme Enhancement
+
+Version 1.0.9 (08-07-2016)
+i) Small bug fixes.
+
+Version 1.0.10 (11-07-2016)
+i) Small bug fixes.
+
+Version 1.0.11 (11-07-2016)
+i) Small bug fixes.
+
+Version 1.0.12 (29-08-2016)
+i) Theme Enhancement.
+
+Version 1.0.13 (31-08-2016)
+i) Changed theme tags.
+ii) Small changes.
+
+Version 1.0.14 (31-08-2016)
+i) Removed commented code.
+
+Version 1.0.15 (01-09-2016)
+i) Small bug fixes.
+ii) Removed depricated function.
+
+Version 1.0.16 (02-09-2016)
+i) Changed theme description.
+ii) Changed screenshot.
+iii) Added screenshot image link in readme.txt file.

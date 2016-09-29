@@ -1,0 +1,48 @@
+@import "../../../base/less/mixins";
+
+@keyFeatureTextAlignment: '';
+@keyFeatureTitleColor: '';
+@keyFeatureTitleFont: '';
+@keyFeatureTitleFontSize: '';
+@keyFeatureDescriptionColor: '';
+@keyFeatureDescriptionFont: '';
+@keyFeatureDescriptionFontSize: '';
+@keyFeatureBoxBorderColor: '';
+@keyFeatureBoxBorderWidth: '';
+@keyFeatureIcon: '';
+@keyFeatureIconColor: '';
+@keyFeatureIconHoverBackgroundColor: '';
+@keyFeatureIconHoverColor: '';
+@keyFeatureIconSize: '';
+@keyFeatureIconBoxStyle: '';
+@keyFeatureIconBoxBorderColor: '';
+@keyFeatureIconBoxBorderWidth: '';
+
+.feature-box {
+    text-align: @keyFeatureTextAlignment;
+    border: @keyFeatureBoxBorderWidth solid @keyFeatureBoxBorderColor;
+}
+.feature-box .iconbox {
+    border: @keyFeatureIconBoxBorderWidth solid @keyFeatureIconBoxBorderColor;
+}
+.feature-box:hover .iconbox{
+    color: @keyFeatureIconHoverColor;
+    background-color: @keyFeatureIconHoverBackgroundColor;
+}
+.feature-box:hover .iconbox span{color: @keyFeatureIconHoverColor !important;}
+.feature-box h5 {
+    font-size: @keyFeatureTitleFontSize;
+    color: @keyFeatureTitleColor;
+}
+.feature-content p {
+    text-align: @keyFeatureTextAlignment;
+    color: @keyFeatureDescriptionColor;
+    font-size: @keyFeatureDescriptionFontSize ;
+}
+.button-read {
+    border: 2px solid @keyFeatureIconHoverBackgroundColor;
+}
+.button-read:hover {
+    color: #ffffff;
+    background: @keyFeatureIconHoverBackgroundColor;
+}

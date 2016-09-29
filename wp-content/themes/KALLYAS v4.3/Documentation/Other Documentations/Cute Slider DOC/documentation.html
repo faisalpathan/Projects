@@ -1,0 +1,368 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Cute Slider WP - 3D &amp; 2D HTML5 Image Slider</title>
+		<link rel="stylesheet" href="../assets/SyntaxHighlighter/styles/shCoreEclipse.css" type="text/css">
+		<link rel="stylesheet" href="../assets/SyntaxHighlighter/styles/shThemeEclipse.css" type="text/css">
+		<link rel="stylesheet" href="../assets/css/style.css" type="text/css">
+		<!--[if lt IE 9]>
+			<script src="../assets/js/html5.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div id="dim">
+
+			<div class="page">
+				<div class="bg"></div>
+				<div class="inner">
+					<div class="doc">
+						<h1>Cute Slider WP 1.1.1</h1>
+						<h2>3D &amp; 2D HTML5 Image Slider</h2>
+						<h3>Documentation</h3>
+						<ul>
+							<li>
+								<a href="#overview">Overview</a>
+								<ul>
+									<li><a href="#thankyou">Thank you</a></li>
+									<li><a href="#features">Features</a></li>
+									<li><a href="#changelog">Changelog</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#requirements">Requirements</a>
+								<ul>
+									<li><a href="#wordpress">WordPress</a></li>
+									<li><a href="#browsers">Browser Support</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#installation">Installation</a>
+								<ul>
+									<li><a href="#install_wp">Installation via WP plugin installer</a></li>
+									<li><a href="#install_ftp">Installation via FTP</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#update">How do I update the plugin?</a>
+								<ul>
+									<li><a href="#autoupdate">Is there any auto-update mechanism?</a></li>
+									<li><a href="#updating">How do I update the plugin?</a></li>
+									<li><a href="#newfeatures">How do I get the new features of an update?</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#translation">How to translate the plugin</a>
+							</li>
+							<li>
+								<a href="#credits">Credits</a>
+							</li>
+							<li>
+								<a href="#rest_doc">The rest of this documentation</a>
+							</li>
+							<li>
+								<a href="#developers">Documentation for Developers</a>
+							</li>
+							<li><a href="#contact">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="page">
+				<div class="bg"></div>
+				<div class="inner">
+					<a name="overview"></a>
+					<h3>Overview</h3>
+					<h2 class="description">
+							Cute Slider is a unique and easy to use slider with awesome 3D and 2D
+							transition effects, captions, 4 ready to use templates, video
+							(youtube and vimeo) support and more impressive features which written
+							with pure object oriented Javascript and it has search engine optimized HTML markup.
+					</h2>
+					<a name="thankyou"></a>
+					<h3>Thank you</h3>
+					<p>
+						Thank you for purchasing this product. If you have any questions that are beyond
+						the scope of this documentation, please feel free to email us.
+					</p>
+					<a name="features"></a>
+					<h3>Features</h3>
+					<ul>
+						<li>Stunning 3D &amp; 2D effects</li>
+						<li>Responsive design</li>
+						<li>Cross browser supports Chrome, FireFox, Safari, Opera and IE8+</li>
+						<li>5 ready to use skins with skin editor &amp; variable controls (thumbnail list, hover thumbnails, bullets)</li>
+						<li>100+ preset transitions</li>
+						<li>WYSIWYG editor</li>
+						<li>Multisite ready</li>
+						<li>Language support &amp; Localization ready</li>
+						<li>Import / Export feature</li>
+						<li>Device friendly works in iPhone, iPad, Android Devices and Windows Phone</li>
+						<li>3 fallback levels considered CSS3 3D Transforms, HTML5 Canvas element, 2D Mode</li>
+						<li>Transition gallery included a tool that provides the fastest way to select and use them in your slider</li>
+						<li>SEO friendly</li>
+						<li>Fully customizable it's possible to customize or redesign all parts of slider</li>
+						<li>Fully customizable captions supported</li>
+						<li>YouTube and Vimeo videos supported</li>
+						<li>Option to set link to each slide</li>
+						<li>Option to add html content over slides</li>
+						<li>Option to preview thumbnail over navigation</li>
+						<li>Option to enable / disable pause on hover slider</li>
+						<li>Advanced javascript API considered</li>
+						<li>Smart resource loader</li>
+						<li>Simple clean &amp; valid markup</li>
+						<li>Framework independent</li>
+						<li>Layered skin files included in .PSD format</li>
+						<li>Free support and future updates</li>
+					</ul>
+					<a name="changelog"></a>
+					<h3>Changelog</h3>
+					<p>1.1.1</p>
+					<ul>
+						<li>Improvement: improved transition previews</li>
+						<li>Improvement: jQuery 1.9 compatibility with performace improvements</li>
+						<li>New feature: PHP function to display the slider with filtering options</li>
+					</ul>
+					<p>1.1.0</p>
+					<ul>
+						<li>Added feature: random slideshow</li>
+						<li>Added feature: theme integration support with developer documentation</li>
+						<li>Improvement: added support for the new WP 3.5 Media Library</li>
+						<li>Buf fix: fixed the HTML text field of captions</li>
+					</ul>
+					<p>1.0.1</p>
+					<ul>
+						<li>Added feature: option to force 2D transitions</li>
+						<li>Improvement: the transition previews no longer needs enabled rewrite engine</li>
+						<li>Bug fix: fixed language strings for localization</li>
+					</ul>
+					<p>1.0.0</p>
+					<ul>
+						<li>first release</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="page">
+				<div class="bg"></div>
+				<div class="inner">
+					<a name="requirements"></a>
+					<h3>Requirements</h3>
+					<a name="php"></a>
+					<a name="wordpress"></a>
+					<h3>WordPress</h3>
+					<ul>
+						<li>WordPress 3.3+</li>
+					</ul>
+					<a name="browsers"></a>
+					<h3>Browser Support</h3>
+					<ul>
+						<li>Mozilla Firefox 3+</li>
+						<li>Google Chrome 10+</li>
+						<li>Safari 3+</li>
+						<li>iOS Safari</li>
+						<li>Opera 10+</li>
+						<li>Internet Explorer 8+</li>
+					</ul>
+					<p>
+						Note: in old browsers some animations (for example fading the transparent PNGs) are missing, but the plugin is fully functional.
+					</p>
+				</div>
+			</div>
+
+			<div class="page">
+				<div class="bg"></div>
+				<div class="inner">
+					<a name="installation"></a>
+					<h3>Installation</h3>
+
+					<a name="install_wp"></a>
+					<h4>Installation via WP plugin installer</h4>
+					<ol>
+						<li>Extract the plugin package on your machine that you downloaded from CodeCanyon.</li>
+						<li>Hover over the plugins menu item on your left sidebar in your WordPress admin area and select "Add New".</li>
+						<li>In the new page click on the "Upload" menu item on top of the page.</li>
+						<li>Choose the "cutesliderwp-1.1.1.installable.zip" file that you extracted from the downloaded package and click "Install Now".</li>
+						<li>WordPress may ask you to type your FTP login credentials to install the plugin. Click on "Proceed" when you finished.</li>
+						<li>The plugin is now installed, click on the "Activate Plugin" button.</li>
+					</ol>
+
+					<a name="install_ftp"></a>
+					<h4>Installation via FTP</h4>
+					<ol>
+						<li>Extract the plugin package on your machine that you downloaded from CodeCanyon.</li>
+						<li>Find the "cutesliderwp-1.1.1.installable.zip" file in the extracted content and extract it also.</li>
+						<li>Open your favourite FTP application and connect and navigate to your "/wp-content/plugins/" folder on your server.</li>
+						<li>Copy over the extracted "cutesliderwp-1.1.1.installable.zip" file contents.</li>
+						<li>Navigate to your plugins page on your WordPress admin area and click the "Activate" button below Cute Slide WP.</li>
+					</ol>
+				</div>
+			</div>
+
+			<div class="page">
+				<div class="bg"></div>
+				<div class="inner">
+					<a name="update"></a>
+					<h3>How do I update the plugin?</h3>
+
+					<a name="autoupdate"></a>
+					<h4>Is there any auto-update mechanism?</h4>
+					<p>
+						WordPress only supports auto-updates for plugins installed from their own
+						plugins depository. Although, there are ways to support auto-updates for plugins
+						downloaded from CodeCanyon, it isn't that reliable since the WP Dev. Team isn't
+						offer any official API to developers. You have to update the plugin manually by
+						download it again from your CodeCanyon downloads page. It is, of course, free of charge.
+						You should check it sometimes because we are relesing updates for our items regularly.
+					</p>
+
+					<a name="updating"></a>
+					<h4>How do I update the plugin?</h4>
+					<p>
+						If you downloaded the most recent version, you can go ahead to deactivate and remove
+						the old version, then install the new one. Your sliders and settings are in the database,
+						removing the plugin won't touch them. The new version always has backward compatiblity,
+						so you don't have to worry about anything.
+					</p>
+
+					<a name="newfeatures"></a>
+					<h4>How do I get the new features of an update?</h4>
+					<p>
+						Depending on the default settings, you may have to enable or disable
+						some settings related with the new features. If you experience an unwanted behaviour change
+						after an update, it is always a good idea to check the settings of your sliders, because
+						there are probably new options to control these changes.
+					</p>
+				</div>
+			</div>
+
+			<div class="page">
+				<div class="bg"></div>
+				<div class="inner">
+					<a name="translation"></a>
+					<h3>How to translate the plugin</h3>
+					<p>
+						Cute Slider WP is translation and localization ready, you can easily translate
+						the entire plugin for your native language. To do this, please follow the stepes
+						below:
+					</p>
+
+					<ul>
+						<li>
+							<strong>Download Poedit</strong><br><br>
+							Poedit is a multiplatform application which you can use to translate .PO
+							files easily and compile them into .MO files. You can download it
+							<a href="http://www.poedit.net/download.php" target="_blank">here</a>.<br><br>
+						</li>
+						<li>
+							<strong>Start translating</strong><br><br>
+							Launch Poedit and open the default .PO file (CuteSlider-en_US.po) for editing.
+							It can be found in your "/wp-content/plugins/CuteSlider/languages/" folder.
+							When you open this file, you will have a list of the all the available strings
+							for translating. When you save your work, Poedit will generate a MO file, WordPress will
+							use this file to load your translation.<br><br>
+						</li>
+						<li>
+							<strong>Use your translation</strong><br><br>
+							When you finished, you need to rename your new .PO and .MO files, so WordPress will be able to
+							identify the corresponsing language that you made your work for. You have to
+							include in their file name the name of the plugin followed by a dash and the language and country identifier spearated with
+							an underscore.
+							<a href="http://www.gnu.org/software/gettext/manual/html_chapter/gettext_16.html#Language-Codes" target="_blank">Here</a>
+							you can find all the language codes, and
+							<a href="http://www.gnu.org/software/gettext/manual/html_chapter/gettext_16.html#Country-Codes" target="_béank">here</a>
+							are the country identifiers. For example, your new files will be: CuteSlider-fr_FR.po and
+							CuteSlider-fr_FR.mo.<br><br>
+
+							After that, you need to copy your new files into your "/wp-content/plugins/CuteSlider/languages" folder.<br><br>
+
+							And that's it, you are ready to go. Please note that your WordPress installation needs to be set to the extact same
+							locale as you specified in your file names. This settings can be found in your wp-config.php file. If you are using
+							WordPress in your native language, you don't have to worry about this setting.<br><br>
+						</li>
+						<li>
+							<strong>Publish your work</strong><br><br>
+							If you translated the plugin, you can help to other users from your country. You can send us
+							the .PO and .MO files, and we will include them in the next update of the plugin, so your
+							translations will be available for every other users. Our email address is: <a href="mailto:contact@kreaturamedia.com">contact@kreaturamedia.com</a>
+						</li>
+
+					</ul>
+				</div>
+			</div>
+
+
+			<div class="page">
+				<div class="bg"></div>
+				<div class="inner">
+					<a name="credits"></a>
+					<h3>Credits</h3>
+					<ul>
+						<li>
+							We are using <a href="http://www.fatcow.com/free-icons" target="_blank">FatCow's icon theme</a>.
+							This is an amazing set of beautiful icons, you should check it out. Thanks guys
+							for made this available for us, we love your work!<br><br>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+
+			<div class="page">
+				<div class="bg"></div>
+				<div class="inner">
+					<a name="contact"></a>
+					<h3>The rest of this documentation</h3>
+					<p>
+						This documentation only covers the basic things you need to know such as the
+						plugin installation. We are using the WordPress contextual help menus to
+						integrate our documentation directly into the admin area where you will work
+						on your sliders. It is much more convenient for everybody, and also, you
+						can access to the documentation quickly. And because it is contextual,
+						it only shows the things you will need to work with.<br><br>
+
+						<strong>
+							You can find the rest of our documentation in the Cute Slider WP admin
+							area. You can access it with the "Help" menu item on the top right corner
+							of the page.
+						</strong>
+
+					</p>
+				</div>
+			</div>
+
+			<div class="page">
+				<div class="bg"></div>
+				<div class="inner">
+					<a name="developers"></a>
+					<h3>Documentation for Developers</h3>
+					<p>
+						If you are a developer, you probably want to check out our documentation
+						for integrating Cute Slider WP into your theme. Please click
+						<a href="developers.html">here</a>.
+					</p>
+				</div>
+			</div>
+
+			<div class="page">
+				<div class="bg"></div>
+				<div class="inner">
+					<a name="rest_doc"></a>
+					<h3>Contact us!</h3>
+					<h2 class="description">
+						If you like our works.<br>
+						If you need a help in using one of our CodeCanyon items.<br>
+						If you have a great idea which we can work together.
+					</h2>
+					<nav>
+						<a id="kmlogo" href="http://kreaturamedia.com/"></a><span>Visit our website!</span>
+						<a id="fblogo" href="http://facebook.com/kreaturamedia/"></a><span>Find us on Facebook!</span>
+						<a id="cclogo" href="http://codecanyon.net/user/kreatura?ref=kreatura"></a><span>Our Apps &amp; Codecanyon</span>
+						<div class="clear"></div>
+					</nav>
+				</div>
+			</div>
+
+		</div>
+	</body>
+</html>

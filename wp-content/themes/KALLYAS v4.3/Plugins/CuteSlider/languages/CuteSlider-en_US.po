@@ -1,0 +1,914 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Text in echo
+#: list.php:102
+msgid "<h3>The documentation is here</h3><div class=\"inner\">This is a WordPress contextual help menu, we use it to give you fast access to our documentation. Please keep in mind that because this menu is contextual, it only shows the relevant information to the page that you are currently viewing. So if you search something, you should visit the corresponding page first and then open this help menu."
+msgstr ""
+
+#. Text in echo
+#: edit.php:469
+#: add.php:453
+msgid "Above navigation"
+msgstr ""
+
+#. Text in echo
+#: list.php:29
+msgid "Actions"
+msgstr ""
+
+#. Text in function
+#: cuteslider.php:1
+#: list.php:19
+msgid "Add New"
+msgstr ""
+
+#. Text in echo
+#: add.php:297
+msgid "Add new Cute Slider"
+msgstr ""
+
+#. Text in echo
+#: edit.php:176
+#: edit.php:817
+#: add.php:161
+#: add.php:668
+msgid "Add new caption"
+msgstr ""
+
+#. Text in echo
+#: edit.php:524
+#: add.php:503
+msgid "Add new slide"
+msgstr ""
+
+#. Text in echo
+#: edit.php:488
+#: add.php:472
+msgid "Adds bar timer to your slides."
+msgstr ""
+
+#. Text in echo
+#: edit.php:493
+#: add.php:477
+msgid "Adds circle timer to your slides. Please note that this type of timer only works in modern browsers that support the canvas element."
+msgstr ""
+
+#. Text in echo
+#: edit.php:87
+#: edit.php:601
+#: add.php:72
+#: add.php:577
+msgid "Alignment"
+msgstr ""
+
+#. Text in function
+#: cuteslider.php:1
+msgid "All Sliders"
+msgstr ""
+
+#. Text in echo
+#: edit.php:402
+#: add.php:386
+msgid "Appearance"
+msgstr ""
+
+#. Text in echo
+#: edit.php:388
+#: add.php:372
+msgid "Automatically start slideshow"
+msgstr ""
+
+#. Text in echo
+#: edit.php:314
+#: add.php:298
+#: editor.php:32
+msgid "Back to the list"
+msgstr ""
+
+#. Text in echo
+#: edit.php:287
+#: edit.php:798
+#: add.php:272
+msgid "Background"
+msgstr ""
+
+#. Text in echo
+#: edit.php:486
+#: add.php:470
+msgid "Bar timer"
+msgstr ""
+
+#. Text in echo
+#: edit.php:347
+#: add.php:331
+msgid "Basic"
+msgstr ""
+
+#. Text in echo
+#: edit.php:470
+#: add.php:454
+msgid "Below navigation"
+msgstr ""
+
+#. Text in echo
+#: edit.php:264
+#: edit.php:775
+#: add.php:249
+msgid "Border"
+msgstr ""
+
+#. Text in echo
+#: edit.php:269
+#: edit.php:780
+#: add.php:254
+msgid "Bottom"
+msgstr ""
+
+#. Text in echo
+#: edit.php:321
+#: add.php:305
+msgid "Callbacks"
+msgstr ""
+
+#. Text in function
+#: cuteslider.php:1
+msgid "Cannot write to file"
+msgstr ""
+
+#. Text in echo
+#: edit.php:203
+#: edit.php:714
+#: add.php:188
+msgid "Caption options"
+msgstr ""
+
+#. Text in echo
+#: edit.php:170
+#: edit.php:684
+#: add.php:155
+#: add.php:660
+msgid "Captions"
+msgstr ""
+
+#. Text in echo
+#: editor.php:44
+msgid "Choose a skin:"
+msgstr ""
+
+#. Text in echo
+#: cuteslider.php:808
+msgid "Choose a slider:"
+msgstr ""
+
+#. Text in echo
+#: edit.php:491
+#: add.php:475
+msgid "Circle timer"
+msgstr ""
+
+#. Text in echo
+#: edit.php:282
+#: edit.php:793
+#: add.php:267
+msgid "Color"
+msgstr ""
+
+#. Text in echo
+#: list.php:30
+msgid "Created"
+msgstr ""
+
+#. Text in echo
+#: edit.php:291
+#: edit.php:802
+#: add.php:276
+msgid "Custom style settings"
+msgstr ""
+
+#. Text in echo
+#: edit.php:292
+#: edit.php:803
+#: add.php:277
+msgid "Custom styles"
+msgstr ""
+
+#. Text in function
+#: cuteslider.php:1
+msgid "Cute Slider"
+msgstr ""
+
+#. Text in echo
+#: editor.php:31
+msgid "Cute Slider Skin Editor"
+msgstr ""
+
+#. Text in function
+#: cuteslider.php:1
+msgid "Cute Slider WP Widget"
+msgstr ""
+
+#. Text in echo
+#: list.php:18
+msgid "Cute Slider sliders"
+msgstr ""
+
+#. Text in echo
+#: edit.php:427
+#: add.php:411
+msgid "CuteSlider WP will use 3D transitions when available, with this option you can force the slider to use 2D transitions only."
+msgstr ""
+
+#. Text in echo
+#: edit.php:48
+#: edit.php:211
+#: edit.php:562
+#: edit.php:722
+#: add.php:33
+#: add.php:196
+#: add.php:538
+msgid "Delay"
+msgstr ""
+
+#. Text in echo
+#: edit.php:240
+#: edit.php:751
+#: add.php:225
+msgid "Dimensions"
+msgstr ""
+
+#. Text in echo
+#: edit.php:458
+#: add.php:442
+msgid "Disabled"
+msgstr ""
+
+#. Text in echo
+#: edit.php:322
+#: add.php:306
+msgid "Documentation"
+msgstr ""
+
+#. Text in echo
+#: list.php:44
+msgid "Duplicate"
+msgstr ""
+
+#. Text in echo
+#: edit.php:216
+#: edit.php:727
+#: add.php:201
+msgid "Duplicate this caption"
+msgstr ""
+
+#. Text in echo
+#: edit.php:26
+#: edit.php:540
+#: add.php:11
+#: add.php:516
+msgid "Duplicate this slide"
+msgstr ""
+
+#. Text in echo
+#: list.php:43
+msgid "Edit"
+msgstr ""
+
+#. Text in echo
+#: edit.php:313
+msgid "Edit this Cute Slider"
+msgstr ""
+
+#. Text in echo
+#: edit.php:204
+#: edit.php:715
+#: add.php:189
+msgid "Effect"
+msgstr ""
+
+#. Text in echo
+#: edit.php:365
+#: add.php:349
+msgid "Enable this option to turn Cute Slider WP into a responsive slider."
+msgstr ""
+
+#. Text in echo
+#: list.php:80
+msgid "Export sliders"
+msgstr ""
+
+#. Text in echo
+#: edit.php:276
+#: edit.php:787
+#: add.php:261
+msgid "Family"
+msgstr ""
+
+#. Text in echo
+#: edit.php:275
+#: edit.php:786
+#: add.php:260
+msgid "Font"
+msgstr ""
+
+#. Text in echo
+#: edit.php:425
+#: add.php:409
+msgid "Force 2D transitions"
+msgstr ""
+
+#. Text in echo
+#: edit.php:189
+msgid "HTML"
+msgstr ""
+
+#. Text in echo
+#: edit.php:243
+#: edit.php:358
+#: edit.php:754
+#: add.php:228
+#: add.php:342
+msgid "Height"
+msgstr ""
+
+#. Text in echo
+#: edit.php:442
+#: add.php:426
+msgid "Here you can apply your custom CSS style settings to the slider."
+msgstr ""
+
+#. Text in echo
+#: edit.php:139
+#: edit.php:213
+#: edit.php:653
+#: edit.php:724
+#: add.php:124
+#: add.php:629
+msgid "Hidden"
+msgstr ""
+
+#. Text in echo
+#: edit.php:459
+#: add.php:443
+msgid "Hover"
+msgstr ""
+
+#. Text in echo
+#: edit.php:466
+#: add.php:450
+msgid "Hover thumbnails alignment"
+msgstr ""
+
+#. Text in echo
+#: edit.php:478
+#: add.php:462
+msgid "If disabled, Prev and Next buttons will be invisible."
+msgstr ""
+
+#. Text in echo
+#: edit.php:483
+#: add.php:467
+msgid "If disabled, slide buttons will be invisible."
+msgstr ""
+
+#. Text in echo
+#: edit.php:507
+#: add.php:491
+msgid "If enabled, Cute Slider WP will use relative URLs for images."
+msgstr ""
+
+#. Text in echo
+#: edit.php:390
+#: add.php:374
+msgid "If enabled, slideshow will automatically start after loading the page."
+msgstr ""
+
+#. Text in echo
+#: edit.php:463
+#: add.php:447
+msgid "If enabled, the navigation buttons will show small thumbnails of the slide if you move your mouse cursor over them."
+msgstr ""
+
+#. Text in echo
+#: edit.php:432
+#: add.php:416
+msgid "If you enable this option, there will be a shadow below the slider."
+msgstr ""
+
+#. Text in echo
+#: edit.php:34
+#: edit.php:548
+#: add.php:524
+msgid "Image"
+msgstr ""
+
+#. Text in echo
+#: list.php:65
+msgid "Import"
+msgstr ""
+
+#. Text in echo
+#: list.php:62
+msgid "Import sliders"
+msgstr ""
+
+#. Text in echo
+#: edit.php:112
+#: edit.php:626
+#: add.php:97
+#: add.php:602
+msgid "Inbo box link"
+msgstr ""
+
+#. Text in echo
+#: edit.php:86
+#: edit.php:600
+#: add.php:71
+#: add.php:576
+msgid "Info box"
+msgstr ""
+
+#. Text in function
+#: cuteslider.php:1
+msgid "Insert a slider with Cute Slider WP Widget"
+msgstr ""
+
+#. Text in function
+#: cuteslider.php:1
+msgid "It looks like your files isn't writable, so PHP couldn't make any changes (CHMOD)."
+msgstr ""
+
+#. Text in echo
+#: edit.php:271
+#: edit.php:782
+#: add.php:256
+msgid "Left"
+msgstr ""
+
+#. Text in echo
+#: edit.php:280
+#: edit.php:791
+#: add.php:265
+msgid "Line-height"
+msgstr ""
+
+#. Text in echo
+#: edit.php:191
+#: edit.php:702
+#: add.php:176
+msgid "Link"
+msgstr ""
+
+#. Text in echo
+#: edit.php:67
+#: edit.php:581
+#: add.php:52
+#: add.php:557
+msgid "Link this slide"
+msgstr ""
+
+#. Text in echo
+#: edit.php:373
+#: add.php:357
+msgid "Max-Width"
+msgstr ""
+
+#. Text in echo
+#: edit.php:368
+#: add.php:352
+msgid "Min-Width"
+msgstr ""
+
+#. Text in echo
+#: edit.php:131
+#: edit.php:286
+#: edit.php:499
+#: edit.php:645
+#: edit.php:797
+#: add.php:116
+#: add.php:271
+#: add.php:483
+#: add.php:621
+msgid "Misc"
+msgstr ""
+
+#. Text in echo
+#: list.php:31
+msgid "Modified"
+msgstr ""
+
+#. Text in echo
+#: editor.php:67
+msgid "Modifying a skin could be dangerous, these changes will be permanent, you can\\'t revert it."
+msgstr ""
+
+#. Text in echo
+#: edit.php:113
+#: edit.php:627
+#: add.php:98
+#: add.php:603
+#: list.php:27
+msgid "Name"
+msgstr ""
+
+#. Text in echo
+#: edit.php:449
+#: add.php:433
+msgid "Navigation"
+msgstr ""
+
+#. Text in echo
+#: edit.php:190
+#: edit.php:701
+#: add.php:175
+msgid "Options"
+msgstr ""
+
+#. Text in echo
+#: edit.php:253
+#: edit.php:764
+#: add.php:238
+msgid "Padding"
+msgstr ""
+
+#. Text in echo
+#: edit.php:393
+#: add.php:377
+msgid "Pause on hover"
+msgstr ""
+
+#. Text in echo
+#: list.php:83
+msgid "Place this export code into the import text field in your new site and press \"Import\"."
+msgstr ""
+
+#. Text in echo
+#: edit.php:246
+#: edit.php:757
+#: add.php:231
+msgid "Positions"
+msgstr ""
+
+#. Text in echo
+#: edit.php:476
+#: add.php:460
+msgid "Prev and Next buttons"
+msgstr ""
+
+#. Text in echo
+#: edit.php:149
+#: edit.php:663
+#: add.php:134
+#: add.php:639
+msgid "Preview"
+msgstr ""
+
+#. Text in echo
+#: edit.php:865
+#: add.php:714
+msgid "Publish"
+msgstr ""
+
+#. Text in echo
+#: add.php:99
+msgid "Read more"
+msgstr ""
+
+#. Text in echo
+#: list.php:45
+msgid "Remove"
+msgstr ""
+
+#. Text in echo
+#: edit.php:363
+#: add.php:347
+msgid "Responsiveness"
+msgstr ""
+
+#. Text in echo
+#: edit.php:267
+#: edit.php:778
+#: add.php:252
+msgid "Right"
+msgstr ""
+
+#. Text in echo
+#: edit.php:867
+#: add.php:716
+msgid "Save changes"
+msgstr ""
+
+#. Text in echo
+#: edit.php:61
+#: edit.php:575
+#: add.php:46
+#: add.php:551
+msgid "Select 2D transitions"
+msgstr ""
+
+#. Text in echo
+#: edit.php:56
+#: edit.php:570
+#: add.php:41
+#: add.php:546
+msgid "Select 3D transitions"
+msgstr ""
+
+#. Text in echo
+#: edit.php:430
+#: add.php:414
+msgid "Shadow"
+msgstr ""
+
+#. Text in echo
+#: list.php:28
+msgid "Shortcode"
+msgstr ""
+
+#. Text in echo
+#: edit.php:278
+#: edit.php:789
+#: add.php:263
+msgid "Size"
+msgstr ""
+
+#. Text in echo
+#: edit.php:408
+#: add.php:392
+msgid "Skin"
+msgstr ""
+
+#. Text in function
+#: cuteslider.php:1
+#: editor.php:42
+msgid "Skin Editor"
+msgstr ""
+
+#. Text in echo
+#: edit.php:25
+#: edit.php:539
+#: add.php:10
+#: add.php:515
+msgid "Slide Options"
+msgstr ""
+
+#. Text in echo
+#: edit.php:481
+#: add.php:465
+msgid "Slide buttons"
+msgstr ""
+
+#. Text in echo
+#: edit.php:33
+#: edit.php:547
+#: add.php:18
+#: add.php:523
+msgid "Slide options"
+msgstr ""
+
+#. Text in echo
+#: edit.php:319
+#: edit.php:341
+#: add.php:303
+#: add.php:325
+msgid "Slider Settings"
+msgstr ""
+
+#. Text in echo
+#: edit.php:435
+#: add.php:419
+msgid "Slider style"
+msgstr ""
+
+#. Text in echo
+#: edit.php:320
+#: add.php:304
+msgid "Slides"
+msgstr ""
+
+#. Text in echo
+#: edit.php:382
+#: add.php:366
+msgid "Slideshow"
+msgstr ""
+
+#. Text in echo
+#: edit.php:395
+#: add.php:379
+msgid "Slideshow will pause when your mouse pointer is over CuteSlider."
+msgstr ""
+
+#. Text in echo
+#: edit.php:473
+#: add.php:457
+msgid "Specifies the aligment of hover thumbnails."
+msgstr ""
+
+#. Text in echo
+#: edit.php:192
+#: edit.php:703
+#: add.php:177
+msgid "Style"
+msgstr ""
+
+#. Text in echo
+#: edit.php:122
+#: edit.php:636
+#: add.php:107
+#: add.php:612
+msgid "Target"
+msgstr ""
+
+#. Text in echo
+#: edit.php:103
+#: edit.php:617
+#: add.php:88
+#: add.php:593
+msgid "Text"
+msgstr ""
+
+#. Text in echo
+#: edit.php:360
+#: add.php:344
+msgid "The slider height in pixels."
+msgstr ""
+
+#. Text in echo
+#: edit.php:375
+#: add.php:359
+msgid "The slider maximum width in pixels. Zero means disabled."
+msgstr ""
+
+#. Text in echo
+#: edit.php:370
+#: add.php:354
+msgid "The slider minimum width in pixels. Zero means disabled."
+msgstr ""
+
+#. Text in echo
+#: edit.php:355
+#: add.php:339
+msgid "The slider width in pixels."
+msgstr ""
+
+#. Text in echo
+#: edit.php:41
+#: edit.php:555
+#: add.php:26
+#: add.php:531
+msgid "Thumbnail"
+msgstr ""
+
+#. Text in echo
+#: edit.php:460
+#: add.php:444
+msgid "Thumbnail list"
+msgstr ""
+
+#. Text in echo
+#: edit.php:455
+#: add.php:439
+msgid "Thumbnail navigation"
+msgstr ""
+
+#. Text in echo
+#: edit.php:96
+#: edit.php:610
+#: add.php:81
+#: add.php:586
+msgid "Title"
+msgstr ""
+
+#. Text in echo
+#: cuteslider.php:826
+msgid "Title:"
+msgstr ""
+
+#. Text in echo
+#: edit.php:265
+#: edit.php:776
+#: add.php:250
+msgid "Top"
+msgstr ""
+
+#. Text in echo
+#: edit.php:52
+#: edit.php:566
+#: add.php:37
+#: add.php:542
+msgid "Transitions"
+msgstr ""
+
+#. Text in echo
+#: edit.php:335
+#: add.php:319
+msgid "Type your slider name here"
+msgstr ""
+
+#. Text in echo
+#: edit.php:115
+#: edit.php:224
+#: edit.php:629
+#: edit.php:735
+#: add.php:100
+#: add.php:209
+#: add.php:605
+msgid "URL"
+msgstr ""
+
+#. Text in echo
+#: edit.php:505
+#: add.php:489
+msgid "Use relative URLs"
+msgstr ""
+
+#. Text in echo
+#: edit.php:132
+#: edit.php:646
+#: add.php:117
+#: add.php:622
+msgid "Video URL"
+msgstr ""
+
+#. Text in echo
+#: edit.php:241
+#: edit.php:353
+#: edit.php:752
+#: add.php:226
+#: add.php:337
+msgid "Width"
+msgstr ""
+
+#. Text in echo
+#: edit.php:422
+#: add.php:406
+msgid "You can change the skin of your slider. Your custom skins will appear in the list when you create their folders as well."
+msgstr ""
+
+#. Text in echo
+#: cuteslider.php:821
+msgid "You didn't create any slider yet."
+msgstr ""
+
+#. Text in echo
+#: list.php:54
+msgid "You didn\\'t create a slider yet."
+msgstr ""
+
+#. Text in echo
+#: editor.php:64
+msgid "You need to make this file writable before you can save your changes. See the <a href=\"http://codex.wordpress.org/Changing_File_Permissions\" target=\"_blank\">Codex</a> for more information."
+msgstr ""
+
+#. Text in echo
+#: editor.php:36
+msgid "Your changes has been saved!"
+msgstr ""
+
+#. Text in echo
+#: edit.php:92
+#: edit.php:606
+#: add.php:77
+#: add.php:582
+msgid "bottom"
+msgstr ""
+
+#. Text in echo
+#: edit.php:207
+#: edit.php:718
+#: add.php:192
+msgid "fade"
+msgstr ""
+
+#. Text in echo
+#: edit.php:93
+#: edit.php:607
+#: add.php:78
+#: add.php:583
+msgid "left"
+msgstr ""
+
+#. Text in echo
+#: edit.php:91
+#: edit.php:605
+#: add.php:76
+#: add.php:581
+msgid "right"
+msgstr ""
+
+#. Text in echo
+#: edit.php:208
+#: edit.php:719
+#: add.php:193
+msgid "slide"
+msgstr ""
+
+#. Text in echo
+#: edit.php:90
+#: edit.php:604
+#: add.php:75
+#: add.php:580
+msgid "top"
+msgstr ""

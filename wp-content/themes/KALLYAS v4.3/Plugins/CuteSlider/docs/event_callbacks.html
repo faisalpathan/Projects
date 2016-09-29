@@ -1,0 +1,58 @@
+<h3>About events in programming languages</h3>
+<p>
+	Many programming languages supports events or notifications. The basic concept is that you can
+	subscribe to these events and the application will send you a notification or run some code
+	when they accour, so you will have a chance to do something you may want to be done in certain
+	points of your program. For example change the site's background when the slider switching slides.
+</p>
+
+<h3>Javascript uses callback functions</h3>
+<p>
+	In Javascript these events commonly used with callback functions. Instead of sending and receiving
+	notifications, you just pass an anonymous function (also known as blocks in other languages)
+	with your own code to a function or method call as a parameter and the application will execute
+	it when the time has come. Cute Slider uses this kind of event handling.
+</p>
+
+<h3>Events in Cute Slider</h3>
+<p>
+	So we now by now the technique about event handling, lets see which kind of event Cute Slider has:
+</p>
+<ul>
+	<li>
+		<strong>Cute.SliderEvent.CHANGE_START:</strong>
+		This event will fire when Cute Slider starting to change slides.
+	</li>
+	<li>
+		<strong>Cute.SliderEvent.CHANGE_END:</strong>
+		Calling when Cute Slider finished a slide change.
+	</li>
+	<li>
+		<strong>Cute.SliderEvent.WATING:</strong>
+		Dispatches as long as slider is standing in one slide.
+	</li>
+	<li>
+		<strong>Cute.SliderEvent.CHANGE_NEXT_SLIDE:</strong>
+		The slider will call this function when the next slide of slider changes.
+	</li>
+	<li>
+		<strong>Cute.SliderEvent.WATING_FOR_NEXT:</strong>
+		Dispatches until slider is waiting for next slide loading.
+	</li>
+</ul>
+
+
+<h3>A simple example of a callback function</h3>
+<p>
+	This simple example will alert the user when Cute Slider changed a slide. To do that we
+	have to pass this function to the <i>Cute.SliderEvent.CHANGE_END</i> event.
+</p>
+<pre>function() {
+	alert('The slider switched to a new slide!');
+}</pre>
+
+<h3>What's next?</h3>
+<p>
+	If you want to achieve something with event callbacks, you probably instrested in our API.
+	Please continue reading with the next section of this document.
+</p>

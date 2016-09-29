@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="78px" height="78px" viewBox="0 0 78 78" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.1 (15681) - http://www.bohemiancoding.com/sketch -->
+    <title>kallyas_logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="97.0802774%" id="linearGradient-1">
+            <stop stop-color="#3C3C3C" offset="0%"></stop>
+            <stop stop-color="#842E2F" offset="49.4966765%"></stop>
+            <stop stop-color="#CD2122" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="kallyas_logo" sketch:type="MSArtboardGroup" fill="url(#linearGradient-1)">
+            <path d="M39,76 C18.566,76 2,59.435 2,39 C2,18.565 18.566,2 39,2 C59.435,2 76,18.565 76,39 C76,59.435 59.435,76 39,76 L39,76 Z M66.75,39 C66.75,35.841 66.197,32.817 65.224,29.987 L54.245,41.974 C53.669,42.617 53.035,43.186 52.344,43.68 C51.652,44.175 50.932,44.607 50.183,44.978 C50.788,45.399 51.313,45.887 51.76,46.443 C52.207,46.999 52.603,47.636 52.949,48.353 L58.169,59.034 C63.447,53.982 66.75,46.883 66.75,39 L66.75,39 Z M46.961,65.577 C46.776,65.357 46.607,65.111 46.466,64.819 L40.242,51.208 C39.925,50.591 39.587,50.189 39.227,50.003 C38.866,49.818 38.283,49.725 37.476,49.725 L36.093,49.725 L33.746,66.238 C35.448,66.565 37.202,66.75 39,66.75 C41.769,66.75 44.438,66.332 46.961,65.577 L46.961,65.577 Z M11.25,39 C11.25,47.624 15.184,55.328 21.355,60.418 L28.077,13.489 C18.183,17.731 11.25,27.554 11.25,39 L11.25,39 Z M41.604,11.382 L37.174,42.345 L38.081,42.345 C38.83,42.345 39.435,42.246 39.897,42.048 C40.357,41.851 40.818,41.492 41.28,40.973 L50.529,30.144 C51.076,29.501 51.681,29.031 52.344,28.735 C53.006,28.438 53.813,28.289 54.764,28.289 L64.603,28.289 C60.731,19.045 52,12.35 41.604,11.382 L41.604,11.382 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

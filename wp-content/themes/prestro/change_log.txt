@@ -1,0 +1,48 @@
+Version 1.0.0
+i) Intial version Release
+
+Version 1.0.1
+i)   Changes in 404.php
+ii)  Changes in archive.php.
+iii) Resolved issues of content.
+iv ) Resolved issue of front page,header,footer and function files. 
+
+Version 1.0.2
+i)  changes in searchform.php as suggested.
+ii) contact page template and prestro_extra php modifications. 
+
+version 1.0.3
+i) Resolved the problem of homepage template.
+ii) Resolved the problem of index page. 
+
+version 1.0.4
+i)  Change in homepage template.
+ii) Resolved issue of blog/default template.
+
+version 1.0.5
+i)  Changes done is homepage template.
+ii) Did suggestsed changes in content-page.php and content-single.php.
+
+version 1.0.6
+i)  Logo upload option solved.
+ii) Favicon upload Option solved.
+
+version 1.0.7
+i) Logo option
+ii) hook in style solved.
+
+version 1.0.8
+i)  Content creation from customizer removed.
+ii) Content creation from posts/pages added. 
+
+version 1.0.9
+i)  Resolved the issues of sideposts-widget.php
+ii) Restored the customizer core feature. 
+
+version 1.1.0
+i)  Logo uploading default option fixed.
+ii) Resolved problems in header.php.
+
+version 1.1.1
+i)  Updated license links for images in readme.txt
+11) Resolved the error in sideposts-widget.php

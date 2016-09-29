@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="70px" height="50px" viewBox="0 0 70 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
+    <title>slider-full-width</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="slider-full-width" sketch:type="MSLayerGroup" fill="#9CD6E8">
+            <rect id="Rectangle-5-Copy" stroke="#9BD6E8" fill-opacity="0.3" sketch:type="MSShapeGroup" x="0" y="0" width="70" height="50" rx="4"></rect>
+            <path d="M12,23 L12,28 L7,25.5 L12,23 Z" id="Triangle-1" sketch:type="MSShapeGroup"></path>
+            <path d="M58,23 L58,28 L63,25.5 L58,23 Z" id="Triangle-1-Copy" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

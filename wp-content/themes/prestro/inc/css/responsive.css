@@ -1,0 +1,136 @@
+@media screen and (min-width: 768px) and (max-width: 1200px){
+    .services h4{
+        font-size: 17px;
+    }
+    .services .home-content{
+        text-align: justify;
+    }
+    .services .view-more{
+        padding: 8px 10px;
+    }
+    .footer-content,.blog_sec,.testimonial_over,.services,.gallery-slide,.welcome .container,.opening_over{padding: 30px 0}
+}
+@media screen and (max-width: 992px){
+    #logo img{padding: 5px 0 0 5px}
+}
+@media screen and (max-width: 768px){
+    .mean-nav ul.sub-menu {background: rgba(0, 0, 0, 0.6);}
+    .mean-container .mean-nav{background: rgba(0, 0, 0, 0.7);}
+    .site-info, .copyright {
+        text-align: center;
+    }
+    .nivo-caption{bottom: 100px;left: 5px;width: 470px}
+    .opening_hour .border_div{border-right: 0 none;margin-bottom: 15px}
+}
+@media screen and (max-width: 767px){
+    .blog_wrap .post_content_col,.dishes_single{margin-bottom: 15px}
+    .page-template-template-home-page #prestro-top-nav{background: transparent;position: fixed;width: auto;z-index: 99}
+    .navbar.prestro-navbar{border-bottom: none}
+    .filter_ourdishes ul li{
+        margin-top: 20px;
+    }
+    .navbar-header > #logo{position: fixed;z-index: 99}
+    .service_block {
+        margin-bottom: 35px;
+        width: 50%;
+    }
+}
+@media screen and (max-width: 690px){
+    .isStuck #logo img{padding-top: 10px}
+}
+@media screen and (max-width: 660px){
+    #logo img{
+        max-width: 100%;
+        padding: 9px 0 0 15px;
+        width: 145px;
+    }
+    .test-content p{
+        text-align: justify;
+    }
+    .navbar-header > #logo{padding: 0 0 0 15px}
+}
+@media screen and (max-width: 640px){
+    .dishes_content:hover .dishes_content_inner {
+        transform: translateY(90px);
+    }
+    .nivoSlider{height: auto}
+    .filter_ourdishes ul li{margin: 0}
+    .footer-content,.blog_sec,.testimonial_over,.services,.gallery-slide,.welcome .container,.opening_over{padding: 15px 0}
+}
+@media screen and (max-width: 610px){
+    .col-xs-6.ft{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 550px){
+    .blog_wrap .col-xs-6{width: 100%}
+    .dishes_content:hover .dishes_content_inner {
+        transform: translateY(60px);
+    }
+    .dishes_content:hover .dishes-content h3 {
+        transform: translateY(40px);
+    }
+}
+@media screen and (max-width: 490px){
+    .opening_hour .col-xs-6,.services .col-xs-12{width: 100%}
+}
+@media screen and (max-width: 480px){
+    .title_heading > h2,.iwt-title{font-size: 20px}
+    .nivo-caption{display: none !important}
+    .port_content.dishes-content > h3 > a{
+        font-size: 17px;
+    }
+    .welcome p{margin: 0 15px;text-align: justify}
+    .entry-content > p,.home-content{
+        text-align: justify;
+    }
+    .service_block {
+        width: 100%;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 420px){
+    .col-xs-6.dishes_single{width: 100%}
+    .desk-title,.desk-line{display: none}
+    .res-title,.res-line{display: block}
+}
+@media screen and (max-width: 360px){
+    .welcome img {
+        height: 160px;
+        width: 300px;
+    }
+    .our-dishes .dishes_single{
+        width: 100%;
+    }
+    .gallery-slide .col-xs-6,.welcome .col-xs-6{width: 100%;padding: 0;margin-bottom: 15px}
+    .gallery-slide .col-xs-6 img{width: 100%}
+    #ourdishes_category_menu_ul > li > a{font-size: 14px;padding: 5px}
+    .filter_ourdishes{margin-bottom: 20px;font-size: 8px}
+    .open_hour_sub_title,.testimonial_wrap .client-img{margin-top: 15px;padding-right: 0}
+    .dishes_content:hover .dishes-content h3 {
+        transform: translateY(90px);
+    }
+    .dishes_content:hover .dishes_content_inner {
+        transform: translateY(100px);
+    }
+    .dishes-tag,.services h4,.port_content.dishes-content > h3 > a,.gallery-more > .view-more,.oh_bottom .oh_bottom_hour{
+        font-size: 18px;
+    }
+    .footer-content p,.service-overlay p{
+        text-align: justify
+    }
+    .view-more{padding: 5px 10px}
+    .opening_hour_title{font-size: 20px;margin: 15px 0}
+    .opening_hour .col-xs-6{padding: 0 5px}
+    .col-xs-12,.content-area,.blog_sec .container{padding: 0}
+    .our_team,.service-overlay{padding: 10px 0}
+    .footer-nav.nav, .copyright{font-size: 14px}
+}
+@media screen and (max-width: 320px){
+    .dishes_content:hover .dishes-content h3 {
+        transform: translateY(30px);
+    }
+    .dishes_content:hover .dishes_content_inner {
+        transform: translateY(40px);
+    }
+}

@@ -1,0 +1,359 @@
+/* Slider Controls */
+
+.cs-default .br-controls {
+	background-image: url('../cute-theme/trans.png');
+}
+
+.cs-default .br-next,
+.cs-default .br-previous,
+.cs-default .br-slidecontrol ul li,
+.cs-default .br-slidecontrol ul li .br-control-selected,
+.cs-default .br-circle-timer .br-timer-dot,
+.cs-default .br-video .play-btn,
+.cs-default .br-video .close-btn,
+.cs-default .br-large-loading,
+.cs-default .br-loading {
+	background-image: url('../cute-theme/controls.png');
+}
+
+.cs-default .br-previous,
+.cs-default .br-next {
+	width: 35px;
+	height: 35px;
+	top: 50%;
+	margin-top: -17px;
+	filter: none !important;	
+	opacity: .5 !important;
+}
+
+.cs-default .br-previous {
+	left: -45px;
+	background-position: -4px -4px;
+}
+
+.cs-default .br-next {
+	right: -45px;
+	background-position: -44px -4px;
+}
+
+.cs-default .br-previous:hover,
+.cs-default .br-next:hover {
+	opacity: 1 !important;
+}
+
+.cs-default .br-slidecontrol {
+	top: -25px;
+	right: 0px;
+}
+
+	.cs-default .br-slidecontrol ul {
+		margin: 0px;
+		padding: 0px;
+	}
+
+	.cs-default .br-slidecontrol ul li{
+		margin:2px;
+		width:14px;
+		height: 15px;
+		background-position: -113px -14px;
+		filter: none !important;
+	}
+
+	.cs-default .br-slidecontrol ul li .br-control-selected{
+		width:14px;
+		height: 15px;
+		background-position: -92px -14px;
+	}
+
+.cs-default .br-thumb-bottom {
+	left: -36px;
+	filter: none !important;
+}
+
+.cs-default .br-thumb-up {
+	left: -36px;
+	top: -143px;
+	filter: none !important;	
+}
+
+	.cs-default .br-thumb-frame {
+		background-image: url('../cute-theme/thumb-frame.png');		
+	}
+	
+	.cs-default .br-thumb-bottom .br-thumb-frame {
+		background-position: -0px -7px;
+		width: 92px;
+		height: 95px;	
+	}
+
+	.cs-default .br-thumb-up .br-thumb-frame {
+		background-position: -89px 1px;
+		width: 92px;
+		height: 95px;
+	}
+
+	.cs-default .br-thumb-bottom .br-thumb-img,
+	.cs-default .br-thumb-up .br-thumb-img {
+		top: 17px;
+		left: 15px;
+		width:60px;
+		height:60px;
+	}
+
+	.cs-default .br-thumb-img img {
+		position: static !important;
+	}
+
+.cs-default .br-thumblist {
+	margin-bottom: 45px;
+}
+
+.cs-default .br-thumblist-container {
+	z-index: 20;
+	position: relative;
+	padding: 3px;
+	height: 50px;
+	display: inline-block;
+	max-width: 40%;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	background: #f3f3f3;
+	background: -moz-linear-gradient(top, #ffffff 0%, #eeeeee 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#eeeeee));
+	background: -webkit-linear-gradient(top, #ffffff 0%,#eeeeee 100%);
+	background: -o-linear-gradient(top, #ffffff 0%,#eeeeee 100%);
+	background: -ms-linear-gradient(top, #ffffff 0%,#eeeeee 100%);
+	background: linear-gradient(to bottom, #ffffff 0%,#eeeeee 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eeeeee',GradientType=0 );
+	box-shadow: 0px 2px 10px -4px black;
+}
+
+	.cs-default .br-thumblist-frame {
+		margin-top: -3px;
+		height: 100%;
+		top: 3px;
+	}
+
+	.cs-default .br-thumblist-content {
+		white-space: nowrap;
+		text-align: center;
+		display: inline-block;
+		position: relative;
+	}
+
+	.cs-default .br-thumblist-content .br-list-thumb {
+		margin-left: 3px;
+		width: 50px;
+	}
+
+	.cs-default .br-thumblist-content,
+	.cs-default .br-thumblist-content .br-list-thumb,
+	.cs-default .br-thumblist-content .br-list-thumb img {
+		height: 100%;
+	}
+
+	.cs-default .br-thumblist-content .br-list-thumb img {
+		transition: all .3s ease-in-out;
+		-o-transition: all .3s ease-in-out;
+		-ms-transition: all .3s ease-in-out;
+		-moz-transition: all .3s ease-in-out;
+		-webkit-transition: all .3s ease-in-out;
+	}
+
+	.cs-default .br-thumblist-content .br-list-thumb img:hover {
+		opacity: .4;
+		filter: alpha(opacity=40);
+	}
+
+	.cs-default .br-thumblist-content .br-list-thumb:first-child {
+		margin-left: 0px;
+	}
+
+.cs-default .br-slideinfo .br-infocontent {
+	background: url('../cute-theme/info-pat.png');
+	font-size: 12px;
+}
+
+	.cs-default .br-slideinfo .title,
+	.cs-default .br-slideinfo .text {
+		text-shadow: 0px 1px 0px white;
+	}
+
+	.cs-default .br-slideinfo .right,
+	.cs-default .br-slideinfo .left {
+		width: 300px;
+	}
+
+	.cs-default .br-slideinfo .right div,
+	.cs-default .br-slideinfo .bottom div,
+	.cs-default .br-slideinfo .left div {
+		padding-bottom: 55px !important;
+	}
+
+	.cs-default .br-slideinfo .title {
+		font: bold 18px/normal 'Open Sans', Arial, sans-serif;
+		color: #333;
+	}
+
+	.cs-default .br-slideinfo .text{
+		font: 12px/17px 'Open Sans', Arial, sans-serif;
+		color: #444;	
+	}
+
+	.cs-default .br-slideinfo .more-btn {
+		height: 34px;
+		color: #555;
+		text-shadow: 0px 1px 0px #fff;
+		font: 12px/34px 'Open Sans', Arial, sans-serif;
+		padding: 0px 10px;
+		float: right;
+		margin: 7px 0px 0px 15px !important;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+		border-radius: 3px;
+		background: #eeeeee;
+		background: -moz-linear-gradient(top, #eeeeee 0%, #ffffff 50%, #eeeeee 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eeeeee), color-stop(50%,#ffffff), color-stop(100%,#eeeeee));
+		background: -webkit-linear-gradient(top, #eeeeee 0%,#ffffff 50%,#eeeeee 100%);
+		background: -o-linear-gradient(top, #eeeeee 0%,#ffffff 50%,#eeeeee 100%);
+		background: -ms-linear-gradient(top, #eeeeee 0%,#ffffff 50%,#eeeeee 100%);
+		background: linear-gradient(to bottom, #eeeeee 0%,#ffffff 50%,#eeeeee 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#ffffff',GradientType=0 );
+		border-top: 1px solid #fff;
+		border-bottom: 1px solid #ccc;
+	}
+	
+	.cs-default .br-slideinfo .more-btn:hover {
+		color: #111 !important;
+		background: #f7f7f7;
+		background: -moz-linear-gradient(top, #f7f7f7 0%, #ffffff 50%, #f7f7f7 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f7f7f7), color-stop(50%,#ffffff), color-stop(100%,#f7f7f7));
+		background: -webkit-linear-gradient(top, #f7f7f7 0%,#ffffff 50%,#f7f7f7 100%);
+		background: -o-linear-gradient(top, #f7f7f7 0%,#ffffff 50%,#f7f7f7 100%);
+		background: -ms-linear-gradient(top, #f7f7f7 0%,#ffffff 50%,#f7f7f7 100%);
+		background: linear-gradient(to bottom, #f7f7f7 0%,#ffffff 50%,#f7f7f7 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#ffffff',GradientType=0 );
+		border-top: 1px solid #fff;
+		border-bottom: 1px solid #ddd;
+	}
+	
+
+/* Slider Timer */
+
+.cs-default .br-circle-timer {
+	top:-28px;
+	width:28px;
+	height:28px;
+}
+
+	.cs-default .br-circle-timer .br-timer-dot {
+		width:11px;
+		height: 13px;
+		background-position: -134px -15px;
+		margin-left: -5px;
+		margin-top: -6px;
+	}
+
+.cs-default .br-bar-timer {
+	height: 6px;
+	bottom: 0px;
+}
+
+	.cs-default .br-bar-timer .br-timer-glow {
+		width: 104px;
+	 	height: 7px;
+		background-image: url('../cute-theme/light-timer-glow.png');
+		filter: none !important;	
+	}
+
+	.cs-default .br-bar-timer .br-timer-bar {
+	 	height: 2px;
+		top: 4px;
+		background-color: white;
+	}
+
+
+/* Slider Captions */
+
+.cs-default .br-captions {
+	font-size:100%;
+}
+
+/* Slider Video */
+
+	.cs-default .br-video .play-btn {
+		width: 43px;
+		height: 43px;
+		background-position: -3px -44px;
+		top: 50%;
+		left: 50%;
+		margin: -21px 0 0 -21px;
+		filter: none !important;	
+		opacity: .75;
+	}
+
+	.cs-default .br-video .play-btn:hover {
+		opacity: 1;
+	}
+
+	.cs-default .br-video .close-btn {
+		width: 22px;
+		height: 22px;
+		background-color: black;
+		background-position: 0px -123px;
+		right: 6px;
+		top: 6px;
+		border: solid 1px #5E5C5C;
+		filter: none !important;	
+		opacity: .75;
+	}
+
+	.cs-default .cute-ie8 .br-video .close-btn {
+		right: -28px;
+		top: -28px;
+	}
+
+	.cs-default .br-video .close-btn:hover {
+		opacity: 1;
+	}	
+
+	.cs-default .br-video .video-cont {
+		background: black;
+		width:100%;
+		height:100%;
+	}
+
+/* Slider Shadow */
+
+.cs-default .cute-shadow {
+	margin-top: -2%;
+}
+
+/* Slider Loading */
+
+.cs-default .br-loading {
+	width: 23px;
+	height: 23px;
+	background-position: 150px -94px;
+	margin: -11px;
+}
+
+	.cs-default .br-loading .img {
+		width:21px;
+		height:21px;
+		background: url("../cute-theme/small-loading.gif") no-repeat center;
+	}
+
+.cs-default .br-large-loading {
+	width: 43px;
+	height: 43px;
+	background-position: -92px -42px;
+	margin: -21px;
+}
+
+	.cs-default .br-large-loading .img {
+		width:40px;
+		height:40px;
+		background: url("../cute-theme/large-loading.gif") no-repeat center;
+	}

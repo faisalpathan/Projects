@@ -1,0 +1,129 @@
+### V1.0.29
+    - #35 ( Notice: Undefined index: Illdy_Widget_Recent_Posts  )
+    - #36 ( Missing escape function in header.php )
+
+### V1.0.28
+	- #27 ( single post options, blog header image -> Blog Options )
+	- #28 ( Menu, section order -> general options )
+	- #29 ( add section to about/project/testimonials/etc )
+	- #30 ( general option- contact details + contac us -> General + contact details )
+	- #31 ( footer details -> copyright )
+	- #32 ( site title -> description - apare in archive )
+	- #33 ( company name -> apare doar in static frontpage )
+
+### V1.0.27
+	- #5 ( Contact form send message succesfully display bug  )
+	- #7 ( Aphostrophe renders as &amp;#039; in Service entry text )
+	- #18 ( CSS Stylesheets should be enqueued not @Imported )
+	- #19 ( Update TGMPA nag type to 'updated' )
+	- #21 ( Fix display for less items than the default 3-4 per section )
+	- #23 ( Jumbotron buttons does not hide when there's no information )
+	- #25 ( Change page title from h2 to h1 )
+
+### V1.0.26
+	- Moved widgets to Illdy Companion
+	- Resolved "Change page title from h2 to h1" (#25)
+	- Resolved "Jumbotron buttons does not hide when there's no information" (#23)
+	- Resolved "Fix display for less items than the default 3-4 per section" (#21)
+	- Resolved "Update TGMPA" (#19)
+	- Resolved "CSS Stylesheets should be enqueued not @Imported" (#18)
+	- Resolved "Contact form send message succesfully display bug" (#5)
+	- Resolved repo ticket : https://themes.trac.wordpress.org/ticket/29912#comment:45
+	
+### V1.0.17
+	- Updated TGMPA to latest version (2.6.1).
+	- Fixed a few strings which weren't available for translation.
+	- Update tag themes in style.css to match the new ones for the wordpress.org repo.
+	- Fixed a few strings which had 'untranslatable characters' in them.
+	- Added theme support for custom background images.
+	- Loaded the 'Source Sans Pro' font in the back-end editor so fonts resemble the ones on the front-page.
+
+### v1.0.16
+	- Has been fixed paginate links on blog.
+
+### v1.0.15
+	- Has been fixed the jQuery error in console on WordPress v4.5.
+
+### v1.0.14
+	- Has been added theme support function for WooCommerce.
+	- Has been added version on enqueue functions.
+
+### v1.0.13
+	- Has been fixed the third level menu.
+	- Has been fixed E-mail and Phone text from Contact us section on responsive.
+	- Has been fixed buttons alignment from Jumbotron section on responsive.
+	- Has been changed the post/ page title and description on singular header posts/ pages.
+	- Has been added sticky post.
+	- Has been fixed translation string and regenerated new .pot file.
+	- Has been added WooCommerce support.
+	- Has been added dropdown fields in customizer to order the sections on front page.
+
+### v1.0.12
+	- Has been added CSS style for the second sub menu from header navigation.
+	- Has been added the link to Contact Form 7 in Contact Form Creation field from customizer.
+	- Has been changed the title "Contact Form Creation" instead "Contact Form 7".
+
+### v1.0.11
+	- Has been added HTML sanitize function for customizer.
+	- Has been added active calback function for Contact Form 7 from customizer.
+	- Customizer - Contact us: has been changed in section from panel.
+	- Has been removed Social Sharing component.
+	- Customizer - Latest News: has been changed in section from panel.
+	- Has been added active callback functions for Testimonials section from customizer.
+	- Customizer - Testimonials: has been changed in section from panel.
+	- Customizer - Jumotron: has been changed in section from panel.
+	- Has been changed the Footer Logo instead Image Site Logo.
+	- Has been changed the Blog Header Image instead Header Image.
+	- Has been changed the description at Contact Details from customizer.
+
+### v1.0.10
+	- Has been fixed OWL Carousel when JetPack plugin is not installed.
+	- Has been added "max-width" in CSS for logo on responsive. 
+
+### v1.0.9
+	- Has been fixed Phone Number and E-mail Address from Customizer.
+
+### v1.0.8
+	- Has been generated POT file.
+	- Has been fixed the checkbox from customizer for Latest News section.
+	- Has been fixed Testimonials section when are added one post.
+
+### v1.0.7
+	- Has been added the background on preloader.
+	- Has been changed the link in footer.
+	- Has been changed the author name from style file.
+
+### v1.0.6
+	- Has been changed the color picker for custom widgets: Skill, Service and Person.
+	- Has been removed alias text from Font Awesome.
+	- Has been added the descriptions on fields from Counter widget.
+	- Has been added sanitize function for checkboxs from customizer.
+
+### v1.0.5
+	- Has been removed JSON widgets importer function.
+	- Has been added the preloader.
+	- Has been resolved the responsive.
+
+### v1.0.4
+	- Has been renamed "illdy_get_cf7_forms()" function instead "pixova_lite_get_cf7_forms()".
+	- Has been changed the footer copyright URL.
+	- Has been fixed the margin button in the subheader.
+
+### v1.0.3
+	- Has been reordered the panels from customizer.
+	- Has been added fields from Site Identity panel on header blog taglines.
+	- Has been added contition on image from Person widget.
+	- On Person widget has been added black color instead white color.
+	- On Skill and Services widgets has been added black color instead white color.
+	- Has been fixed header image for blog in customizer live preview.
+	- Has been added edited the description for social icons from contact section.
+	- Has been fixed logo text in customizer live preview.
+
+### v1.0.2
+	- Has been added textdomain on "Display title?" string.
+
+### v1.0.1
+	- Initial release.
+
+### v1.0.0
+	- Initial release.

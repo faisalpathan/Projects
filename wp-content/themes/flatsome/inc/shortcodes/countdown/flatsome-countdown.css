@@ -1,0 +1,49 @@
+/* UX Countdown Shortcode Styles */
+.ux-timer{
+	width:100%; 
+	position:relative; 
+	margin: .3em 0 .2em;
+	font-size: 300%; 
+	display:table; 
+	display: flex; 
+	justify-content: space-around; 
+	-webkit-display: flex; 
+	-webkit-justify-content: space-around;
+}
+.ux-timer span{
+	display:table-cell; 
+	display:inline-block; 
+	width:100%; 
+	font-weight: bolder; 
+	text-align: center; 
+	color:#FFF;  
+	line-height: 80%; 
+	padding: .5em .1em .1em; 
+	margin:0 .05em .2em; 
+	border-radius: 5px; 
+	background-color: rgba(0,0,0,.85);
+}
+.ux-timer span strong{
+	font-family: 'Helvetica' Sans-serif; 
+	font-size: 30%; 
+	opacity: .7; 
+	text-transform: uppercase; 
+	display: block;
+}
+.ux-timer.light span{
+	background-color: rgba(255,255,255,.85);
+	color: #000;
+}
+.ux-timer.transparent span{
+	padding:0;
+	background-color: transparent;
+}
+.ux-timer-text span{
+	font-weight: bolder; 
+	display: inline-block; 
+	margin: 0 .35em
+}
+
+.ux-timer-text strong{ 
+	margin-left: .2em
+}

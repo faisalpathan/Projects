@@ -1,0 +1,2024 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Business_Elite\n"
+"POT-Creation-Date: 2016-06-08 17:34+0400\n"
+"PO-Revision-Date: 2016-06-08 17:34+0400\n"
+"Last-Translator: \n"
+"Language-Team: Business_Elite\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;esc_html_e;esc_attr_e;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:10
+msgid "404 Page"
+msgstr "404 страница"
+
+#: 404.php:35
+msgid ""
+"You are trying to reach a page that does not exist here. Either it has been "
+"moved or you typed a wrong address. Try searching:"
+msgstr ""
+"Вас пытаются пройти на страницу, которой здесь нет. Либо она была "
+"перемещена, либо вы ввели неправильный адрес. Попробуйте поиск:"
+
+#: 404.php:40
+msgid "Type here"
+msgstr "Введите здесь"
+
+#: 404.php:41
+msgid "GO!"
+msgstr "Вперед!"
+
+#: archive.php:16
+msgid "Archive For The "
+msgstr "Архив для"
+
+#: archive.php:16
+msgid "Category"
+msgstr "Категория"
+
+#: archive.php:19
+msgid "Posts Tagged "
+msgstr "Записи с тегами"
+
+#: archive.php:22 archive.php:25 archive.php:28
+msgid "Archive For "
+msgstr "Архив для"
+
+#: archive.php:31
+msgid "Author Archive"
+msgstr "Архив авторов"
+
+#: archive.php:34
+msgid "Blog Archives"
+msgstr "Архив блога"
+
+#: archive.php:41
+msgid "Not Found"
+msgstr "Не найден"
+
+#: archive.php:77
+msgid "By "
+msgstr ""
+
+#: archive.php:114
+msgid ""
+"There are not posts belonging to this category or tag. Try searching below:"
+msgstr ""
+"Нет записей принадлежащих к этой категории или тегу. Попробуйте поискать "
+"ниже:"
+
+#: comments.php:9
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+"Эта запись защищена паролем. Введите пароль для просмотра комментариев."
+
+#: comments.php:20 comments.php:38
+msgid "&#8249; Older comments"
+msgstr "&#8249; Старые комментарии"
+
+#: comments.php:21 comments.php:39
+msgid "Newer comments &#8250;"
+msgstr "Новые комментарии &#8250;"
+
+#: comments.php:51
+msgid "Pings&#47;Trackbacks"
+msgstr "Пинги / Обратные ссылки"
+
+#: comments.php:53
+#, php-format
+msgid "%1$d %2$s for \"%3$s\""
+msgstr ""
+
+#: comments.php:64
+msgid "Name"
+msgstr "Имя"
+
+#: comments.php:65
+msgid "E-mail"
+msgstr "E-mail"
+
+#: comments.php:66
+msgid "Website"
+msgstr "Website"
+
+#: comments.php:70
+msgid "Comment"
+msgstr "Коментарий"
+
+#: functions.php:176
+msgid "Primary Widget Area"
+msgstr "Первичная Область Виджетa"
+
+#: functions.php:178
+msgid "The primary widget area"
+msgstr "Первичная Область Виджетa"
+
+#: functions.php:186
+msgid "Secondary Widget Area"
+msgstr "Вторичная Область Виджетa"
+
+#: functions.php:188
+msgid "The secondary widget area"
+msgstr "Вторичная Область Виджетa"
+
+#: functions.php:196
+msgid "First Footer Widget Area"
+msgstr "Первичная Widget ареа "
+
+#: functions.php:198 functions.php:208
+msgid "Footer widget area"
+msgstr "Первичная Нижняя Область Виджетa"
+
+#: functions.php:206
+msgid "Second Footer Widget Area"
+msgstr ""
+
+#: inc/admin/WDWT_admin_controller.php:169
+#: inc/admin/WDWT_admin_controller.php:173
+msgid "Layout Editor"
+msgstr "Редактор разметки"
+
+#: inc/admin/WDWT_admin_controller.php:181
+#: inc/admin/WDWT_admin_controller.php:185
+msgid "General"
+msgstr "Общее"
+
+#: inc/admin/WDWT_admin_controller.php:190
+msgid "Header"
+msgstr ""
+
+#: inc/admin/WDWT_admin_controller.php:198
+msgid "Homepage"
+msgstr "Домашняя страница"
+
+#: inc/admin/WDWT_admin_controller.php:202 inc/admin/page_homepage.php:17
+msgid "Top Posts"
+msgstr "Топ записи"
+
+#: inc/admin/WDWT_admin_controller.php:203
+#, php-format
+msgid "Create custom link menu item with URL %s to scroll to top posts."
+msgstr ""
+
+#: inc/admin/WDWT_admin_controller.php:207 inc/admin/page_homepage.php:82
+msgid "Category Tabs"
+msgstr "Вкладки Категориий"
+
+#: inc/admin/WDWT_admin_controller.php:208
+#, php-format
+msgid "Create custom link menu item with URL %s to scroll to category tabs."
+msgstr ""
+
+#: inc/admin/WDWT_admin_controller.php:212 inc/admin/page_homepage.php:108
+#: inc/admin/page_homepage.php:136
+msgid "Featured Post"
+msgstr "Лучший пост"
+
+#: inc/admin/WDWT_admin_controller.php:213
+#, php-format
+msgid "Create custom link menu item with URL %s to scroll to featured post."
+msgstr ""
+
+#: inc/admin/WDWT_admin_controller.php:217 inc/admin/page_homepage.php:161
+msgid "Content Posts"
+msgstr "Записи Контента"
+
+#: inc/admin/WDWT_admin_controller.php:218
+#, php-format
+msgid ""
+"Create custom link menu item with URL %s to scroll to blog content posts."
+msgstr ""
+
+#: inc/admin/WDWT_admin_controller.php:222 inc/admin/page_homepage.php:227
+msgid "Portfolio"
+msgstr "Портфолио"
+
+#: inc/admin/WDWT_admin_controller.php:223
+#, php-format
+msgid "Create custom link menu item with URL %s to scroll to portfolio posts."
+msgstr ""
+
+#: inc/admin/WDWT_admin_controller.php:227
+msgid "Contact"
+msgstr "Контакт"
+
+#: inc/admin/WDWT_admin_controller.php:228
+msgid "Frontpage Contact form is disabled in free version."
+msgstr ""
+
+#: inc/admin/WDWT_admin_controller.php:232
+msgid "Links"
+msgstr "Ссылки"
+
+#: inc/admin/WDWT_admin_controller.php:240
+msgid "Typography"
+msgstr "Типография"
+
+#: inc/admin/WDWT_admin_controller.php:245
+msgid "Headings"
+msgstr ""
+
+#: inc/admin/WDWT_admin_controller.php:250
+msgid "Primary text font"
+msgstr ""
+
+#: inc/admin/WDWT_admin_controller.php:255
+msgid "Inputs and text areas"
+msgstr ""
+
+#: inc/admin/WDWT_admin_controller.php:262
+msgid "Slider"
+msgstr "Слайдер"
+
+#: inc/admin/WDWT_admin_controller.php:267
+msgid "Slider - General"
+msgstr "Слайдер- Общее"
+
+#: inc/admin/WDWT_admin_controller.php:272
+msgid "Slider - Images"
+msgstr "Слайдер- Картинки"
+
+#: inc/admin/WDWT_admin_controller.php:279
+#: inc/admin/WDWT_admin_controller.php:284 inc/admin/page_homepage.php:245
+#: inc/admin/page_homepage.php:248
+msgid "Lightbox"
+msgstr ""
+
+#: inc/admin/WDWT_admin_controller.php:294
+#: inc/admin/WDWT_admin_controller.php:298
+msgid "Color Control"
+msgstr "Управление цвета"
+
+#: inc/admin/WDWT_admin_controller.php:308
+#: inc/admin/WDWT_admin_controller.php:312
+msgid "Upgrade to PRO"
+msgstr ""
+
+#: inc/admin/WDWT_admin_cpanel.php:84
+msgid "Theme settings updated successfully"
+msgstr "Настройки темы успешно обновлены"
+
+#: inc/admin/WDWT_admin_cpanel.php:117 inc/customizer/customizer.php:165
+#: inc/meta/meta.php:15
+msgid "You cannot delete the last slide! Try to turn off the slider"
+msgstr "Вы не можете удалить последний рисунок ! Попробуйте отключить слайдер"
+
+#: inc/admin/licensing.php:9
+msgid ""
+"This theme is the non-commercial version of the Business Elite theme. You "
+"will be able to use it free of charge. It comes with a large number of "
+"features. Some of the advanced features are not available for this option. "
+"If you want to use those features, you are required to purchase a license."
+msgstr ""
+
+#: inc/admin/page_general_settings.php:10
+msgid "Custom CSS"
+msgstr "Пользовательское CSS"
+
+#: inc/admin/page_general_settings.php:12
+msgid ""
+"Custom CSS will change the visual style of the website. The CSS code "
+"provided here can be applied to any page or post."
+msgstr ""
+"Пользовательское CSS будет изменять визуальный стиль веб-сайта.Код CSS, "
+"представленный здесь, может быть применен к любой странице или записе."
+
+#: inc/admin/page_general_settings.php:25
+msgid "Provide the custom CSS code below."
+msgstr "Обеспечить пользовательский код CSS ниже."
+
+#: inc/admin/page_general_settings.php:36
+msgid "Blog Style post format"
+msgstr "Блог Стиль пост формат"
+
+#: inc/admin/page_general_settings.php:38
+msgid "Check the box to have short previews for the homepage/index posts."
+msgstr ""
+"Установите флажок, чтобы иметь короткий просмотр для Флавной страницы / "
+"индекс записей."
+
+#: inc/admin/page_general_settings.php:47
+msgid "Grab the first post image"
+msgstr "Возять первое изображение записи "
+
+#: inc/admin/page_general_settings.php:49
+msgid ""
+"Enable this option if you want to use the images that are already in your "
+"post to create a thumbnail without using custom fields. In this case "
+"thumbnail images will be generated automatically using the first image of "
+"the post. Note that the image needs to be hosted on your own server."
+msgstr ""
+"Включите эту опцию, если вы хотите использовать изображения, которые уже "
+"находятся в вашем посте в качестве миниатюры. В этом случае изображение "
+"миниатюры  будет генерироваться автоматически, с использованием первого "
+"изображения в записе. Обратите внимание, что изображение должно быть "
+"размещено на вашем собственном сервере."
+
+#: inc/admin/page_general_settings.php:59
+msgid "Display post meta information"
+msgstr "Показать мета-информацию записей"
+
+#: inc/admin/page_general_settings.php:61
+msgid ""
+"Choose whether to display the post meta information such as date, author and "
+"etc."
+msgstr ""
+"Выберите, отображать ли в записях мета -информацию, такую как дата, автор и "
+"т.д."
+
+#: inc/admin/page_general_settings.php:70
+msgid "Heading background"
+msgstr ""
+
+#: inc/admin/page_general_settings.php:72
+msgid "Enable colorful background of the main heading in page content"
+msgstr ""
+
+#: inc/admin/page_general_settings.php:82
+#: inc/admin/page_general_settings.php:94
+msgid "Information in the Footer"
+msgstr "Информация в нижней области"
+
+#: inc/admin/page_general_settings.php:84
+msgid "Check the box to display custom HTML for the footer."
+msgstr ""
+"Установите флажок, чтобы отображать пользовательский HTML в нижней области."
+
+#: inc/admin/page_general_settings.php:99
+msgid ""
+"Here you can provide the HTML code to be inserted in the footer of your web "
+"site."
+msgstr ""
+"Здесь вы можете предоставить HTML код для вставки в нижней части веб-сайта."
+
+#: inc/admin/page_general_settings.php:108
+msgid "Fix menu"
+msgstr "Зафиксировать меню"
+
+#: inc/admin/page_general_settings.php:110
+msgid "Check the box to fix menu."
+msgstr "Установите флажок, чтобы зафиксировать меню."
+
+#: inc/admin/page_general_settings.php:118
+msgid "Menu Width"
+msgstr ""
+
+#: inc/admin/page_general_settings.php:121
+msgid ""
+"Menu width as a percentage of total header container width. The rest is logo "
+"section width."
+msgstr ""
+
+#: inc/admin/page_general_settings.php:132
+msgid "Logo type"
+msgstr "Тип Логотипа"
+
+#: inc/admin/page_general_settings.php:149
+msgid "Logo"
+msgstr "Логотип"
+
+#: inc/admin/page_general_settings.php:152
+msgid "Upload custom logo image."
+msgstr "Загрузить изображение логотипа."
+
+#: inc/admin/page_general_settings.php:160
+msgid "Logo Text"
+msgstr "Текст логотипа"
+
+#: inc/admin/page_general_settings.php:163
+msgid "Provide with a custom text"
+msgstr "Обеспечить с пользовательский текст"
+
+#: inc/admin/page_homepage.php:19
+msgid "Check the box to display the top posts on the homepage"
+msgstr "Установите флажок, чтобы отображать топ записи на домашней странице"
+
+#: inc/admin/page_homepage.php:34
+msgid "Top Posts Title"
+msgstr "Заголовок для Топ Записей"
+
+#: inc/admin/page_homepage.php:37 inc/admin/page_homepage.php:181
+#: inc/admin/page_homepage.php:262
+msgid "Write Title for Top Posts"
+msgstr "Напишите заголвок для Топ Записей"
+
+#: inc/admin/page_homepage.php:45
+msgid "Top Posts Description"
+msgstr "Описание для Топ Записей"
+
+#: inc/admin/page_homepage.php:48 inc/admin/page_homepage.php:192
+#: inc/admin/page_homepage.php:273
+msgid "Write Description for Top Posts"
+msgstr "Напишите опидание для Топ Записей"
+
+#: inc/admin/page_homepage.php:61 inc/admin/page_homepage.php:205
+#: inc/admin/page_homepage.php:286
+msgid "Filter posts only from these categories."
+msgstr ""
+
+#: inc/admin/page_homepage.php:69 inc/admin/page_homepage.php:148
+#: inc/admin/page_homepage.php:294 inc/admin/page_homepage.php:394
+msgid "Select Effect"
+msgstr "Выберите эффект"
+
+#: inc/admin/page_homepage.php:73 inc/admin/page_homepage.php:152
+#: inc/admin/page_homepage.php:298 inc/admin/page_homepage.php:398
+msgid "Select the effect."
+msgstr "Выберите эффект"
+
+#: inc/admin/page_homepage.php:84
+msgid "Check the box to display the category tabs from the homepage."
+msgstr ""
+"Установите флажок, чтобы отобразить  вкладки категорий на домашней странице."
+
+#: inc/admin/page_homepage.php:99
+msgid "Show posts from these categories."
+msgstr ""
+
+#: inc/admin/page_homepage.php:110
+msgid "Check the box to display the featured post from the homepage."
+msgstr "Установите флажок для отображения лучшей записи на домашней странице."
+
+#: inc/admin/page_homepage.php:124
+msgid "Featured Background Image"
+msgstr "Фоновый рисунок для Лучшей записи"
+
+#: inc/admin/page_homepage.php:128
+msgid ""
+"You can upload a custom image to be used as a background for the featured "
+"post."
+msgstr ""
+"Вы можете загрузить  изображение, которое будет использоваться в качестве "
+"фона для лучшей саписи."
+
+#: inc/admin/page_homepage.php:140
+msgid "Select the single post"
+msgstr "Выберите одну запись"
+
+#: inc/admin/page_homepage.php:163
+msgid "Check the box to display the content posts on the homepage"
+msgstr ""
+"Установите флажок, чтобы отображать записи контента на домашней странице"
+
+#: inc/admin/page_homepage.php:178
+msgid "Content Posts Title"
+msgstr "Заголовок для Контента"
+
+#: inc/admin/page_homepage.php:189
+msgid "Content Posts Description"
+msgstr "Опсиание для Контента"
+
+#: inc/admin/page_homepage.php:213
+msgid "Content Posts Margin"
+msgstr ""
+
+#: inc/admin/page_homepage.php:216
+msgid "Margin of content posts blocks"
+msgstr ""
+
+#: inc/admin/page_homepage.php:229
+msgid "Check the box to display the portfolio on the homepage"
+msgstr "Установите флажок, чтобы отобразить портфолио на домашней странице"
+
+#: inc/admin/page_homepage.php:249
+msgid "Link"
+msgstr ""
+
+#: inc/admin/page_homepage.php:251
+msgid "Show lightbox or link to post"
+msgstr ""
+
+#: inc/admin/page_homepage.php:259
+msgid "Portfolio Title"
+msgstr "Заголовок для Портфолио"
+
+#: inc/admin/page_homepage.php:270
+msgid "Portfolio Description"
+msgstr "Описание для Посртфолио"
+
+#: inc/admin/page_homepage.php:307
+msgid "Contact Us"
+msgstr "Контакт"
+
+#: inc/admin/page_homepage.php:309
+msgid "Check the box to display contact information and social links."
+msgstr ""
+
+#: inc/admin/page_homepage.php:327
+msgid "Contact Background Image"
+msgstr "Фоновый рисунок для контактов"
+
+#: inc/admin/page_homepage.php:331
+msgid ""
+"You can upload a custom image to be used as a background for the contact us."
+msgstr ""
+
+#: inc/admin/page_homepage.php:339
+msgid "Contact Title"
+msgstr "Заголовок для контакта"
+
+#: inc/admin/page_homepage.php:342
+msgid "Write Title for Contact"
+msgstr ""
+
+#: inc/admin/page_homepage.php:350
+msgid "Contact Us Description"
+msgstr "Описания контакта"
+
+#: inc/admin/page_homepage.php:353
+msgid "Write Description for Contact"
+msgstr ""
+
+#: inc/admin/page_homepage.php:361
+msgid "Contact us Name"
+msgstr "Имя контакта"
+
+#: inc/admin/page_homepage.php:364
+msgid "Here you can write your Full Name"
+msgstr "Здесь Вы можете написать Ваше полное имя"
+
+#: inc/admin/page_homepage.php:372
+msgid "Contact us Address"
+msgstr "Адрес контакта"
+
+#: inc/admin/page_homepage.php:375
+msgid "Here you can write your Address"
+msgstr "Здесь Вы можете написать Ваш адресс"
+
+#: inc/admin/page_homepage.php:383
+msgid "Contact us email"
+msgstr ""
+
+#: inc/admin/page_homepage.php:386
+msgid ""
+"Here you can write your E-mail. Contact form is enabled only in PRO version."
+msgstr ""
+
+#: inc/admin/page_homepage.php:408
+msgid "Twitter Icon"
+msgstr "Иконка Twitter"
+
+#: inc/admin/page_homepage.php:410
+msgid "Check the box to display Twitter icon."
+msgstr "Установите флажок, чтобы отображать значок Twitter."
+
+#: inc/admin/page_homepage.php:420
+msgid "Twitter URL"
+msgstr "Twitter URL"
+
+#: inc/admin/page_homepage.php:423
+msgid "Enter your Twitter Profile URL below."
+msgstr "Введите ниже URL профиля в Twitter."
+
+#: inc/admin/page_homepage.php:431
+msgid "Facebook Icon"
+msgstr "Иконка Facebook"
+
+#: inc/admin/page_homepage.php:433
+msgid "Check the box to display Facebook icon."
+msgstr "Установите флажок, чтобы отображать значок Facebook."
+
+#: inc/admin/page_homepage.php:443
+msgid "Facebook URL"
+msgstr "Facebook URL"
+
+#: inc/admin/page_homepage.php:446
+msgid "Enter your Facebook Profile URL below."
+msgstr "Введите ниже URL профиля в Facebook."
+
+#: inc/admin/page_homepage.php:454
+msgid "RSS Icon"
+msgstr "Иконка RSS "
+
+#: inc/admin/page_homepage.php:456
+msgid "Check the box to display RSS icon."
+msgstr "Установите флажок, чтобы отображать значок RSS."
+
+#: inc/admin/page_homepage.php:466
+msgid "RSS URL"
+msgstr "RSS URL"
+
+#: inc/admin/page_homepage.php:469
+msgid "Enter your RSS Profile URL below."
+msgstr "Введите ниже URL профиля в RSS."
+
+#: inc/admin/page_homepage.php:477
+msgid "Youtube Icon"
+msgstr "Иконка Youtube "
+
+#: inc/admin/page_homepage.php:479
+msgid "Check the box to display Youtube icon."
+msgstr "Установите флажок, чтобы отображать значок  Youtube."
+
+#: inc/admin/page_homepage.php:489
+msgid "Youtube URL"
+msgstr "Youtube URL"
+
+#: inc/admin/page_homepage.php:492
+msgid "Enter your Youtube Profile URL below."
+msgstr "Введите ниже URL профиля в Youtube."
+
+#: inc/admin/page_homepage.php:500
+msgid "Google+ Icon"
+msgstr "Иконка Google+ "
+
+#: inc/admin/page_homepage.php:502
+msgid "Check the box to display Google+ icon."
+msgstr "Установите флажок, чтобы отображать значок  Google+."
+
+#: inc/admin/page_homepage.php:512
+msgid "Google+ URL"
+msgstr "Google+ URL"
+
+#: inc/admin/page_homepage.php:515
+msgid "Enter your Google+ Profile URL below."
+msgstr "Введите ниже URL профиля в Google+."
+
+#: inc/admin/page_homepage.php:523
+msgid "Instagram Icon"
+msgstr "Иконка Instagram "
+
+#: inc/admin/page_homepage.php:525
+msgid "Check the box to display Instagram icon."
+msgstr "Установите флажок, чтобы отображать значок  Instagram ."
+
+#: inc/admin/page_homepage.php:535
+msgid "Instagram URL"
+msgstr "Instagram URL"
+
+#: inc/admin/page_homepage.php:538
+msgid "Enter your Instagram Profile URL below."
+msgstr "Введите ниже URL профиля в Instagram."
+
+#: inc/admin/page_homepage.php:546
+msgid "Linkedin Icon"
+msgstr ""
+
+#: inc/admin/page_homepage.php:548
+msgid "Check the box to display Linkedin icon."
+msgstr ""
+
+#: inc/admin/page_homepage.php:558
+msgid "Linkedin URL"
+msgstr ""
+
+#: inc/admin/page_homepage.php:561
+msgid "Enter your Linkedin Profile URL below."
+msgstr ""
+
+#: inc/admin/page_layout.php:9 inc/meta/meta_layout_model.php:8
+msgid "Choose Default Layout"
+msgstr "Выберите разметку по умолчанию"
+
+#: inc/admin/page_layout.php:11 inc/meta/meta_layout_model.php:10
+msgid "Select the default layout for pages and posts on the website."
+msgstr "Выберите  разметку по умолчанию для страниц и сообщений на веб-сайте."
+
+#: inc/admin/page_layout.php:38 inc/meta/meta_layout_model.php:34
+msgid "Full Width"
+msgstr "Полноэкранный режим"
+
+#: inc/admin/page_layout.php:40 inc/meta/meta_layout_model.php:36
+msgid "You can choose full width for pages and posts on the website."
+msgstr "Полноэкранный режим"
+
+#: inc/admin/page_layout.php:48 inc/meta/meta_layout_model.php:41
+msgid "Content Area Width"
+msgstr "Ширина контента"
+
+#: inc/admin/page_layout.php:50 inc/meta/meta_layout_model.php:44
+msgid "Specify the width of the Content Area"
+msgstr "Укажите ширину области содержимого"
+
+#: inc/admin/page_layout.php:61 inc/meta/meta_layout_model.php:51
+msgid "Main Column Width"
+msgstr "Ширина главной колонки"
+
+#: inc/admin/page_layout.php:63 inc/meta/meta_layout_model.php:54
+msgid "Specify the width of the Main Column"
+msgstr "Укажите ширину главной колонны"
+
+#: inc/admin/page_layout.php:74 inc/meta/meta_layout_model.php:61
+msgid "Primary Widget Area width"
+msgstr "Ширина площади первичного виджета "
+
+#: inc/admin/page_layout.php:76 inc/meta/meta_layout_model.php:64
+msgid "Specify the width of the Primary Widget Area"
+msgstr "Укажите ширину площади первичного виджета "
+
+#: inc/admin/page_lightbox.php:9 inc/admin/page_lightbox.php:11
+msgid "Disable lightbox"
+msgstr ""
+
+#: inc/admin/page_lightbox.php:19
+msgid "Slideshow interval."
+msgstr ""
+
+#: inc/admin/page_lightbox.php:23
+msgid "Interval of slideshow in seconds."
+msgstr ""
+
+#: inc/admin/page_lightbox.php:31 inc/admin/page_lightbox.php:35
+msgid "Lightbox width."
+msgstr ""
+
+#: inc/admin/page_lightbox.php:43 inc/admin/page_lightbox.php:47
+msgid "Lightbox height."
+msgstr ""
+
+#: inc/admin/page_lightbox.php:56 inc/admin/page_lightbox.php:78
+msgid "Lightbox transition effect"
+msgstr ""
+
+#: inc/admin/page_lightbox.php:86
+msgid "Enable fullscreen buttons"
+msgstr ""
+
+#: inc/admin/page_lightbox.php:96
+msgid "Open lightbox with fullscreen."
+msgstr ""
+
+#: inc/admin/page_lightbox.php:106
+msgid "Enable play and pause buttons."
+msgstr ""
+
+#: inc/admin/page_lightbox.php:116
+msgid "Open with autoplay."
+msgstr ""
+
+#: inc/admin/page_lightbox.php:126
+msgid "Enable info in lightbox."
+msgstr ""
+
+#: inc/admin/page_lightbox.php:128
+msgid "Add post title and excerpt as image info in lightbox."
+msgstr ""
+
+#: inc/admin/page_lightbox.php:138
+msgid "Always show info in lightbox."
+msgstr ""
+
+#: inc/admin/page_lightbox.php:148
+msgid "Full-width info in lightbox."
+msgstr ""
+
+#: inc/admin/page_lightbox.php:158
+msgid "Image info position"
+msgstr ""
+
+#: inc/admin/page_slider.php:9
+msgid "Specify where slider should be shown."
+msgstr "Укажите, где должен отобтажаться слайдер."
+
+#: inc/admin/page_slider.php:12
+msgid "Only on homepage"
+msgstr ""
+
+#: inc/admin/page_slider.php:13
+msgid "Only on front page"
+msgstr ""
+
+#: inc/admin/page_slider.php:14
+msgid "On all the pages and posts"
+msgstr "На всех страницах и записях"
+
+#: inc/admin/page_slider.php:15
+msgid "Hide Slider"
+msgstr "Скрыть слайдер"
+
+#: inc/admin/page_slider.php:17
+msgid ""
+"Tip: set \"Only on front page\" if front page displays \"a static page\"."
+msgstr ""
+
+#: inc/admin/page_slider.php:25 inc/admin/page_slider.php:27
+msgid "Disable slider on mobile."
+msgstr ""
+
+#: inc/admin/page_slider.php:35
+msgid "Slider Height"
+msgstr "Высота слайдера"
+
+#: inc/admin/page_slider.php:38
+msgid ""
+"Slider with the width of 1024px will have this height. When resized, image "
+"dimensions ratio is preserved."
+msgstr ""
+
+#: inc/admin/page_slider.php:46
+msgid "Animation Speed"
+msgstr "Скорость анимации"
+
+#: inc/admin/page_slider.php:49
+msgid ""
+"When using an animation for the slider, you can control its speed. You can "
+"use the provided box to fill in the optimal speed."
+msgstr ""
+"При использовании анимации для слайдера, вы можете контролировать ее "
+"скорость. Вы можете использовать предоставленную окно для заполнения "
+"оптимальной скорости."
+
+#: inc/admin/page_slider.php:57
+msgid "Pause Time"
+msgstr "Время паузы"
+
+#: inc/admin/page_slider.php:60
+msgid ""
+"The timing for the slider animation can be customized. You can adjust it "
+"providing timing in the corresponding box."
+msgstr ""
+"Время для анимации слайдера могут быть настроены. Вы можете настроить его в "
+"соответствующем поле."
+
+#: inc/admin/page_slider.php:68
+msgid "Stop animation while hovering"
+msgstr "Остановить анимацию во время hover"
+
+#: inc/admin/page_slider.php:71
+msgid ""
+"By default slider animation is constant. However you can choose it to stop "
+"while hovering, checking the box for this option."
+msgstr ""
+"По умолчанию анимации слайдера  являются постоянными. Однако вы можете "
+"выбрать его, чтобы остановить анимацию во время hover, установив флажок для "
+"этой опции."
+
+#: inc/admin/page_slider.php:82
+msgid "Effect"
+msgstr "Эффекты"
+
+#: inc/admin/page_slider.php:85
+msgid ""
+"The animation of the slider can be customized with the help of various "
+"effects. You can choose the slider animation effect from the list included "
+"below."
+msgstr ""
+"Анимация слайдера может быть настроена с помощью различных эффектов. Вы "
+"можете выбрать слайдер эффект анимации из списка  ниже."
+
+#: inc/admin/page_slider.php:113
+msgid "Title Position"
+msgstr "Позиция названя"
+
+#: inc/admin/page_slider.php:135
+msgid "Description Position"
+msgstr "Позиция описания"
+
+#: inc/admin/page_typography.php:11 inc/admin/page_typography.php:110
+#: inc/admin/page_typography.php:210
+msgid "Select Font"
+msgstr "Выберите шрифт"
+
+#: inc/admin/page_typography.php:12 inc/admin/page_typography.php:112
+#: inc/admin/page_typography.php:212
+msgid ""
+"Fonts with * are not loaded from Google, they will be displayed only if "
+"visitor's device has them installed."
+msgstr ""
+
+#: inc/admin/page_typography.php:25 inc/admin/page_typography.php:124
+#: inc/admin/page_typography.php:224 inc/lib/WDWT_admin_view.php:694
+msgid "Preview"
+msgstr "Просмотр"
+
+#: inc/admin/page_typography.php:33 inc/admin/page_typography.php:132
+#: inc/admin/page_typography.php:232
+msgid "Edit font styling"
+msgstr "Редактировать стиль шрифта"
+
+#: inc/admin/page_typography.php:49 inc/admin/page_typography.php:149
+#: inc/admin/page_typography.php:249
+msgid "Letter Spacing"
+msgstr "Расстояние между букв"
+
+#: inc/admin/page_typography.php:61 inc/admin/page_typography.php:161
+#: inc/admin/page_typography.php:261
+msgid "Text Transform"
+msgstr "Преобразования текста"
+
+#: inc/admin/page_typography.php:73 inc/admin/page_typography.php:173
+#: inc/admin/page_typography.php:273
+msgid "Variant"
+msgstr "Вариант"
+
+#: inc/admin/page_typography.php:85 inc/admin/page_typography.php:185
+#: inc/admin/page_typography.php:285
+msgid "Weight"
+msgstr "Толщина"
+
+#: inc/admin/page_typography.php:97 inc/admin/page_typography.php:197
+#: inc/admin/page_typography.php:297
+msgid "Style"
+msgstr "Стиль"
+
+#: inc/front/WDWT_lightbox.php:493
+msgid "The image has been deleted."
+msgstr ""
+
+#: inc/front/WDWT_lightbox.php:507 inc/front/WDWT_lightbox.php:1493
+msgid "Play"
+msgstr ""
+
+#: inc/front/WDWT_lightbox.php:513 inc/front/WDWT_lightbox.php:1083
+#: inc/front/WDWT_lightbox.php:1350 inc/front/WDWT_lightbox.php:1429
+msgid "Maximize"
+msgstr ""
+
+#: inc/front/WDWT_lightbox.php:517 inc/front/WDWT_lightbox.php:1085
+#: inc/front/WDWT_lightbox.php:1431
+msgid "Fullscreen"
+msgstr ""
+
+#: inc/front/WDWT_lightbox.php:520 inc/front/WDWT_lightbox.php:1254
+msgid "Show info"
+msgstr ""
+
+#: inc/front/WDWT_lightbox.php:526
+msgid "Open image in original size."
+msgstr ""
+
+#: inc/front/WDWT_lightbox.php:1250
+msgid "Hide info"
+msgstr ""
+
+#: inc/front/WDWT_lightbox.php:1375 inc/front/WDWT_lightbox.php:1557
+msgid "Restore"
+msgstr ""
+
+#: inc/front/WDWT_lightbox.php:1471
+msgid "Exit Fullscreen"
+msgstr ""
+
+#: inc/front/WDWT_lightbox.php:1485 inc/front/WDWT_lightbox.php:1509
+msgid "Pause"
+msgstr ""
+
+#: inc/front/front_functions.php:24
+#, php-format
+msgid "View all posts by %s"
+msgstr "Просмотр всех публикаций %s"
+
+#: inc/front/front_functions.php:90
+msgid "More Info"
+msgstr "Далее"
+
+#: inc/front/front_functions.php:174
+msgid "Random Posts"
+msgstr "Случайные записи"
+
+#: inc/front/front_functions.php:179
+msgid "Popular Posts"
+msgstr "Популярные записи"
+
+#: inc/front/front_functions.php:184
+msgid "Recent Posts"
+msgstr "Последние записи"
+
+#: inc/front/front_functions.php:445
+msgid "Read more"
+msgstr "Далее"
+
+#: inc/front/front_functions.php:471 inc/front/front_functions.php:566
+msgid "Previous"
+msgstr ""
+
+#: inc/front/front_functions.php:475 inc/front/front_functions.php:570
+msgid "Next"
+msgstr ""
+
+#: inc/front/front_functions.php:725
+msgid "FULL NAME"
+msgstr "Имя"
+
+#: inc/front/front_functions.php:732
+msgid "ADDRESS"
+msgstr "Адрес"
+
+#: inc/front/front_functions.php:739
+msgid "EMAIL"
+msgstr "E-Mail"
+
+#: inc/front/front_functions.php:794 inc/lib/WDWT_output.php:246 index.php:52
+msgid "More"
+msgstr "Далее"
+
+#: inc/lib/WDWT_admin_view.php:772
+msgid "Upload Image"
+msgstr "Загрузить изображение"
+
+#: inc/lib/WDWT_admin_view.php:816
+msgid "Image URL"
+msgstr "URL Изображения"
+
+#: inc/lib/WDWT_admin_view.php:820
+msgid "Update image"
+msgstr "Обновление изображения"
+
+#: inc/lib/WDWT_admin_view.php:822
+msgid "Remove this slide"
+msgstr "Удалить это изображение"
+
+#: inc/lib/WDWT_admin_view.php:831
+msgid "Image Href"
+msgstr "Href изображения"
+
+#: inc/lib/WDWT_admin_view.php:837
+msgid "Image Title"
+msgstr "Заголовок изображения"
+
+#: inc/lib/WDWT_admin_view.php:844
+msgid "Image Description"
+msgstr "Описание изображения"
+
+#: inc/lib/WDWT_admin_view.php:855
+msgid "Image"
+msgstr "Рисунок"
+
+#: inc/lib/WDWT_admin_view.php:856
+msgid "Add more than two images to the slider in PRO version."
+msgstr ""
+
+#: inc/lib/WDWT_admin_view.php:864
+msgid "Add new slide"
+msgstr "Добавить новое изображение"
+
+#: inc/lib/WDWT_admin_view.php:1081
+msgid "Title"
+msgstr "Заголовок"
+
+#: inc/lib/WDWT_admin_view.php:1088
+msgid "Percent"
+msgstr "Процент"
+
+#: inc/lib/WDWT_admin_view.php:1092
+msgid "Remove this percent"
+msgstr "Удалить этот процент"
+
+#: inc/lib/WDWT_admin_view.php:1101
+msgid "Add new percent value"
+msgstr "Добавить новый процент"
+
+#: inc/lib/WDWT_output.php:118
+msgid "Such element type does not exist!"
+msgstr "Типа такого элемента не существует!"
+
+#: inc/lib/WDWT_output.php:178
+msgid "This section allows you to add meta keywords, metatags, titles. "
+msgstr ""
+
+#: inc/lib/WDWT_output.php:183
+msgid "This section allows you to make changes in default layout of the theme."
+msgstr "Этот раздел позволяет вам вносить изменения в макет темы по умолчанию."
+
+#: inc/lib/WDWT_output.php:188
+msgid ""
+"This section allows you to make changes in your site and customize it in "
+"accordance to personal preferences."
+msgstr ""
+"Этот раздел позволяет вам вносить изменения в свой сайт и настроить его в "
+"соответствии с личными предпочтениями."
+
+#: inc/lib/WDWT_output.php:193
+msgid ""
+"This section allows you to make changes in post styles and customize your "
+"homepage appearance. "
+msgstr ""
+"Этот раздел позволяет вам вносить изменения в стили записей и настроить "
+"внешний вид. домашней страницы."
+
+#: inc/lib/WDWT_output.php:198
+msgid ""
+"This section allows you to add integration codes in various areas of the "
+"site."
+msgstr ""
+"В этом разделе можно добавить  коды интеграции в различных областях сайта."
+
+#: inc/lib/WDWT_output.php:203
+msgid ""
+"This section allows you customizing certain color features in the theme. "
+msgstr ""
+
+#: inc/lib/WDWT_output.php:208
+msgid "This section allows you to change the font styles."
+msgstr "Этот раздел позволяет вам изменять стили шрифтов."
+
+#: inc/lib/WDWT_output.php:213
+msgid "This section allows you customize the slider. "
+msgstr "В этом разделе можно настроить слайдер."
+
+#: inc/lib/WDWT_output.php:218
+msgid "This section allows to add sample data."
+msgstr "Этот раздел позволяет добавлять данные образца."
+
+#: inc/lib/WDWT_output.php:223
+msgid ""
+"This section displays plugins, which will help to increase the theme "
+"functionality"
+msgstr ""
+
+#: inc/lib/WDWT_output.php:228
+msgid "This section allows you customize the lightbox. "
+msgstr ""
+
+#: inc/lib/WDWT_output.php:233
+msgid "Available updates for the theme."
+msgstr ""
+
+#: inc/lib/WDWT_output.php:244
+msgid "User Manual."
+msgstr "Руководство пользователя."
+
+#: inc/meta/meta_layout_model.php:72
+msgid "Featured Image"
+msgstr ""
+
+#: inc/meta/meta_layout_model.php:74
+msgid "Show Featured Image in single page/post view"
+msgstr ""
+
+#: inc/notices/WDWT_notices.php:201
+msgid "Leave A Review?"
+msgstr ""
+
+#: inc/notices/WDWT_notices.php:202
+#, php-format
+msgid ""
+"We hope you've enjoyed using WordPress %s! Would you consider leaving us a "
+"review on WordPress.org?"
+msgstr ""
+
+#: inc/notices/WDWT_notices.php:203
+msgid "Sure! I'd love to!"
+msgstr ""
+
+#: inc/notices/WDWT_notices.php:204
+msgid "I've already left a review"
+msgstr ""
+
+#: inc/notices/WDWT_notices.php:205
+msgid "Maybe Later"
+msgstr ""
+
+#: inc/notices/WDWT_notices.php:206 inc/notices/WDWT_notices.php:216
+msgid "Never show again"
+msgstr ""
+
+#: inc/notices/WDWT_notices.php:212
+msgid "Hey! How's It Going?"
+msgstr ""
+
+#: inc/notices/WDWT_notices.php:213
+#, php-format
+msgid ""
+"Thank you for using WordPress %s! We hope that you've found everything you "
+"need, but if you have any questions:"
+msgstr ""
+
+#: inc/notices/WDWT_notices.php:214
+msgid "Check out User Guide"
+msgstr ""
+
+#: inc/notices/WDWT_notices.php:215
+msgid "Get Some Help"
+msgstr ""
+
+#: inc/widgets/Spider_Random_Post.php:10
+msgid ""
+"Spider Random Post allows you to show posts in a random order in a sidebar."
+msgstr ""
+
+#: inc/widgets/Spider_Random_Post.php:12
+msgid "Spider Random Post"
+msgstr ""
+
+#: inc/widgets/Spider_Random_Post.php:322
+msgid "Title:"
+msgstr ""
+
+#: inc/widgets/Spider_Random_Post.php:329
+#: inc/widgets/Spider_Random_Post.php:332
+msgid "Select Category"
+msgstr ""
+
+#: inc/widgets/Spider_Random_Post.php:352
+msgid "Quantity of Posts:"
+msgstr ""
+
+#: inc/widgets/Spider_Random_Post.php:357
+msgid "Auto Update"
+msgstr ""
+
+#: inc/widgets/Spider_Random_Post.php:359
+msgid " No"
+msgstr ""
+
+#: inc/widgets/Spider_Random_Post.php:360
+msgid "Yes"
+msgstr ""
+
+#: inc/widgets/Spider_Random_Post.php:366
+msgid "Visualization"
+msgstr ""
+
+#: inc/widgets/Spider_Random_Post.php:369
+msgid "Style 1"
+msgstr ""
+
+#: inc/widgets/Spider_Random_Post.php:370
+msgid "Style 2"
+msgstr ""
+
+#: inc/widgets/Spider_Random_Post.php:371
+msgid "Style 3"
+msgstr ""
+
+#: inc/widgets/Spider_Random_Post.php:372
+msgid "Style 4"
+msgstr ""
+
+#: inc/widgets/Spider_Random_Post.php:373
+msgid "Random"
+msgstr ""
+
+#: inc/widgets/Spider_Random_Post.php:378
+msgid "Time of update(sec)"
+msgstr ""
+
+#: inc/widgets/widget-adsens.php:4
+msgid "Displays Adsense"
+msgstr "Отображать Adsense"
+
+#: inc/widgets/widget-adsens.php:34
+msgid "Adsense"
+msgstr "Adsense"
+
+#: inc/widgets/widget-adsens.php:41
+msgid "Adsense Code"
+msgstr "Код Adsense"
+
+#: inc/widgets/widget-advert.php:5
+msgid "Displays Advertisements"
+msgstr "Отображать рекламу"
+
+#: inc/widgets/widget-category-tabs.php:1
+msgid "Displays Categories tabs"
+msgstr "Отображать теги категорий"
+
+#: inc/widgets/widget-category.php:4
+msgid "Displays Categories Posts"
+msgstr "Отображать записи категорий"
+
+#: inc/widgets/widget-category.php:95
+msgid "Categories Posts"
+msgstr "Записи категорий"
+
+#: inc/widgets/widget-percent.php:4
+msgid "Displays Percent"
+msgstr "Отображает процент"
+
+#: inc/widgets/widget-social-icons.php:1
+msgid "Social icons"
+msgstr "Социальные иконки"
+
+#: page.php:54 single.php:78
+msgid "Page"
+msgstr "Страница"
+
+#: search.php:12
+msgid "Search Results"
+msgstr "Результаты поиска"
+
+#: search.php:66
+msgid " Nothing was found. Please try another keyword."
+msgstr "Ничего не найдено. Пожалуйста, попробуйте другое ключевое слово."
+
+#~ msgid "SEO"
+#~ msgstr "SEO"
+
+#~ msgid "SEO home page"
+#~ msgstr "Домашняя страница SEO"
+
+#~ msgid "SEO single post page"
+#~ msgstr "SEO одна запись"
+
+#~ msgid "SEO index page"
+#~ msgstr "SEO индекс страница"
+
+#~ msgid "Typography - Text Headers"
+#~ msgstr "Типография- Текст загаловка"
+
+#~ msgid "Typography - Primary Font"
+#~ msgstr "Типография - Первичный шрифтт"
+
+#~ msgid "Typography - Inputs and Text Areas"
+#~ msgstr "Типография -  Inputs и Textаreas"
+
+#~ msgid "Integration"
+#~ msgstr "Интеграция"
+
+#~ msgid "Main Integration"
+#~ msgstr "Интеграция - Главное"
+
+#~ msgid "AdSense and Advertisement Integrations"
+#~ msgstr "Интеграция AdSense и Advertisement"
+
+#~ msgid "Featured Plugins"
+#~ msgstr "Рекомендуемые Плагины"
+
+#~ msgid "Install Sample Data"
+#~ msgstr "Установка образцов данных"
+
+#~ msgid "Licensing"
+#~ msgstr "Лицензия"
+
+#~ msgid "Save Settings"
+#~ msgstr "Сохранить настройки"
+
+#~ msgid "Reset Defaults"
+#~ msgstr "Сбросить по умолчанию"
+
+#~ msgid "Remove Sample Data"
+#~ msgstr "Удалить обтазцы данных"
+
+#~ msgid "Logo Text Color"
+#~ msgstr "Цвет текста Логотипа"
+
+#~ msgid "Header Background Color"
+#~ msgstr "Цвет фона заголовка"
+
+#~ msgid "Menu Background Color"
+#~ msgstr "Цвет фона меню"
+
+#~ msgid "Menu Links"
+#~ msgstr "Меню ссылки"
+
+#~ msgid "Menu Links Hover"
+#~ msgstr "Меню ссылки курсор"
+
+#~ msgid "Selected Menu Item"
+#~ msgstr "Выбранный пункт меню"
+
+#~ msgid "Top Posts and Portfolio Background Color"
+#~ msgstr "Цвет фона Топ Записей и Портфолио"
+
+#~ msgid "Header Text Color"
+#~ msgstr "Цвет текста заголовка"
+
+#~ msgid "Primary Text Color"
+#~ msgstr "Цвет первичного текста"
+
+#~ msgid "Primary Links"
+#~ msgstr "Первичные ссылки"
+
+#~ msgid "Primary Links Hover"
+#~ msgstr "Первичные ссылки курсор"
+
+#~ msgid "Category Tabs Background Color"
+#~ msgstr "Цвет фона Вкладок Категориий"
+
+#~ msgid "Featured Post Text Color"
+#~ msgstr "Цвет текса лучшего поста"
+
+#~ msgid "Content Posts Background Color"
+#~ msgstr "Цвет фона записей контента"
+
+#~ msgid "Sidebar Background Color"
+#~ msgstr "Цвет фона боковой панели"
+
+#~ msgid "Footer Title Color"
+#~ msgstr "Цвет Названия в нижней области"
+
+#~ msgid "First Footer Sidebar Background Color"
+#~ msgstr "Цвет фона боковой панели в первичной нижней области"
+
+#~ msgid "Second Footer Sidebar Background Color"
+#~ msgstr "Цвет фона боковой панели во вторичной нижней области"
+
+#~ msgid "Footer Text Color"
+#~ msgstr "Цвет текста в нижней области"
+
+#~ msgid "Footer Background Color"
+#~ msgstr "Цвет фона нижней области"
+
+#~ msgid "Date Color"
+#~ msgstr "Цвет даты"
+
+#~ msgid "Buttons Color"
+#~ msgstr "Цвет кнопок"
+
+#~ msgid "Blue"
+#~ msgstr "Синий"
+
+#~ msgid "Orange"
+#~ msgstr "Оранжевый"
+
+#~ msgid "Black Orange"
+#~ msgstr "Черно-оранжевый"
+
+#~ msgid "Red"
+#~ msgstr "Красный"
+
+#~ msgid "Green"
+#~ msgstr "Зеленый"
+
+#~ msgid "Light Blue"
+#~ msgstr "Голубой"
+
+#~ msgid "Color Schemes"
+#~ msgstr "Цветовые Схемы"
+
+#~ msgid "Select and modify color schemes"
+#~ msgstr "Выберите и модифицируйте цветавые схемы "
+
+#~ msgid "Active Theme Colors"
+#~ msgstr "Активировать Цвета темы"
+
+#~ msgid "Show Favicon"
+#~ msgstr "Показать FavIcon."
+
+#~ msgid "Enable Head custom code"
+#~ msgstr "Включить Head пользовательский код"
+
+#~ msgid "Enable Body custom code"
+#~ msgstr "Включить Body пользовательский код"
+
+#~ msgid "Enable Single Top code"
+#~ msgstr "Включить Single Top пользовательский код"
+
+#~ msgid "Enable Single Bottom code"
+#~ msgstr "Включить Single Bottom пользовательский код"
+
+#~ msgid "Bottom Advertisement / AdSense"
+#~ msgstr "Нижний Advertisement / AdSense"
+
+#~ msgid "Provide the AdSense code."
+#~ msgstr "Обеспечить код AdSense."
+
+#~ msgid "Provide a URL or upload an image to use."
+#~ msgstr "Обеспечить URL или загрузить изображение в использовании."
+
+#~ msgid "URL to get redirected upon clicking the image."
+#~ msgstr "Ссылка перенаправляет при нажатии на изображение."
+
+#~ msgid "Provide a title for the image."
+#~ msgstr "Обеспечить название для картинки."
+
+#~ msgid "A title for the image."
+#~ msgstr "Заголовок для изображения"
+
+#~ msgid "An alt text to show if the image is not displayed."
+#~ msgstr ""
+#~ "Альтернативный текст буден показан, если изображение не отобразится ."
+
+#~ msgid "Custom Title"
+#~ msgstr "Пользовательский заголовок"
+
+#~ msgid "Title Text"
+#~ msgstr "Текст заголовка"
+
+#~ msgid "Meta Description"
+#~ msgstr "Мета описание"
+
+#~ msgid "Description Text"
+#~ msgstr "Текст описания"
+
+#~ msgid "Meta Keywords"
+#~ msgstr "Мета ключевые слова"
+
+#~ msgid "Keywords"
+#~ msgstr "Ключевые слова"
+
+#~ msgid "Autogeneration Method (if custom titles are disabled)"
+#~ msgstr "Метод автогенерации  (если пользовательский заголовок отключен)"
+
+#~ msgid "BlogName and Post title Separator"
+#~ msgstr "Сепаратор Имя Блога и Заголовок Записи "
+
+#~ msgid "Autogeneration Method (if Custom Titles are Disabled)"
+#~ msgstr "Метод  автогенерации  (если пользовательский Заголовок отключен)"
+
+#~ msgid "BlogName and Category Name Separator"
+#~ msgstr "Сепаратор Имя Блога и  Имя Категории"
+
+#~ msgid "&laquo;Previous"
+#~ msgstr "&laquo; Предыдущий"
+
+#~ msgid "Next &raquo;"
+#~ msgstr "Следующий &raquo;"
+
+#~ msgid "Your Email"
+#~ msgstr "Эл.почта"
+
+#~ msgid "Comments"
+#~ msgstr "Коментарий"
+
+#~ msgid "Your Name:"
+#~ msgstr "Ваше Имя"
+
+#~ msgid "Your Name"
+#~ msgstr "Ваше Имя"
+
+#~ msgid "Your Email:"
+#~ msgstr "Ваш эл.адрес"
+
+#~ msgid "Subject:"
+#~ msgstr "Объект"
+
+#~ msgid "Subject"
+#~ msgstr "Объект"
+
+#~ msgid "Message"
+#~ msgstr "Сообщение"
+
+#~ msgid "Submit"
+#~ msgstr "Утвердить"
+
+#~ msgid "The Name field is required."
+#~ msgstr "Поле Имя требуется."
+
+#~ msgid "The Email field is required."
+#~ msgstr "Поле E-mail требуется. "
+
+#~ msgid "Please provide a valid email address."
+#~ msgstr "Пожалуйста, предоставьте действующий адрес электронной почты. "
+
+#~ msgid "The Message field is required."
+#~ msgstr "Поле Сообщение требуется. "
+
+#~ msgid "Reset"
+#~ msgstr "Сброс"
+
+#~ msgid "Using this option you can add images for the slider."
+#~ msgstr "Используя эту опцию, Вы можете добавить изображения для слайдера."
+
+#~ msgid "Custom Title."
+#~ msgstr "Пользовательский Заголовок"
+
+#~ msgid "Meta Description."
+#~ msgstr "Мета Описание."
+
+#~ msgid "Meta Keywords."
+#~ msgstr "Мета ключевые слова."
+
+#~ msgid "Email to send messages."
+#~ msgstr "Эл.почта для отправки сообщений."
+
+#~ msgid "Address."
+#~ msgstr "Адрес"
+
+#~ msgid "Longitude."
+#~ msgstr "Долгота"
+
+#~ msgid "Latitude."
+#~ msgstr "Широта"
+
+#~ msgid "Blog Style mode"
+#~ msgstr "Режим Блог Стиля"
+
+#~ msgid "Hide Auto Thumbnail"
+#~ msgstr "Скрыть  миниатюру "
+
+#~ msgid "Number of posts per page."
+#~ msgstr "Число записей на странице"
+
+#~ msgid "Select blog categories"
+#~ msgstr "Выберите категории блога"
+
+#~ msgid "Select blog categories."
+#~ msgstr "Выберите категории блога"
+
+#~ msgid "Include static pages in sitemap."
+#~ msgstr "Включить статические страницы в карту сайта."
+
+#~ msgid "Include all categories in sitemap."
+#~ msgstr "Включить все категории в карту сайта."
+
+#~ msgid "Include tags in sitemap."
+#~ msgstr "Включить все теги в карту сайта."
+
+#~ msgid "Include archives in sitemap."
+#~ msgstr "Включить все архивы в карту сайта."
+
+#~ msgid "Include authors in sitemap."
+#~ msgstr "Включить всех авторов в карту сайта."
+
+#~ msgid "Include blog posts in sitemap."
+#~ msgstr "Включить записи блога  в карту сайта."
+
+#~ msgid "Choose to display percent"
+#~ msgstr "Показать процент"
+
+#~ msgid "Diagram control"
+#~ msgstr "Управление диаграммой"
+
+#~ msgid "Percent width"
+#~ msgstr "Ширина процента"
+
+#~ msgid "Percent height"
+#~ msgstr "Высота процента"
+
+#~ msgid "Line width"
+#~ msgstr "Ширина линии"
+
+#~ msgid "Time"
+#~ msgstr "Время"
+
+#~ msgid "Title color"
+#~ msgstr "Цвет заголовка"
+
+#~ msgid "Background color"
+#~ msgstr "Цвет фона"
+
+#~ msgid "Completed color"
+#~ msgstr "Цвет завершения"
+
+#~ msgid "To do color"
+#~ msgstr "Цвет действия"
+
+#~ msgid "Percent text color"
+#~ msgstr "Цвет текста процента"
+
+#~ msgid "Read More"
+#~ msgstr "Далее"
+
+#~ msgid "Email Address"
+#~ msgstr "Адрес Эл.почты"
+
+#~ msgid "Username: "
+#~ msgstr "Имя пользователя:"
+
+#~ msgid "Username"
+#~ msgstr "Имя пользователя"
+
+#~ msgid "Password: "
+#~ msgstr "Пароль:"
+
+#~ msgid "Password"
+#~ msgstr "Пароль"
+
+#~ msgid "Log in"
+#~ msgstr "Войти"
+
+#~ msgid "Log Out"
+#~ msgstr "Выйти"
+
+#~ msgid "Search"
+#~ msgstr "Поиск"
+
+#~ msgid "Posts"
+#~ msgstr "Записи"
+
+#~ msgid "Pages"
+#~ msgstr "Страницы"
+
+#~ msgid "All Categories"
+#~ msgstr "Все категории"
+
+#~ msgid "Select a month"
+#~ msgstr "Выберите месяц"
+
+#~ msgid "Static Pages"
+#~ msgstr "Статистическая страница"
+
+#~ msgid "Tags"
+#~ msgstr "Теги"
+
+#~ msgid "Archives"
+#~ msgstr "Архивы"
+
+#~ msgid "Authors"
+#~ msgstr "Авторы"
+
+#~ msgid "Insert Related Posts Shortcode"
+#~ msgstr "Эл.почта для отправки сообщений."
+
+#~ msgid "The name field is required."
+#~ msgstr "Поле имени  требуется. "
+
+#~ msgid "Error submitting message."
+#~ msgstr "Ошибка подачи сообщение. "
+
+#~ msgid "Your message was submitted successfully"
+#~ msgstr "Ваше сообщение успешно отправлен "
+
+#~ msgid "Incorrect Captcha code. Please try again."
+#~ msgstr "Неверный код Captcha. Пожалуйста, попробуйте еще раз."
+
+#~ msgid "Click on the Upload Image button to upload the favicon image."
+#~ msgstr ""
+#~ "Нажмите на кнопку Загрузить изображения, чтобы загрузить изображение для "
+#~ "FavIcon."
+
+#~ msgid "Select the categories."
+#~ msgstr "Выберите категорию"
+
+#~ msgid "Here you can write your E-mail"
+#~ msgstr "Здесь Вы можете написать Ваш эл.адресс"
+
+#~ msgid ""
+#~ "Add code to appear in the head section of every page of your blog (e.g.  "
+#~ "for adding javascript or css to all pages)."
+#~ msgstr ""
+#~ "Добавленный Вами код появиться в головной части каждой страницы вашего "
+#~ "блога (например, для добавления JavaScript или CSS для всех страниц)."
+
+#~ msgid ""
+#~ "Be VERY careful. Write here only code from trusted sources, since it is "
+#~ "not being sanitized. Otherwise your site can be hacked!"
+#~ msgstr ""
+#~ "Будьте очень осторожны. Напишите здесь только код из надежных источников, "
+#~ "так как он не продезинфицировать. В противном случае ваш сайт может быть "
+#~ "взломан!"
+
+#~ msgid ""
+#~ "Add code to appear in body section of all pages of your blog (e.g. for "
+#~ "displaying a tracking code for a state counter such as Google Analytics)."
+#~ msgstr ""
+#~ "Добавленный Вами код появиться в разделе тела всех страницах вашего блога "
+#~ "(например, для отображения кода отслеживания для государственной "
+#~ "счетчика, такие как Google Analytics)."
+
+#~ msgid ""
+#~ "Add code to be placed at the top of all single posts (e.g. for "
+#~ "integrating social bookmarking links)."
+#~ msgstr ""
+#~ "Добавьте код для размещения в верхней части всех одиночных сообщений "
+#~ "(например, для интеграции социальных закладок ссылки)."
+
+#~ msgid ""
+#~ "Add code to be placed at the bottom of all single posts (e.g. for "
+#~ "integrating social bookmarking links)."
+#~ msgstr ""
+#~ "Добавьте код для размещения на дне всех одиночных сообщений (например, "
+#~ "для интеграции социальных закладок ссылки)."
+
+#~ msgid "Advertisement type at the bottom of all pages."
+#~ msgstr "Тип Advertisement в нижней части всех страниц."
+
+#~ msgid ""
+#~ "Check the box to use a custom title for the website. By default it takes "
+#~ "the combination of the website name and its description."
+#~ msgstr ""
+#~ "Установите флажок, чтобы использовать пользовательский заголовок для веб-"
+#~ "сайта. По умолчанию он принимает комбинацию имени сайта и его описание."
+
+#~ msgid "Provide the custom title."
+#~ msgstr "Обеспечить пользовательский заголовок."
+
+#~ msgid ""
+#~ "Check the box to use a custom description for the website. By default it "
+#~ "takes the website description"
+#~ msgstr ""
+#~ "Установите флажок, чтобы использовать пользовательское описание для "
+#~ "сайта. По умолчанию она занимает описание сайта"
+
+#~ msgid "Provide the meta description."
+#~ msgstr "Обеспечить мета описание."
+
+#~ msgid "Check the box to add keywords to the website header."
+#~ msgstr "Установите флажок, чтобы добавить ключевые слова в заголовок сайта."
+
+#~ msgid "Provide the keywords separating those with comma."
+#~ msgstr "Обеспечить ключевые слова, отделяющие их запятой."
+
+#~ msgid ""
+#~ "Select the order of the description and/or title for the automatic title "
+#~ "generation."
+#~ msgstr ""
+#~ "Выберите порядок описания и / или название для автоматической генерации "
+#~ "заголовка."
+
+#~ msgid ""
+#~ "Specify a character that separates the blog title and post name when the "
+#~ "previous autogeneration option is used."
+#~ msgstr ""
+#~ "Укажите символ, который отделяет заголовок блога и имя записи, когда "
+#~ "используется предыдущая опция автогенерации."
+
+#~ msgid ""
+#~ "Check the box to use a custom title for the post. By default it takes the "
+#~ "combination of the post name and/or  website title."
+#~ msgstr ""
+#~ "Установите флажок, чтобы использовать пользовательский заголовок для "
+#~ "поста. По умолчанию он принимает комбинацию имени zapisi и / или "
+#~ "названиее веб-сайта. "
+
+#~ msgid ""
+#~ "Check the box to use a custom description for the post/page. By default "
+#~ "it takes the post/page description."
+#~ msgstr ""
+#~ "Установите флажок, чтобы добавить ключевые слова в записи / страницы "
+#~ "header.Check окно использовать пользовательское описание для записи / "
+#~ "страницы. По умолчанию она занимает описание сообщений / страницы."
+
+#~ msgid "Check the box to add keywords to the post/page header."
+#~ msgstr ""
+#~ "Установите флажок, чтобы добавить ключевые слова в заголовок записи / "
+#~ "страницы."
+
+#~ msgid ""
+#~ "Select the order of the post and/or website title for the automatic title "
+#~ "generation."
+#~ msgstr ""
+#~ "Выберите порядок запись и / или веб-сайта название для автоматической "
+#~ "генерации заголовка."
+
+#~ msgid ""
+#~ "Here you can specify a character that separates the BlogName and post "
+#~ "title when the previous autogeneration option is used."
+#~ msgstr ""
+#~ "Здесь вы можете указать символ, который отделяет Имя Блога и Заголовка "
+#~ "Записи, когда используется предыдущая опция автогенерациюи."
+
+#~ msgid ""
+#~ "Check the box to use a custom description for the posts belonging to a "
+#~ "specific category. By default it takes the category description."
+#~ msgstr ""
+#~ "Установите флажок, чтобы использовать пользовательское описание для "
+#~ "записи, принадлежащих к определенным категория. По умолчанию она занимает "
+#~ "описание категории."
+
+#~ msgid ""
+#~ "Select the order of the category and/or website title for the automatic "
+#~ "title generation."
+#~ msgstr ""
+#~ "Выберите порядок категории и / или веб-сайта заголовка для автоматической "
+#~ "генерации заголовка."
+
+#~ msgid ""
+#~ "Here you can specify a character that separates the BlogName and category "
+#~ "name when the previous autogeneration option is used."
+#~ msgstr ""
+#~ "Здесь вы можете указать символ, который отделяет Имя Блога и название "
+#~ "категории, когда используется предыдущая опция автогенерации ."
+
+#~ msgid ""
+#~ "The height of the slider can be customized. You need to specify the "
+#~ "height in the box provided."
+#~ msgstr "Высоту слайдера можно изменять. Вы должны указать высоту в поле."
+
+#~ msgid "Footer First Widget Area"
+#~ msgstr "Первичная Нижняя Область Виджетa"
+
+#~ msgid "Footer Second Widget Area"
+#~ msgstr "Вторичная Нижняя Область Виджетa"
+
+#~ msgid "Typography - Secondary Font"
+#~ msgstr "Типография -  Вторичный шрифт"
+
+#~ msgid "Featured Posts Color"
+#~ msgstr "Цвет текста Лучшей записи"
+
+#~ msgid "Blue(Default)"
+#~ msgstr "Синий(по умолчанию)"
+
+#~ msgid "Black_Orange"
+#~ msgstr "Черно-Оранжевый"
+
+#~ msgid "Light_Blue"
+#~ msgstr "Голубой"
+
+#~ msgid ""
+#~ "Select and modify color schemes. You can change background color in "
+#~ "customizer. Tip: black looks great with dark schemes and white with light "
+#~ "schemes! "
+#~ msgstr ""
+#~ "Выберите и измените цветовые схемы. Вы можете изменить цвет фона в "
+#~ "настройщике."
+
+#~ msgid "None"
+#~ msgstr "Нет"
+
+#~ msgid "Text"
+#~ msgstr "Текст"
+
+#~ msgid "Check the box to display the contact from the homepage."
+#~ msgstr "Установите флажок, чтобы отобразить  контацты на домашней странице."
+
+#~ msgid ""
+#~ "You can upload a custom image to be used as a background for the contact."
+#~ msgstr ""
+#~ "Вы можете загрузить изображение, которое будет использоваться в качестве "
+#~ "фона для контакта."
+
+#~ msgid "Write Title for contact"
+#~ msgstr "Напишите заголовок для контакта"
+
+#~ msgid "Contact Description"
+#~ msgstr "Описание для контакта"
+
+#~ msgid "Write Description for contact"
+#~ msgstr "Напишите описание для контакта"
+
+#~ msgid "Contact Name"
+#~ msgstr "Имя контакта"
+
+#~ msgid "Contact Address"
+#~ msgstr "Адресс контакта"
+
+#~ msgid "Contact Email"
+#~ msgstr "Эл.почта котакта"
+
+#~ msgid "BlogName | Blog description"
+#~ msgstr "Имя Блога | Описание Блога"
+
+#~ msgid "Blog description | BlogName"
+#~ msgstr "Описание Блога | Имя Блога"
+
+#~ msgid "BlogName only"
+#~ msgstr "Только Имя Блога"
+
+#~ msgid "BlogName | Post title"
+#~ msgstr "Имя Блога | Название записи"
+
+#~ msgid "Post title | BlogName"
+#~ msgstr "Название записи | Имя Блога"
+
+#~ msgid "Post title only"
+#~ msgstr "Только название записи"
+
+#~ msgid "BlogName | Category name"
+#~ msgstr "Имя Блога | Имя категои"
+
+#~ msgid "Category name | BlogName"
+#~ msgstr "Имя категоии  | Имя Блога"
+
+#~ msgid "Category name only"
+#~ msgstr "Только имя категории"
+
+#~ msgid "Only on Homepage"
+#~ msgstr "Только на Домашней странице"
+
+#~ msgid "left-top"
+#~ msgstr "левый верхний"
+
+#~ msgid "left-middle"
+#~ msgstr "левый средний"
+
+#~ msgid "left-bottom"
+#~ msgstr "левый нижний"
+
+#~ msgid "center-top"
+#~ msgstr "центральный верхний"
+
+#~ msgid "center-middle"
+#~ msgstr "центральный средний"
+
+#~ msgid "center-bottom"
+#~ msgstr "центральный нижний"
+
+#~ msgid "right-top"
+#~ msgstr "правый верхний"
+
+#~ msgid "right-middle"
+#~ msgstr "правый средний"
+
+#~ msgid "right-bottom"
+#~ msgstr "правый нижний"
+
+#~ msgid "Font Size"
+#~ msgstr "Размер Шрифта"
+
+#~ msgid "This section allows you to add meta keywords,metatags, titles. "
+#~ msgstr ""
+#~ "В этом разделе можно добавить мета ключевые слова, метатеги, заголовки."
+
+#~ msgid ""
+#~ "This section allows you customizing certain color features in the theme."
+#~ msgstr ""
+#~ "В этом разделе можно настраивать определенные характеристики цвета в теме."
+
+#~ msgid ""
+#~ "This section displays plugins, which will help to increase the theme "
+#~ "functionality."
+#~ msgstr ""
+#~ "В этом разделе отображаются плагины, которые помогут повысить "
+#~ "функциональность темы."
+
+#~ msgid "The FirstName field is required."
+#~ msgstr "Поле Имени требуется."
+
+#~ msgid "The LastName field is required."
+#~ msgstr "Поле Фамилия требуется."
+
+#~ msgid "Contact Info"
+#~ msgstr "Информация контакта"
+
+#~ msgid "Contact Form"
+#~ msgstr "Форма контакта"
+
+#~ msgid "Categories"
+#~ msgstr "Категории"
+
+#~ msgid "Contact us"
+#~ msgstr "Контакт"

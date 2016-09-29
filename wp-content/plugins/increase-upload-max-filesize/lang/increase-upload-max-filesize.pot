@@ -1,0 +1,144 @@
+# Copyright (C) 2014 Increase Upload Max Filesize
+# This file is distributed under the same license as the Increase Upload Max Filesize package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Increase Upload Max Filesize 1.0.2\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/increase-upload-max-filesize\n"
+"POT-Creation-Date: 2014-07-30 19:47:13+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2014-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#. #-#-#-#-#  plugin.pot (Increase Upload Max Filesize 1.0.2)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: increase-upload-max-filesize.php:58 increase-upload-max-filesize.php:69
+msgid "Increase Upload Max Filesize"
+msgstr ""
+
+#: increase-upload-max-filesize.php:58
+msgid "Upload Max Filesize"
+msgstr ""
+
+#: increase-upload-max-filesize.php:81
+msgid "Your upload_max_filesize is %s.%s"
+msgstr ""
+
+#: increase-upload-max-filesize.php:82
+msgid "Your post_max_size is %s.%s"
+msgstr ""
+
+#: increase-upload-max-filesize.php:85 increase-upload-max-filesize.php:277
+msgid ""
+"Your PHP version is less than 5, so no changes will be made. This plugin "
+"only works with PHP version 5 and above. I am sorry. You may deactivate the "
+"plugin, now."
+msgstr ""
+
+#: increase-upload-max-filesize.php:87
+msgid ""
+"Please allow some time for your server to recognize any changes. You can "
+"refresh this page in a few minutes to see if any changes have been made. "
+"Please note that changes may have already been made, but you may have to "
+"clear your cache to see them here.%1$s You may deactivate the plugin once "
+"your %2$supload_max_filesize%3$s is at least 32M.%1$s"
+msgstr ""
+
+#: increase-upload-max-filesize.php:89
+msgid ""
+"By default, this plugin uses %1$sphp5.ini%2$s. If your server uses %1$sphp."
+"ini%2$s instead, please check the box below and click the blue button once."
+msgstr ""
+
+#: increase-upload-max-filesize.php:96
+msgid "Run Once"
+msgstr ""
+
+#: increase-upload-max-filesize.php:112
+msgid "RUN THE PLUGIN ONCE AGAIN"
+msgstr ""
+
+#: increase-upload-max-filesize.php:120
+msgid "Set a custom upload_max_filesize"
+msgstr ""
+
+#: increase-upload-max-filesize.php:132
+msgid "Set a custom post_max_size"
+msgstr ""
+
+#: increase-upload-max-filesize.php:144
+msgid "USE %1$sphp.ini%2$s INSTEAD OF %1$sphp5.ini%2$s:"
+msgstr ""
+
+#: increase-upload-max-filesize.php:165
+msgid ""
+" Check this to use %1$sphp.ini%2$s instead of %1$sphp5.ini%2$s. Then click "
+"the button once. Check your status after a few minutes to see if changes "
+"took place.%3$s"
+msgstr ""
+
+#: increase-upload-max-filesize.php:246 increase-upload-max-filesize.php:250
+msgid "Your upload_max_filesize was %s.%s"
+msgstr ""
+
+#: increase-upload-max-filesize.php:252
+msgid "Your upload_max_filesize was already %s.%s"
+msgstr ""
+
+#: increase-upload-max-filesize.php:264 increase-upload-max-filesize.php:267
+msgid "Your post_max_size was %s.%s"
+msgstr ""
+
+#: increase-upload-max-filesize.php:269
+msgid "Your post_max_size was already %s.%s"
+msgstr ""
+
+#: increase-upload-max-filesize.php:305
+msgid ""
+"Cannot open file (%s), so no changes will be made. Please deactivate the "
+"plugin and try again. If it still does not work after trying again, then "
+"this plugin may not be for you."
+msgstr ""
+
+#: increase-upload-max-filesize.php:310
+msgid ""
+"Cannot write to file (%s), so no changes will be made. Please deactivate the "
+"plugin, and try again. If it still does not work after trying again, then "
+"ask your web host to grant you access to write to your <code>%s</code> file."
+msgstr ""
+
+#: increase-upload-max-filesize.php:328
+msgid ""
+"Could not create file (%s), so no changes will be made. Please deactivate "
+"the plugin, and try again. If it still does not work after trying again, "
+"then this plugin may not be for you."
+msgstr ""
+
+#: increase-upload-max-filesize.php:333
+msgid ""
+"Cannot write to newly created file (%s), so no changes will be made. Please "
+"deactivate the plugin, and try again. If it still does not work after trying "
+"again, then ask your web host to grant you access to write to your php5.ini "
+"file."
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid ""
+"https://wordpress.org/plugins/increase-upload-max-filesize/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Increases your website's upload max filesize limit on your server by adding "
+"rules to php5.ini or php.ini."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Isabel Castillo"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://isabelcastillo.com"
+msgstr ""

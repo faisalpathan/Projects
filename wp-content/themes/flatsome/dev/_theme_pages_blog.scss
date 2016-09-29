@@ -1,0 +1,692 @@
+/* -- sidebar -- */
+#secondary{
+  padding-top: 30px;
+}
+
+/* -- layout -- */
+article.type-post,
+article.hentry{
+  margin-bottom: 60px;
+}
+.page-left-sidebar .page-inner{
+  padding-left: 30px;
+  border-left: 1px solid #eeeeee;
+}
+.page-right-sidebar .page-inner{
+  padding-right: 30px;
+  border-right: 1px solid #eeeeee;
+}
+.page-no-sidebar > .row{
+  max-width: 900px;
+}
+.page-no-sidebar.blog-pinterest > .row{
+  max-width: 67.5em;
+}
+
+
+/*-- entry header -- */
+.entry-header{
+  margin-bottom: 30px;
+}
+
+/* -- titles -- */
+h1.entry-title{
+  margin: 0 0 5px;
+  -ms-word-wrap: break-word;
+      word-wrap: break-word;
+}
+.type-page h1.entry-title,
+.search-results .text-center h1.entry-title{
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+.type-page .text-center h1.entry-title,
+.search-results .text-center h1.entry-title{
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+.page .parallax-title{
+  margin-bottom: 30px;
+}
+.parallax-title .ux_banner h1{
+  font-size: 270%;
+  line-height: 115%;
+  font-weight: normal;
+}
+
+/* -- breadcrumbs -- */
+
+.page-breadcrumb .tabbed-content{
+  margin: 0;
+  font-size: 85%;
+}
+.page-breadcrumb .tabs{
+  margin: 0!important;
+}
+.page-breadcrumb .tabs h1{
+  padding: 15px 40px 10px 0;
+  margin: 0;
+}
+.ux_banner .page-breadcrumb .tabs h1{
+  padding: 0 30px 0 0;
+}
+
+.page-breadcrumb .tabbed-content ul.tabs li a{
+  padding: 15px 0;
+}
+
+/* -- entry image -- */
+.entry-image{
+  position: relative;
+  margin: 10px 0 15px;
+}
+.entry-image img{
+  width: 100%;
+}
+.entry-image .post-date,
+.ux-box .post-date{
+  font-size: 17px;
+  line-height: 14px;
+  position: absolute;
+  top: 40px;
+  left: -9px;
+  width: 55px;
+  height: 55px;
+  background: #ffffff;
+  padding-top: 11px;
+  border-width: 2px;
+  z-index: 1;
+}
+.column-slider .ux-box .post-date{
+  left: 0;
+}
+
+
+/* -- entry meta -- */
+.entry-meta{
+  font-size: 90%;
+  padding: 10px 0;
+}
+.entry-meta span.divider{
+  opacity: .5;
+  margin: 0 5px;
+}
+.entry-meta-footer{
+  border-top: 1px dotted $border;
+  border-bottom: 3px solid $border;
+  padding: 15px 0;
+  overflow: hidden;
+}
+
+/* -- archive -- */
+body.archive h1.page-title,
+body.search-results h1.page-title{
+  font-size: 120%;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #777777;
+}
+
+/* -- blog/attachment pagination --*/
+.navigation-paging{
+  width: 100%;
+  overflow: hidden;
+  font-size: 100%;
+}
+.navigation-paging .nav-previous{
+  float: left;
+}
+.navigation-paging .nav-next{
+  float: right;
+}
+
+.navigation-paging a,
+.navigation-image a{
+  display: block;
+  border: 3px solid $primary-color;
+  padding: 5px 10px 7px;
+  text-transform: uppercase;
+}
+.navigation-paging a:hover,
+.navigation-image a:hover{
+  color: #ffffff;
+  background-color: $primary-color;
+}
+
+.navigation-image{
+  margin-top: 15px;
+}
+.navigation-image > div{
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/* -- date box -- */
+.post-date{
+  pointer-events: none;
+  border: 2px solid $primary-color;
+  margin-right: 10px;
+  text-align: center;
+  font-size: 70%;
+  padding: 3px 3px;
+  color: $primary-color;
+  font-weight: bold;
+  line-height: 100%;
+  text-transform: uppercase;
+}
+.post-date .post-date-day{
+  display: block;
+}
+.post-date .post-date-month{
+  font-weight: normal;
+  font-size: 80%;
+}
+.post-item:hover .post-date{
+  background: $primary-color;
+  color: #ffffff;
+};
+
+/* -- author box --*/
+.author-box{
+  padding: 30px 0;
+  border-bottom: 1px solid $border;
+}
+.author-box p{
+  font-size: 80%;
+}
+.author-box .author-name{
+  margin: 0;
+}
+.author-box .author-title{
+  text-transform: uppercase;
+}
+
+/* -- blog footer --*/
+footer.entry-meta{
+  margin-top: 30px;
+  padding: 15px 0;
+  border-top: 1px dotted $border-light;
+  border-bottom: 2px solid $border;
+}
+.navigation-post{
+  border-bottom: 1px solid $border;
+  overflow: hidden;
+}
+.navigation-post a{
+  padding: 30px 20px;
+  display: block;
+  width: 100%;
+}
+.navigation-post span{
+  display: inline-block;
+  margin: 0 5px;
+  top: 1px;
+  position: relative;
+}
+.navigation-post .nav-next{
+  text-align: right;
+  border-left: 1px solid #dddddd;
+}
+.navigation-post > div{
+  display: inline-block;
+  width: 48%;
+}
+
+/* -- gallery styles -- */
+.gallery{
+  margin-bottom: 30px!important;
+  margin-left: -5px!important;
+  margin-right: -10px!important;
+}
+.gallery img{
+  max-width: 100%!important;
+  border: 0 !important;
+  width: 100%!important;
+  height: auto!important;
+  display: block;
+}
+.gallery-item{
+  margin-bottom: 0;
+  margin-top: 0!important;
+  padding: 5px;
+}
+.gallery-item a img{
+  cursor: pointer;
+  cursor: -webkit-zoom-in;
+  cursor:    -moz-zoom-in;
+  cursor:         zoom-in;
+}
+.gallery dl dt{
+  margin: 0!important;
+}
+
+/* -- entry styles -- */
+.entry-content .more-link{
+  margin-top: 20px;
+}
+
+/* -- content layout styles --*/
+.alignleft{
+  display: inline;
+  float: left;
+  margin-right: 1.5em;
+}
+.alignright{
+  display: inline;
+  float: right;
+  margin-left: 1.5em;
+}
+.aligncenter{
+  clear: both;
+  display: block;
+  margin: 0 auto;
+}
+.post.sticky{
+  border: 3px solid $primary-color;
+  padding: 30px;
+}
+.post.sticky footer.entry-meta{
+  border-bottom: 0;
+}
+.hentry{
+  margin: 0 0 1.5em;
+}
+.updated:not(.published) {
+  display: none;
+}
+.single .byline,
+.group-blog .byline{
+  display: inline;
+}
+.page-content,
+.entry-content,
+.entry-summary{
+  margin: 1.5em 0 0;
+  -ms-word-wrap: break-word;
+      word-wrap: break-word;
+}
+.page-links{
+  clear: both;
+  margin: 0 0 1.5em;
+}
+
+/* blog styles */
+.blog-list-style{
+  border-bottom: 1px solid #eeeeee;
+  margin-bottom: 30px;
+}
+.blog-list-style article{
+  margin-bottom: 30px;
+}
+.blog-list-style .entry-content,
+.blog-list-style .entry-image{
+  margin-top: 0;
+}
+.blog-list-style .cat-links a{
+  text-transform: uppercase;
+  color: #999999;
+  font-size: 80%;
+}
+.blog-list-style .post-date{
+  top: 20px;
+}
+
+
+.blog-pinterest-style{
+  margin-right: -5px;
+  margin-left: -5px;
+}
+.blog-pinterest-style .post-date{
+  top: 20px;
+}
+.blog-pinterest-style .cat-links a{
+  text-transform: uppercase;
+  color: #999999;
+  font-size: 75%;
+}
+.blog-pinterest-style .entry-content{
+  margin-top: 0;
+  padding: 15px;
+  border-left: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+}
+.blog-pinterest-style .entry-image{
+  margin-bottom: 0;
+}
+.blog-pinterest-style p{
+  font-size: 90%;
+  line-height: 140%;
+}
+.blog-pinterest-style .comments-link a,
+.blog-pinterest-style span.sep,
+.blog-pinterest-style .tags-links{
+  font-size: 60%;
+  text-transform: uppercase;
+  color: #555555;
+}
+.blog-pinterest-style span.sep{
+  opacity: .3;
+  margin: 0 7px;
+}
+.blog-pinterest-style article.type-post,
+.blog-pinterest-style article.hentry{
+  margin-bottom: 15px;
+}
+.blog-pinterest-style:hover article{
+  -webkit-box-shadow: 0 0 19px 0 rgba(50, 50, 50, .33);
+     -moz-box-shadow: 0 0 19px 0 rgba(50, 50, 50, .33);
+          box-shadow: 0 0 19px 0 rgba(50, 50, 50, .33);
+}
+.navigation-container{
+  padding: 0!important;
+}
+.blog-pinterest-container{
+  padding-bottom: 30px;
+}
+.blog-pinterest-container .navigation-paging{
+  margin-top: 15px;
+}
+.blog-pinterest-container .navigation-container{
+  margin-left: -5px;
+  margin-right: -5px;
+  padding-left: .9375em!important;
+  padding-right: .9375em!important;
+}
+.blog-pinterest-container .navigation-container .nav-next{
+  margin-right: 20px;
+}
+
+
+/* -- media -- */
+.page-content img.wp-smiley,
+.entry-content img.wp-smiley,
+.comment-content img.wp-smiley{
+  border: none;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 0;
+}
+.wp-caption{
+  border: 1px solid #dddddd;
+  margin-bottom: 1.5em;
+  max-width: 100%;
+  background: #f6f6f6;
+}
+.wp-caption img[class*='wp-image-']{
+  display: block;
+  margin: 1.2% auto 0;
+  max-width: 98%;
+}
+.wp-caption-text{
+  text-align: center;
+}
+.wp-caption .wp-caption-text{
+  padding: 10px 0;
+  margin: 0;
+}
+.site-main .gallery{
+  margin-bottom: 1.5em;
+}
+.gallery-caption{
+  display: inline-block;
+}
+.site-main .gallery a img{
+  border: none;
+  height: auto;
+  width: 100%;
+  max-width: 90%;
+}
+.site-main .gallery dd{
+  margin: 0;
+}
+
+
+.size-auto,
+.size-full,
+.size-large,
+.size-medium,
+.size-thumbnail{
+  max-width: 100%;
+  height: auto;
+}
+
+/* Make sure embeds and iframes fit their containers */
+embed,
+iframe,
+object{
+  max-width: 100%;
+}
+
+/* -- image attchments --*/
+.entry-attachment .attachment{
+  margin-bottom: 15px;
+}
+
+/* -- blog share icons --*/
+.blog-share{
+  margin-top: 30px;
+  text-align: center;
+}
+
+/* -- comments -- */
+.comment-content a{
+  word-wrap: break-word;
+}
+.bypostauthor{
+  display: inline-block;
+}
+.comments-title{
+  text-transform: uppercase;
+  font-weight: normal;
+}
+.comments-title span{
+  font-weight: bold;
+}
+
+.form-allowed-tags{
+  font-size: 80%;
+}
+
+#comments ul li,
+#comments ol li{
+  list-style: none;
+  width: 100%;
+}
+
+.comment-inner{
+  padding: 15px 0;
+}
+
+.comment-list > li{
+  margin-bottom: 0;
+}
+.comment-list cite.fn{
+  font-style:normal;
+  margin-right: 5px;
+  color: #000;
+}
+
+.comment-list .says{
+  display: none;
+}
+
+.comment-meta.commentmetadata{
+  font-size: 70%;
+  text-transform: uppercase;
+}
+
+.comment-form-author input,
+.comment-form-email input,
+.comment-form-url input{
+  margin-bottom: 0;
+}
+.comment-form-author,
+.comment-form-email,
+.comment-form-url{
+  display: inline-block;
+  width: 32.8%;
+  position: relative;
+}
+.comment-form-author,
+.comment-form-email{
+  padding-right: 10px;
+}
+#comments .reply a{
+  color: $gray;
+  font-size: 80%;
+}
+.comment-form span.required{
+  display: none;
+}
+#add_review .comment-form-author,
+#add_review .comment-form-email,
+#add_review .comment-form-url{
+  width: 40%;
+  margin-bottom: 0;
+}
+
+
+/* --  comments level 1 -- */
+.comment-list > li.comment > .comment-inner{
+  border-top: 3px solid $border-light;
+}
+.comment-list > li.comment:last-child > .comment-inner{
+  border-bottom: 0;
+}
+
+#comments ul.children{
+  margin-left: 35px;
+}
+
+/* -- comments level 2 -- */
+.comment-list .children .comment-inner,
+.children #respond{
+  border-top: 1px solid $border-light;;
+  padding: 15px;
+  margin-right: 0;
+}
+.children #respond{
+  padding: 15px 30px;
+}
+
+/* -- comments level 3 --*/
+
+.comment-list .comment:last-child{
+  border: 0;
+};
+.children .comment{
+  border: 0;
+}
+
+
+/* -- ACCOUNT PAGES -- */
+.my-account h1{
+  text-transform: uppercase;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #dddddd;
+  margin-bottom: 30px;
+}
+.my-account h2{
+  text-transform: uppercase;
+  color: #777777;
+  font-size: 120%;
+}
+td.order-actions{
+  text-align: right;
+}
+.col2-set{
+  overflow: hidden;
+}
+.col2-set .col-1,
+.col2-set .col-2{
+  float: left;
+  margin-right: 30px;
+}
+.account-user{
+  position: relative;
+  padding-left: 80px;
+  padding-top: 15px;
+  margin-top: 15px;
+  overflow: hidden;
+}
+.account-user .avatar{
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.account-user span{
+  display: block;
+}
+.account-user span a{
+  text-transform: uppercase;
+  display: inline-block;
+  margin-top: 4px;
+  font-size: 60%;
+  padding: 3px 8px;
+  background: #eeeeee;@include radius(10px);
+}
+.account-user em{
+  color: #cccccc;
+}
+
+
+/* -- WISHLIST PAGE -- */
+.wishlist_table .add_to_cart,
+.yith-wcwl-add-button > a.button.alt{
+          border-radius: 0;
+     -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+}
+.wishlist_table .product-thumbnail img{
+  width: 114px!important;
+  padding-left: 0;
+  margin-left: 20px;
+}
+
+.yith-wcwl-share{text-align: left;}
+
+
+/* -- FEATURED ITEMS (Blog posts etc) -- */
+.page-featured-item #content > ul{
+  margin-left: -7.5px;
+}
+.page-featured-item h1{
+  text-transform: uppercase;
+}
+.page-featured-item .item-tags{
+  text-transform: uppercase;
+  font-size: 80%;
+  padding-top: 10px;
+  border-top: 1px dotted #dddddd;
+  margin-bottom: 15px;
+}
+.page-featured-item .item-tags span{
+  font-weight: bold;
+  margin-right: 10px;
+}
+.page-featured-item .social-icons{
+  margin-bottom: 15px;
+}
+.page-featured-item .featured_item_cats{
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  font-size: 80%;
+}
+
+/* -- BACK TO SITE -- */
+#back-to-site{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  text-transform: uppercase;
+  opacity: .8;
+  font-weight: bold;
+}
+#back-to-site a{
+  background: #000000;
+  padding: 5px;
+  color: #ffffff;
+}

@@ -1,0 +1,146 @@
+/*
+Theme Name: flatsome
+
+Adding support for language written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+http://codex.wordpress.org/Right_to_Left_Language_Support
+
+*/
+
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+	text-align:right;
+}
+
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, th, td {
+direction: rtl;
+}
+
+.accordion .accordion-title a:before{
+margin-left: 0px;
+margin-right: 15px;
+}
+
+.accordion .accordion-inner{padding-right: 15px;}
+
+.product-info .quantity {float:right;}
+
+
+.checkout-breadcrumb h1{overflow: hidden}
+.checkout-breadcrumb h1 span{float:right;}
+.checkout-breadcrumb span.icon-angle-right:before{content: "\f104"!important;}
+
+.absolute-footer ul li {float:right;padding-right: 0;padding-left: 15px;}
+
+.ux_banner .text-left .tx-div, .ux_banner .text-left p {
+margin: 0 0 0 auto;}
+
+h3.breadcrumb{overflow:hidden;}
+h3.breadcrumb *{float:right;margin-left: 10px;}
+
+table td, table th,table thead tr th, table thead tr td, table tfoot tr th, table tfoot tr td{text-align: right;}
+.select-wrapper:after {right:auto;left:10px;margin:0;}
+
+select, .select2-container .select2-choice{
+	background-position: 5% 50%;
+}
+
+.mfp-close {right:auto;left:0;}
+
+.shop_table .shipping th{padding: 0; padding-left: 15px;}
+
+.quantity.buttons_added .plus{border-width:1px!important;}
+
+#top-bar .left, .breadcrumb-row .left, .absolute-footer .left {
+float: right !important;
+}
+
+#top-bar .right, .breadcrumb-row .right, .absolute-footer .right {
+float: left !important;
+}
+
+#billing_first_name_field, #billing_email_field {
+padding:0; padding-left: 2%;
+}
+
+.woocommerce-result-count{margin:0; margin-left: 20px;}
+
+.next-prev-nav .icon-angle-left:before, .page-numbers .icon-angle-left:before { content: "\f105" !important; }
+
+.next-prev-nav .icon-angle-right:before, .page-numbers .icon-angle-right:before { content: "\f104" !important; }
+
+ul.header-nav li{float:right;}
+
+#masthead .right-links > ul{float:left;}
+#masthead .left-links > ul {float:right;}
+ul.header-nav li{margin-left: 0;margin-right: 15px;}
+#logo{text-align: right!important;}
+.header-nav li.account-dropdown{border:0; padding:0;border-left: 1px solid rgba(0, 0, 0, 0.1);
+padding-left: 15px;}
+
+li.mini-cart .nav-dropdown{right:auto;left:20px;}
+
+.cart-icon strong{margin-left: 0;margin-right: 15px;}
+.cart-icon .cart-icon-handle {right:auto; margin:0; left: 50%; margin-left: -14.5px;}
+.text-left{text-align: right!important;}
+
+ul.top-bar-nav li{border-left: 0px;border-right:1px solid rgba(255, 255, 255, 0.2);margin-left: 0px;margin-right: 10px;padding-left: 0;padding-right: 10px;}
+
+.nav-dropdown > ul:after,.nav-dropdown > .row:after,.nav-dropdown-inner:after, .menu-item-language .sub-menu:after {left:auto;right:10px;}
+.nav-dropdown-inner:after{left:-25px;right:auto;} /* cart dropdown fix */
+.menu-item-language .sub-menu:after{top:-15px;right:auto;left:20px}
+.no-arrow.nav-dropdown > ul:after{opacity: 0;}
+
+.mini-cart .product_list_widget li{padding-right:75px!important; padding-left: 0px!important;}
+
+
+
+blockquote{border:0;padding:0; border-right:1px solid #eee; padding-right: 30px;}
+
+#logo{text-align: left}
+.tx-div {margin: 15px 0 15px auto;}
+.widget_product_tag_cloud a, .widget_tag_cloud a{float:right}
+.widget_product_categories li .count, .widget_layered_nav li .count{float:left;}
+.select-wrapper{margin:0 0 0 auto}
+.tabbed-content ul.tabs li {float:right}
+.product-thumbnails{text-align:left;}
+.product-lightbox-inner{text-align:right}
+.product-info .star-rating {margin-left:auto;}
+.review-item .description{padding-right:0;}
+.woocommerce p.stars span, .woocommerce-page p.stars span {float:right;}
+.tabbed-content ul.tabs li a{margin-left:25px;margin-right:0}
+.yith-wcwl-wishlistexistsbrowse a, .yith-wcwl-add-button a.add_to_wishlist, .yith-wcwl-wishlistaddedbrowse a {
+text-indent: -9999px!important;
+}
+.vertical-tabs ul.tabs-nav li a{
+	padding-right: 15px;
+}
+input{text-align: right}
+.cart_list_product_img{margin-left: 10px!important;}
+.product_list_widget li{padding: 10px 75px 10px 0px;}
+.product_list_widget .wp-post-image {right: 0px;left:auto;}
+
+.widget_product_categories li .count{right:auto; left:0px;}
+.widget_product_categories li a{padding-right: 0; padding-left: 15px;}
+
+.chosen-container .chosen-drop{right:-9999px;left:auto;}
+.mini-cart-item a.cart_list_product_title{padding:0}
+
+.shop_table.cart td.product-name{text-align:right}
+
+.pagination-centered ul > li{float:right;margin-left:5px;}
+.pagination-centered ul{overflow:hidden;}
+
+h4.breadcrumb {overflow: hidden;}
+h4.breadcrumb > *{float:right;}
+
+.button.filter-button{margin: 0 0 0 30px;}
+
+h3.section-title a{float:left;}
+
+.mobile-sidebar li{text-align: right;}
+.mobile-sidebar li ul:before{right:auto;left:0;}

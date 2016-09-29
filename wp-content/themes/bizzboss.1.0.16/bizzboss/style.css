@@ -1,0 +1,203 @@
+/*
+Theme Name: Bizzboss
+Theme URI: https://indigothemes.com/products/bizzboss-wordpress-theme/
+Author: IndigoThemes
+Author URI: https://indigothemes.com
+Description: Bizzboss is a clean, super flexible , fast in loading, bootstrap based , mobile responsive and modern looking premium quality WordPress theme. It can be used for any niche business or personal website. It uses SiteOrigin page builder which makes it completely flexible to design as many different layouts as you want. Demo link of Bizzboss : http://demo.indigothemes.com/wordpress-themes/bizzboss/    and  documentation link of Bizzboss theme is https://indigothemes.com/documentation/bizzboss/   Bizzboss Pro is a premium version of Bizzboss and it has loads of custom widgets, custom options for Unlimited colors etc, Unlimited Google Fonts etc options. Bizzboss Pro has 1 click import demo functionality using which you can choose to create a website from 10 different niches in just 1 click. Bizzboss Pro demo link : http://demo.indigothemes.com/wordpress-themes/bizzboss-pro/   Bizzboss Pro documentation link : https://indigothemes.com/documentation/bizzbosspro/   We offer premium support to our Bizzboss Pro customers with within 24 hrs issue resolution guarantee.  We also offer a PAID, Done-For-You service to our Bizzboss Pro customers who want us to us to develop their website using Bizzboss Pro. Check out amazing features of the Bizzboss Pro theme here : https://indigothemes.com/products/bizzboss-pro-wordpress-theme/
+Version: 1.0.16
+License: GNU GENERAL PUBLIC LICENSE, Version 3
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: bizzboss
+Tags: one-column, two-columns, left-sidebar, custom-logo, custom-colors, custom-background, custom-menu, featured-images, custom-header, translation-ready, blog, featured-image-header, footer-widgets, full-width-template, sticky-post, theme-options, threaded-comments
+*/
+
+.comment-content h1 {
+    font-size: 28px;
+    font-size: 1.75rem;
+    line-height: 1.25;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.comment-content h2 {
+    font-size: 23px;
+    font-size: 1.4375rem;
+    line-height: 1.2173913043;
+    margin-top: 2.4347826087em;
+    margin-bottom: 1.2173913043em;
+}
+
+.comment-content h3 {
+    font-size: 19px;
+    font-size: 1.1875rem;
+    line-height: 1.1052631579;
+    margin-top: 2.9473684211em;
+    margin-bottom: 1.4736842105em;
+}
+.comment-content h4,
+.comment-content h5,
+.comment-content h6 {
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 1.3125;
+    margin-top: 3.5em;
+    margin-bottom: 1.75em;
+}
+
+.comment-content h4 {
+    letter-spacing: 0.140625em;
+    text-transform: uppercase;
+}
+.comment-content h6 {
+    font-style: italic;
+}
+
+table,
+th,
+td {
+    border: 1px solid #d1d1d1;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    border-width: 1px 0 0 1px;
+    margin: 0 0 1.75em;
+    table-layout: fixed;
+    /* Prevents HTML tables from becoming too wide */
+    width: 100%;
+}
+
+caption,
+th,
+td {
+    font-weight: normal;
+    text-align: left;
+}
+
+th {
+    border-width: 0 1px 1px 0;
+    font-weight: 700;
+}
+
+td {
+    border-width: 0 1px 1px 0;
+}
+
+th,
+td {
+    padding: 0.4375em;
+}
+
+.logged-in .navbar-fixed-top {
+    padding-top: 32px;
+}
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 98.5%;
+    /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+.wp-caption p.wp-caption-text {
+    font-size: 12px;
+    line-height: 17px;
+    margin: 0;
+    text-align: center;
+    padding: 10px 4px 0px;
+}
+.wp-caption a {
+    color: #545454;
+}
+.wp-caption,
+.gallery {
+    margin-bottom: 1.6842em;
+}
+.wp-caption-text {}
+iframe,
+embed {
+    max-width: 100%;
+}
+.sticky {}
+.sticky, .tag-sticky-2 {
+    border: 1px solid #019779;
+    padding: 10px;
+}
+.tag-markup-2 ul {}
+.sticky .entry-date {
+    display: none;
+}
+.gallery-caption {
+    background-color: rgba(0, 0, 0, 0.7);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 12px;
+    line-height: 1.5;
+    max-height: 50%;
+    padding: 6px 8px;
+    bottom: 0;
+    left: 0;
+    text-align: left;
+    width: 150px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+dl.gallery-item{
+    display: inline-block;
+    margin: 10px;
+    float: left;
+}
+.gallery-caption:before {
+    content: "";
+    height: 100%;
+    min-height: 49px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.gallery-item:hover .gallery-caption {
+    opacity: 1;
+}
+.gallery-columns-7 .gallery-caption,
+.gallery-columns-8 .gallery-caption,
+.gallery-columns-9 .gallery-caption {
+    display: none;
+}
+.bypostauthor {}
+.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.alignright {
+    display: inline;
+    float: right;
+}
+pre{
+    white-space: pre-wrap;
+    word-break: break-word;}
+.depth-2{padding-left: 30px;}
+.depth-3{padding-left: 60px;}
+.depth-4{padding-left: 90px;}
+.depth-5{padding-left: 120px;}
+.depth-6{padding-left: 150px;}
+.depth-7{padding-left: 180px;}

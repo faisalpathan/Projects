@@ -1,0 +1,456 @@
+/* -- Google maps --*/
+#map_container{
+  position: relative;
+  margin-bottom: 30px;
+}
+#map_container .map-info{
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  right: 30px;
+}
+#map_container .map_inner{
+  padding: 15px;
+  background-color: #ffffff;
+  background-color: rgba(255,255,255,.8);
+}
+
+/* -- Featured products. Used in Pintrest style / lookbook -- */
+.featured-product{
+  margin-bottom: 10px;
+}
+.featured-product .product-bg{
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: $primary-color;
+  opacity: 0;
+  color: #ffffff;
+}
+.featured-product:hover .product-bg{
+  opacity: .4;
+}
+.featured-product .product-text{
+  font-size: 80%;
+  padding: 0 15%;
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  text-align: center;
+  opacity: 0;
+  text-shadow: 1px 1px 1px rgba(0,0,0,.2);
+}
+.featured-product .product-text h3{
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.featured-product:hover .product-text{
+  opacity: 1;
+}
+.featured-product .front-image img{
+  width: 100%!important;
+}
+.featured-product .price{
+  font-size: 150%;
+}
+.featured-product .star-rating{
+  margin: 0 auto 10px;
+}
+.featured-product .price .from,
+.featured-product .price .amount{
+  color: #ffffff;
+}
+
+/* -- zoom style for pinterest grid -- */
+.pinterest-style{
+  margin-left: -5px;
+  margin-right: -5px;
+}
+.pinterest-style li{
+  float: left;
+  list-style: none;
+  margin: 0;
+  min-height: 200px;
+}
+.pinterest-style .featured-product > a{
+  display: block;
+  overflow: hidden;
+  margin: 5px;
+}
+.pinterest-style .featured-product img{
+  -webkit-transition: -webkit-transform 3s ease;
+     -moz-transition:    -moz-transform 3s ease;
+          transition:         transform 3s ease;
+}
+.pinterest-style .featured-product:hover img{
+  -webkit-transform: scale(1.25);
+     -moz-transform: scale(1.25);
+       -o-transform: scale(1.25);
+          transform: scale(1.25);
+}
+
+
+/* -- lookbook slider -- */
+.lookbook-slider ul{
+  margin: 0!important;
+}
+.lookbook-slider li{
+  padding: 0!important;
+}
+.lookbook-slider .quick-view{
+  bottom: 42%;
+  font-size: 95%;
+  margin: 0 auto;
+  opacity: 0;
+  background: #ffffff!important;
+  color: #000000;
+  padding: 10px 20px;
+  width: 170px;
+}
+.lookbook-slider .product-image:hover .quick-view{
+  bottom: 45%;
+  opacity: .8;
+}
+.lookbook-slider .callout{
+  left: 20px!important;
+}
+
+
+/* -- Testimonials -- */
+.testimonial_inner{
+  position: relative;
+  padding-top: 15px;
+  margin-bottom: 30px;
+}
+.testimonial_text{
+  font-style: italic;
+}
+.testimonial_image img{
+  width: 120px;
+  margin-bottom: 30px;
+}
+.text-left .testimonial_text{
+  padding-left: 100px;
+}
+.text-left .testimonial_image img{
+  position: absolute;
+  left: 0;
+  top: 15px;
+  width: 80px;
+}
+.testimonial_text .test_content{
+  line-height: 135%;
+}
+.testimonial_text .test_name{
+  display: inline-block;
+  font-weight: bold;
+}
+.testimonial_text .test_company{
+  display: inline-block;
+  margin-left: 5px;
+  color: $gray;
+}
+.testimonial_text .star-rating{
+  margin-bottom: 10px;
+  font-style: normal;
+}
+.slider > .testimonial.text-center > .testimonial_inner{
+  padding: 30px;
+}
+.slider.columns-1 > .testimonial.text-center > .testimonial_inner{
+  padding: 30px 120px 40px;
+}
+
+
+/* -- featured box -- */
+.featured-box{
+  position: relative;@include single-transition(opacity);
+}
+.featured-box .featured-img{
+  margin-bottom: 10px;
+}
+.featured-box .featured-img img{
+  vertical-align: inherit;
+}
+.featured-box h4{
+  font-size: 100%;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+.featured-box h4 span{
+  display: block;
+  font-weight: normal;
+  font-weight: 300;
+  opacity: .9;
+  text-transform: none;
+}
+.featured-box p{
+  font-size: 95%;
+}
+.featured-box p:last-of-type{
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.featured-box.pos-left{
+  padding-left: 70px;
+}
+.featured-box.pos-left .featured-img{
+  position: absolute;
+  left: 0;
+  top: 3px;
+  max-width: 50px;
+}
+
+.row.boxed .featured-box.pos-left{
+  padding-left: 40px;
+}
+.row.boxed .featured-box.pos-left .featured-img{
+  left: -20px;
+  top: 20px;
+  background: #000000;@include radius(99px);
+  padding: 5px;
+}
+.featured-box.pos-center{
+  text-align: center;
+}
+.featured-box.pos-center .tx-div{
+  margin: 0 auto 10px;
+}
+.featured-box .box-inner img.featured-img{
+  margin-bottom: 10px;
+}
+
+/* -- UX Icons -- */
+.featured-img{
+  position: relative;
+  display: inline-block; @include single-transition();
+  text-align: center;
+}
+.featured-img svg{
+  @include single-transition();
+}
+.featured-img-circle{
+  -webkit-border-radius: 999px;
+     -moz-border-radius: 999px;
+          border-radius: 999px;
+  border: 1px solid #000000;
+}
+.ux-section.dark svg{
+  fill: #ffffff;
+}
+
+
+/* -- message box -- */
+.message-box{
+  background-repeat: repeat-x;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 110%;
+}
+.message-box .inner{
+  padding: 15px;
+}
+.message-box .inner .button{
+  margin: 0 15px;
+}
+.message-box p{
+  padding: 0;
+  margin: 0;
+}
+
+/* -- add to cart shortcode --*/
+p.product.woocommerce{
+  border: 0!important;
+}
+p.product.woocommerce span.amount{
+  display: block;
+  font-size: 200%;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+p.product.woocommerce .added_to_cart{
+  display: block;
+}
+
+
+/* -- price table -- */
+.ux_price_table{
+  background: #ffffff;
+  border: 1px solid #eeeeee;@include single-transition();
+}
+.ux_price_table:hover{
+  -webkit-box-shadow: 0 0 19px 0 rgba(50, 50, 50, .33);
+     -moz-box-shadow: 0 0 19px 0 rgba(50, 50, 50, .33);
+          box-shadow: 0 0 19px 0 rgba(50, 50, 50, .33);
+}
+.ux_price_table li{
+  list-style: none;
+  border-top: 1px solid rgba(0,0,0,.05);
+  margin: 0 30px;
+}
+.ux_price_table ul{
+  margin: 0;
+}
+.ux_price_table .bullet-item{
+  padding: 10px 0;
+}
+.ux_price_table .price{
+  font-weight: 400;
+  font-size: 230%;
+  padding: 30px 0;
+  border: 0;
+}
+.ux_price_table .description{
+  font-size: 80%;
+  opacity: .8;
+  text-transform: uppercase;
+  padding: 0 0 15px;
+  border: 0;
+}
+.ux_price_table .title{
+  margin: 0;
+  border: 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 5px 0;
+  background-color: rgba(0,0,0,.01);
+  border-bottom: 1px solid rgba(0,0,0,.05);
+}
+.ux_price_table .cta-button{
+  background-color: rgba(0,0,0,.01);
+  padding: 20px 0 30px;
+  margin: 15px 0 0 0;
+}
+.featured-table.ux_price_table{
+  border: 2px solid $primary-color;
+  margin-top: -15px;
+  z-index: 3;
+}
+.featured-table.ux_price_table .title{
+  background-color: $primary-color;
+  color: #ffffff;
+}
+.featured-table.ux_price_table .price{
+  font-size: 300%;
+}
+.bullet-more-info{
+  display: inline-block;
+  background: #dddddd;
+  font-weight: bolder;
+  font-size: 11px;
+  width: 15px;
+  height: 15px;
+  padding: 0;
+  line-height: 15px;
+  color: #ffffff;
+  margin-left: 5px;
+}
+
+.scroll-to{
+  height: 0;
+  display: block;
+  position: relative;
+  visibility: hidden;
+}
+.scroll-to-bullets{
+  position: fixed;
+  right: 45px;
+  top: 40%;
+  z-index: 99;
+  text-align: right;
+}
+.scroll-to-bullets a,
+.scroll-to-bullets a strong{
+  display: block;@include radius(99px); @include single-transition();
+}
+.scroll-to-bullets a{
+  padding: 3px;
+  margin-bottom: 3px;
+}
+.scroll-to-bullets a strong{
+  display: block;
+  background-color: $primary-color;
+  height: 10px;
+  width: 10px;
+  padding: 2px;
+  -webkit-box-shadow: 1px 1px 0 0 rgba(0, 0, 0, .1);
+     -moz-box-shadow: 1px 1px 0 0 rgba(0, 0, 0, .1);
+          box-shadow: 1px 1px 0 0 rgba(0, 0, 0, .1);
+}
+.scroll-to-bullets a.active,
+.scroll-to-bullets a:hover{
+  background-color: $primary-color;
+}
+.scroll-to-bullets a.active strong,
+.scroll-to-bullets a:hover strong{
+  background-color: #ffffff;
+}
+
+
+/* -- ux_logo --*/
+.ux_logo{
+  display: inline-block;
+}
+.ux_logo a{
+  display: block;
+  opacity: .6;
+}
+.ux_logo a:hover{
+  opacity: 1;
+}
+.ux_logo img{
+  display: block;
+}
+
+
+/* Instagram Feed */
+.null-instagram-feed .widget-title:before{
+  font-family: "icomoon" !important;
+  content: "\e00e" !important;
+  margin-right: 5px;
+  font-size: 16px;
+  font-weight: normal;
+  opacity: 0.6;
+}
+
+ul.instagram-pics{
+  margin:0;
+}
+ul.instagram-pics li{
+  list-style: none;
+  display: inline-block;
+  width: 20%;
+  background-color: #FFF;
+    margin: 0;
+  padding: 0;
+}
+
+
+ul.instagram-pics a{
+  transition: opacity .3s;
+  backface-visibility: hidden;
+  display: block;
+  margin: 0!important;
+  padding: 0!important;
+}
+
+ul.instagram-pics a:hover{
+  opacity: 0.8;
+}
+
+@media only screen and (max-width:$mobile-screen){
+  ul.instagram-pics li{
+      width: 50%;
+  }
+}
+
+.widget-area ul.instagram-pics li{
+  width: 33.3333%;
+}
+
+
